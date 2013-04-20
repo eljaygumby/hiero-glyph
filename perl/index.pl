@@ -1,7 +1,9 @@
 #!/usr/bin/perl
 
-# pull the environment
-$env=`env | sort`;
+#pull URI and sanitize it before presentation
+$message = $ENV{REQUEST_URI};
+$message =~ s#/# #g;
+$message =~ s/</&lt;/g;
 
 print "Content-type: text/html\r\n\r\n";
 print <<EOF
@@ -159,11 +161,8 @@ print <<EOF
       You're welcome to come chat with us in our IRC channel at #openshift on freenode.net
     </li>
     <li>
-      My runtime environment:
-      <pre>
-        $env
-        http://$ENV{'HTTP_HOST'}$ENV{'REQUEST_URI'}
-      </pre>
+      My message:<br>
+      $message
     </li>
   </ul>
 </body>
