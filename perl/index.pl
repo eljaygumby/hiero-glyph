@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+
+# pull the environment
+$export=`export`;
+
 print "Content-type: text/html\r\n\r\n";
 print <<EOF
 <!doctype html>
@@ -153,6 +157,12 @@ print <<EOF
     </li>
     <li>
       You're welcome to come chat with us in our IRC channel at #openshift on freenode.net
+    </li>
+    <li>
+      My runtime environment:
+      <pre>
+        $export
+      </pre>
     </li>
   </ul>
 </body>
