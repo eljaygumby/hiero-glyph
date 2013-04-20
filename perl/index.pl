@@ -162,6 +162,7 @@ print <<EOF
       My runtime environment:
       <pre>
         $env
+        http://$ENV{'HTTP_HOST'}$ENV{'REQUEST_URI'}
       </pre>
     </li>
   </ul>
