@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # pull the environment
-$export=`export`;
+$env=`env`;
 
 print "Content-type: text/html\r\n\r\n";
 print <<EOF
@@ -161,7 +161,7 @@ print <<EOF
     <li>
       My runtime environment:
       <pre>
-        $export
+        $env
       </pre>
     </li>
   </ul>
