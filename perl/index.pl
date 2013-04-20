@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # pull the environment
-$env=`set | sort`;
+$env=`env | sort`;
 
 print "Content-type: text/html\r\n\r\n";
 print <<EOF
