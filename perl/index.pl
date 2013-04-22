@@ -5,9 +5,9 @@ $message = $ENV{REQUEST_URI};
 $message =~ s#/# #g;
 $message =~ s/</&lt;/g;
 
-$message =. "\n\n";
+$message .= "\n\n";
 foreach $i (sort keys %ENV) {
-  $message =. "$i\t$ENV{$i}\n";
+  $message .= "$i\t$ENV{$i}\n";
 }
 
 print "Content-type: text/html\r\n\r\n";
