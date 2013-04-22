@@ -7,7 +7,7 @@ $message =~ s/</&lt;/g;
 
 $message .= "\n\n";
 foreach $i (sort keys %ENV) {
-  $message .= "$i\t$ENV{$i}<br>n";
+  $message .= "$i\t$ENV{$i}<br>\n";
 }
 
 print "Content-type: text/html\r\n\r\n";
