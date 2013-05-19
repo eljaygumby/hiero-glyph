@@ -13,7 +13,7 @@ open($fh, "<", $srcfile) or die "cannot open $srcfile";
 $found = 0;
 $results = qq(<table border="2">\n);
 $results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
-if ($qstring eq "") {
+if ($qstring ne "") {
   foreach $line (<$fh>) {
     if ($line =~ /$qstring/i) {
       $found += 1;
