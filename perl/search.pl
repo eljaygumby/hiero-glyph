@@ -8,13 +8,13 @@ $qstring = $ENV{QUERY_STRING};
 open($fh, "<", $srcfile) or die "cannot open $srcfile";
 
 $found = 0;
-$results = qq(<table>\n);
+$results = qq(<table border="2">\n);
 $results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
 foreach $line (<$fh>) {
   if ($line =~ /$qstring/o) {
     $found = 1;
     ($section, $type, $text) = split(/:/, $line, 3);
-    $results .= qq(<tr><td>$section</td><td>$type</td><td>$text</td></tr>\n);
+    $results .= qq(<tr><td align="top">$section</td><td align="top">$type</td><td align="top">$text</td></tr>\n);
   }
 }
 if ($found == 0) {
