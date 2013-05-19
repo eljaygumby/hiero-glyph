@@ -13,14 +13,14 @@ $results = qq(<table border="2">\n);
 $results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
 foreach $line (<$fh>) {
   if ($line =~ /$qstring/io) {
-    $found = 1;
+    $found += 1;
     ($section, $type, $text) = split(/:/, $line, 3);
     $text =~ s#($qstring)#<b>$1</b>#gi;
     $results .= qq(<tr><td valign="top">$section</td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
   }
 }
 if ($found == 0) {
-  $results .= qq(<tr><td width="3">No results found</td></tr>\n);
+  $results .= qq(<tr><td colspan="3">No results found</td></tr>\n);
 }
 $results .= qq(</table>\n);
 
@@ -154,7 +154,7 @@ print <<EOF
     Search string: <b>$qstring</b>
   </p>
   <p>
-    Results:<br>
+    Result count:  $found<br>
     $results
   </p>
 </body>
