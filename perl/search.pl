@@ -4,6 +4,7 @@ $srcfile = "$ENV{DOCUMENT_ROOT}/../DCCC-LIII/800-53rev4controls-20130518.txt";
 
 # What are we looking for?
 $qstring = $ENV{QUERY_STRING};
+$qstring =~ s/find=//;
 $qstring =~ s/%([0-9A-Fa-f]{2})/pack("H2", $1)/ge;
 
 open($fh, "<", $srcfile) or die "cannot open $srcfile";
@@ -151,7 +152,7 @@ print <<EOF
     Welcome to DCCC-VIII revision IV
   </h1>
   <form method="GET">
-    New search:  <input type="text">
+    New search:  <input type="text" name="find">
   </form>
   <p>
     Search string: <b>$qstring</b>
