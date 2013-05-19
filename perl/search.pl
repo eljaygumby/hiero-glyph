@@ -150,7 +150,7 @@ print <<EOF
 </head>
 <body>
   <h1>
-    Welcome to DCCC-VIII revision IV
+    Welcome to DCCC-LIII revision IV
   </h1>
   <form action="search.pl" method="GET">
     New search:  <input type="text" name="find">
