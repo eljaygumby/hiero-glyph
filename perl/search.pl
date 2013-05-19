@@ -151,7 +151,7 @@ print <<EOF
   <h1>
     Welcome to DCCC-VIII revision IV
   </h1>
-  <form method="GET">
+  <form action="search.pl" method="GET">
     New search:  <input type="text" name="find">
   </form>
   <p>
