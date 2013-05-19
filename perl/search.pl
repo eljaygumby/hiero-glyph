@@ -23,6 +23,8 @@ if ($found == 0) {
 }
 $results .= qq(</table>\n);
 
+$qstring =~ s/</&lt;/g;
+
 print "Content-type: text/html\r\n\r\n";
 print <<EOF
 <!doctype html>
@@ -145,7 +147,13 @@ print <<EOF
   <h1>
     Welcome to DCCC-VIII revision VI
   </h1>
-  $results
+  <p>
+    Search string: <b>$qstring</b>
+  </p>
+  <p>
+    Results:<br>
+    $results
+  </p>
 </body>
 </html>
 EOF
