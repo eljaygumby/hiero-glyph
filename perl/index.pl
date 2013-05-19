@@ -6,7 +6,7 @@ $message =~ s#/# #g;
 $message =~ s/</&lt;/g;
 
 $message .= "<br>\n\n";
-$message .= "" . `pwd` . "<br>\n";
+$message .= "" . `ls` . "<br>\n";
 foreach $i (sort keys %ENV) {
   $message .= "$i\t$ENV{$i}<br>\n";
 }
