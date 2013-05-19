@@ -14,6 +14,7 @@ foreach $line (<$fh>) {
   if ($line =~ /$qstring/o) {
     $found = 1;
     ($section, $type, $text) = split(/:/, $line, 3);
+    $text =~ s#($qstring)#<b>\1</b>#g;
     $results .= qq(<tr><td align="top">$section</td><td align="top">$type</td><td align="top">$text</td></tr>\n);
   }
 }
