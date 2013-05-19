@@ -4,6 +4,7 @@ $srcfile = "$ENV{DOCUMENT_ROOT}/../DCCC-LIII/800-53rev4controls-20130518.txt";
 
 # What are we looking for?
 $qstring = $ENV{QUERY_STRING};
+$qstring =~ s/%([0-9A-Fa-f]{2})/pack("H2", $1)/ge;
 
 open($fh, "<", $srcfile) or die "cannot open $srcfile";
 
@@ -11,10 +12,10 @@ $found = 0;
 $results = qq(<table border="2">\n);
 $results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
 foreach $line (<$fh>) {
-  if ($line =~ /$qstring/o) {
+  if ($line =~ /$qstring/io) {
     $found = 1;
     ($section, $type, $text) = split(/:/, $line, 3);
-    $text =~ s#($qstring)#<b>\1</b>#g;
+    $text =~ s#($qstring)#<b>$1</b>#gi;
     $results .= qq(<tr><td valign="top">$section</td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
   }
 }
@@ -23,6 +24,8 @@ if ($found == 0) {
 }
 $results .= qq(</table>\n);
 
+# defuse any entities or markup
+$qstring =~ s/&/&amp;/g;
 $qstring =~ s/</&lt;/g;
 
 print "Content-type: text/html\r\n\r\n";
@@ -32,7 +35,7 @@ print <<EOF
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>DCCC-LIII revision VI</title>
+  <title>DCCC-LIII revision IV</title>
   <style>
   html { 
   background: black; 
@@ -145,7 +148,7 @@ print <<EOF
 </head>
 <body>
   <h1>
-    Welcome to DCCC-VIII revision VI
+    Welcome to DCCC-VIII revision IV
   </h1>
   <p>
     Search string: <b>$qstring</b>
