@@ -12,7 +12,7 @@ $found = 0;
 $results = qq(<table border="2">\n);
 $results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
 foreach $line (<$fh>) {
-  if ($line =~ /$qstring/io) {
+  if ($line =~ /$qstring/i) {
     $found += 1;
     ($section, $type, $text) = split(/:/, $line, 3);
     $text =~ s#($qstring)#<b>$1</b>#gi;
