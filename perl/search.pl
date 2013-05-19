@@ -150,6 +150,9 @@ print <<EOF
   <h1>
     Welcome to DCCC-VIII revision IV
   </h1>
+  <form method="GET">
+    New search:  <input type="text">
+  </form>
   <p>
     Search string: <b>$qstring</b>
   </p>
