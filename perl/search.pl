@@ -19,7 +19,7 @@ if ($qstring ne "") {
       $found += 1;
       ($section, $type, $text) = split(/:/, $line, 3);
       $text =~ s#($qstring)#<b>$1</b>#gi;
-      $results .= qq(<tr><td valign="top">$section</td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
+      $results .= qq(<tr><td valign="top" nowrap>$section</td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
     }
   }
 }
