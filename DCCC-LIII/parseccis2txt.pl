@@ -49,7 +49,7 @@ while (($id, $title, $iacontrol) = splice(@iacontrols, 0, 3)) {
 sub printcontrol {
   my ($controlid, $control) = @_;
   my ($id, $text);
-  my (@subcontrols) = split(/\n([a-z])\.\s+/s, $control);
+  my (@subcontrols) = split(/\n([a-z]+)\.\s+/s, $control);
 
   printelement($controlid, 'text', $subcontrols[0]);
   my $controltext = shift @subcontrols;
