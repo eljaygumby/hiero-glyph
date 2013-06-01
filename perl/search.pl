@@ -18,8 +18,11 @@ if ($qstring ne "") {
     if ($line =~ /$qstring/i) {
       $found += 1;
       ($section, $type, $text) = split(/:/, $line, 3);
+      $escaped = $section;
+      $escaped =~ s/\(/\\(/g;
+      $escaped =~ s/\)/\\)/g;
       $text =~ s#($qstring)#<b>$1</b>#gi;
-      $results .= qq(<tr><td valign="top" nowrap>$section</td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
+      $results .= qq(<tr><td valign="top" nowrap><a href="search.pl?find=^$escaped">$section</a></td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
     }
   }
 }
