@@ -18,10 +18,18 @@ if ($qstring ne "") {
     if ($line =~ /$qstring/i) {
       $found += 1;
       ($section, $type, $text) = split(/:/, $line, 3);
+
+      # make section numbers clickable in section column
       $escaped = $section;
       $escaped =~ s/\(/\\(/g;
       $escaped =~ s/\)/\\)/g;
+
+      # make related controls (but not enhancements) clickable in the supplements
+      $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=\1">\1</a>#g;
+
+      # highlight text that matches the search string
       $text =~ s#($qstring)#<b>$1</b>#gi;
+
       $results .= qq(<tr><td valign="top" nowrap><a href="search.pl?find=^$escaped">$section</a></td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
     }
   }
