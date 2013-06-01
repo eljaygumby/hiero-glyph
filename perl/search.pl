@@ -25,7 +25,7 @@ if ($qstring ne "") {
       $escaped =~ s/\)/\\)/g;
 
       # make related controls (but not enhancements) clickable in the supplements
-      $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=\1">\1</a>#g;
+      $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1">\1</a>#g;
 
       # highlight text that matches the search string
       $text =~ s#($qstring)#<b>$1</b>#gi;
