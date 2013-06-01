@@ -27,8 +27,8 @@ if ($qstring ne "") {
       # make related controls (but not enhancements) clickable in the text
       $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1\[ :\]">\1</a>#g;
 
-      # highlight text that matches the search string, ignoring links
-      $text =~ s#(?=[^^])($qstring)(?=[^[])#<b>\1</b>#gi;
+      # highlight text that matches the search string, outside HTML elements
+      $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>\1</b>#gi;
 
       $results .= qq(<tr><td valign="top" nowrap><a href="search.pl?find=^$escaped">$section</a></td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
     }
