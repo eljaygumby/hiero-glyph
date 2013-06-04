@@ -12,4 +12,3 @@ print <<EOF
 </body>
 </html>
 EOF
-EOF
