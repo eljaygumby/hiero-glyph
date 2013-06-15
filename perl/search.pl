@@ -32,6 +32,14 @@ if ($qstring ne "" && $error eq "") {
       # make related controls (but not enhancements) clickable in the text
       $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1\[ :\]">\1</a>#g;
 
+      # make baseline selections clickable
+      if ($type =~ /^(low|mod|high)$/) {
+        # main control
+        $text =~ s#([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1\[ :\]">\1</a>#g;
+        # enhancements
+        $text =~ s#( \([0-9]+\))# <a href="search.pl?find=^$section\1\[ :\]">\1</a>#g;
+      }
+
       # highlight text that matches the search string, outside HTML elements
       $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>\1</b>#gi;
 
