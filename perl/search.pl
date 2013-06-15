@@ -37,7 +37,7 @@ if ($qstring ne "" && $error eq "") {
         # main control
         $text =~ s#([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1\[ :\]">\1</a>#g;
         # enhancements
-        $text =~ s#( \([0-9]+\))# <a href="search.pl?find=^$section\1\[ :\]">\1</a>#g;
+        $text =~ s# \(([0-9]+)\)# <a href="search.pl?find=^$section \\(\1\\)\[ :\]">\1</a>#g;
       }
 
       # highlight text that matches the search string, outside HTML elements
