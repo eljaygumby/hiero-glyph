@@ -43,9 +43,9 @@ while (($id, $title, $iacontrol) = splice(@iacontrols, 0, 3)) {
   $iacontrol =~ s#^\s+##gm;  # remove all leading whitespace
 
 #  dissect control
-  if (@controlpieces = split(/Control:\s+(.*?)\s*\nSupplemental Guidance:\s+(.*?)\s*\n(Control Enhancements:\s+.*?\s*\n)?References:\s+(.*?)\.\s*?\n/s, $iacontrol)) {
+  if (@controlpieces = split(/Control:\s+(.*?)\s*\nSupplemental Guidance:\s+(.*?)\s*\n(Control Enhancements:\s+.*?\s*\n)?References:\s+(.*?)\.\s*(Priority and Baseline Allocation:\s+.*\s*)?\n/s, $iacontrol)) {
 
-    ($cruft, $control, $supplement, $enhancements, $references) = @controlpieces;
+    ($cruft, $control, $supplement, $enhancements, $references, $priorbase) = @controlpieces;
 
 # is it withdrawn?
     if ($cruft =~ /\[Withdrawn:/) {
@@ -63,7 +63,8 @@ while (($id, $title, $iacontrol) = splice(@iacontrols, 0, 3)) {
     printcontrol($id, $control);
     printelement($id, 'supplement', $supplement, $supplement);
     printenhancements($id, $enhancements);
-    printelement($id, references, $references, $references);
+    printelement($id, 'references', $references, $references);
+    printpriorbase($id, $priorbase) if ($priorbase ne "");
 
 
 # complain if it is anything else
@@ -217,5 +218,30 @@ sub printsubsubenhancements {
     if ($xml == 1) {
       print qq(</control>\n);
     }
+  }
+}
+
+sub printpriorbase {
+  my($controlid, $priorbase) = @_;
+  my($priority, $lowbase, $modbase, $highbase);
+
+  @priorbase = split(/Priority and Baseline Allocation:\s*\n(P[0-9]+)\s*\nLOW\s*([^\n]+)\s*\nMOD\s*([^\n]+)\s*\nHIGH\s*([^\n]+)\s*/s, $priorbase);
+  ($priority, $lowbase, $modbase, $highbase) = splice(@priorbase, 1, 4);
+
+  if ($xml == 1) {
+    print qq(<priorbase>\n);
+  }
+  printelement($controlid, 'priority', $priority, $priority);
+  if ($xml == 1) {
+    print qq(<baselines>\n);
+  }
+  printelement($controlid, 'low', $lowbase, $lowbase);
+  printelement($controlid, 'mod', $modbase, $modbase);
+  printelement($controlid, 'high', $highbase, $highbase);
+  if ($xml == 1) {
+    print qq(</baselines>\n);
+  }
+  if ($xml == 1) {
+    print qq(</priorbase>\n);
   }
 }

@@ -10,12 +10,17 @@ $qstring =~ s/%([0-9A-Fa-f]{2})/pack("H2", $1)/ge;
 
 open($fh, "<", $srcfile) or die "cannot open $srcfile";
 
+$error = "";
+eval {'xxxx' =~ /$qstring/};
+$error = $@ if $@;
+
 $found = 0;
 $results = qq(<table border="2">\n);
 $results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
-if ($qstring ne "") {
+if ($qstring ne "" && $error eq "") {
   foreach $line (<$fh>) {
     if ($line =~ /$qstring/i) {
+      chomp $line;
       $found += 1;
       ($section, $type, $text) = split(/:/, $line, 3);
 
@@ -30,7 +35,7 @@ if ($qstring ne "") {
       # highlight text that matches the search string, outside HTML elements
       $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>\1</b>#gi;
 
-      $results .= qq(<tr><td valign="top" nowrap><a href="search.pl?find=^$escaped:">$section</a></td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
+      $results .= qq(<tr><td valign="top" nowrap><a href="search.pl?find=^$escaped\[ :]">$section</a></td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
     }
   }
 }
