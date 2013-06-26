@@ -63180,8 +63180,6 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  This control enhancement addresses processes for which normal execution periods can be determined and situations in which organizations exceed such periods. Supervision includes, for example, operating system timers, automated responses, or manual oversight and response when information system process anomalies occur. </P>
 
-<P>References:  None. </P>
-
 <P>References:  NIST Special Publications 800-147, 800-155. </P>
 
 <P>Priority and Baseline Allocation: </P>

@@ -4232,7 +4232,11 @@ SI-7 (15):supplement:Cryptographic authentication includes, for example, verifyi
 SI-7 (16):title:SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | TIME LIMIT ON PROCESS EXECUTION W/O SUPERVISION
 SI-7 (16):text:The organization does not allow processes to execute without supervision for more than [Assignment: organization-defined time period].
 SI-7 (16):supplement:This control enhancement addresses processes for which normal execution periods can be determined and situations in which organizations exceed such periods. Supervision includes, for example, operating system timers, automated responses, or manual oversight and response when information system process anomalies occur.
-SI-7:references:None
+SI-7:references:NIST Special Publications 800-147, 800-155
+SI-7:priority:P1
+SI-7:low:Not Selected
+SI-7:mod:SI-7 (1) (7)
+SI-7:high:SI-7 (1) (2) (5) (7) (14)
 SI-8:title:SPAM PROTECTION
 SI-8:text:The organization:
 SI-8 a:text:The organization: Employs spam protection mechanisms at information system entry and exit points to detect and take action on unsolicited messages; and
