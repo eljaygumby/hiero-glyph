@@ -33,7 +33,6 @@ if ($qstring ne "" && $error eq "") {
       # make enhancements in withdrawn controls clickable
       if ($type eq 'withdrawn') {
         $text =~ s#([A-Z]{2}-[0-9]+ \([0-9]+\))#<a href="search.pl?find=^$1\[ :\]">$1</a>#g; 
-print "matched $text\n";
         # escape parens in the regex
         $text =~ s/(\))\[/\\$1\[/g; # escape closing parens, identified by open square bracket
         $text =~ s/(\([0-9]+)\\\)\[/\\$1\\\)\[/g; # escape opening parens, identified by previous regex
