@@ -36,6 +36,9 @@ if ($qstring ne "" && $error eq "") {
       if ($type =~ /^(low|mod|high)$/) {
         # main control
         $text =~ s#([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1\[ :\]">\1</a>#g;
+      }
+
+      if ($type =~ /^(low|mod|high|withdrawn)$/) {
         # enhancements
         $text =~ s# \(([0-9]+)\)# <a href="search.pl?find=^$section \\(\1\\)\[ :\]">(\1)</a>#g;
       }
