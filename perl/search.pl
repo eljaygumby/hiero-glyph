@@ -29,22 +29,28 @@ if ($qstring ne "" && $error eq "") {
       $escaped =~ s/\(/\\(/g;
       $escaped =~ s/\)/\\)/g;
 
+      # make enhancements in withdrawn controls clickable
+      if ($type eq 'withdrawn') {
+        $text =~ s#([A-Z]{2}-[0-9]+ \([0-9]+\))#<a href="search.pl?find=^$1\[ :\]">$1</a>#g; 
+print "matched $text\n";
+        # escape parens in the regex
+        $text =~ s/(\))\[/\\$1\[/g; # escape closing parens, identified by open square bracket
+        $text =~ s/(\([0-9]+)\\\)\[/\\$1\\\)\[/g; # escape opening parens, identified by previous regex
+      }
+
       # make related controls (but not enhancements) clickable in the text
-      $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1\[ :\]">\1</a>#g;
+      $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^$1\[ :\]">$1</a>#g;
 
       # make baseline selections clickable
       if ($type =~ /^(low|mod|high)$/) {
         # main control
-        $text =~ s#([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^\1\[ :\]">\1</a>#g;
-      }
-
-      if ($type =~ /^(low|mod|high|withdrawn)$/) {
+        $text =~ s#([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^$1\[ :\]">$1</a>#g;
         # enhancements
-        $text =~ s# \(([0-9]+)\)# <a href="search.pl?find=^$section \\(\1\\)\[ :\]">(\1)</a>#g;
+        $text =~ s# \(([0-9]+)\)# <a href="search.pl?find=^$section \\($1\\)\[ :\]">($1)</a>#g;
       }
 
       # highlight text that matches the search string, outside HTML elements
-      $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>\1</b>#gi;
+      $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>$1</b>#gi;
 
       $results .= qq(<tr><td valign="top" nowrap><a href="search.pl?find=^$escaped\[ :]">$section</a></td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
     }
