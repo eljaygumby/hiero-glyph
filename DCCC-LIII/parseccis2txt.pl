@@ -48,11 +48,11 @@ while (($id, $title, $iacontrol) = splice(@iacontrols, 0, 3)) {
     ($cruft, $control, $supplement, $enhancements, $references, $priorbase) = @controlpieces;
 
 # is it withdrawn?
-    if ($cruft =~ /\[Withdrawn:/) {
+    if ($cruft =~ /\[Withdrawn:\s+(.*?)\]/i) {
       if ($xml == 1) {
-        print qq( status="Withdrawn"/>\n);
+        print qq( status="withdrawn" disposition="$1"/>\n);
       } else {
-        print "$id:withdrawn\n";
+        print "$id:withdrawn:$1\n";
       }
       next;
     }
@@ -174,11 +174,11 @@ sub printsubenhancements {
   my ($super);
 
   ($control, $supplement) = split(/\s*Supplemental Guidance:\s+/, $subenhancement);
-  if ($control =~ /\[Withdrawn:/) {
+  if ($control =~ /\[Withdrawn:\s+(.*?)\]/) {
     if ($xml == 1) {
-      print qq( status="withdrawn">\n);
+      print qq( status="withdrawn" disposition="$1">\n);
     } else {
-      print qq($controlid:withdrawn\n);
+      print qq($controlid:withdrawn:$1\n);
     }
   } else {
     if ($xml == 1) {

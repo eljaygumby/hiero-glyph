@@ -82,7 +82,7 @@ AC-3:title:ACCESS ENFORCEMENT
 AC-3:text:The information system enforces approved authorizations for logical access to information and system resources in accordance with applicable access control policies.
 AC-3:supplement:Access control policies (e.g., identity-based policies, role-based policies, attribute-based policies) and access enforcement mechanisms (e.g., access control lists, access control matrices, cryptography) control access between active entities or subjects (i.e., users or processes acting on behalf of users) and passive entities or objects (e.g., devices, files, records, domains) in information systems. In addition to enforcing authorized access at the information system level and recognizing that information systems can host many applications and services in support of organizational missions and business operations, access enforcement mechanisms can also be employed at the application and service level to provide increased information security. Related controls: AC-2, AC-4, AC-5, AC-6, AC-16, AC-17, AC-18, AC-19, AC-20, AC-21, AC-22, AU-9, CM-5, CM-6, CM-11, MA-3, MA-4, MA-5, PE-3.
 AC-3 (1):title:ACCESS ENFORCEMENT | RESTRICTED ACCESS TO PRIVILEGED FUNCTIONS
-AC-3 (1):withdrawn
+AC-3 (1):withdrawn:Incorporated into AC-6
 AC-3 (2):title:ACCESS ENFORCEMENT | DUAL AUTHORIZATION
 AC-3 (2):text:The information system enforces dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions].
 AC-3 (2):supplement:Dual authorization mechanisms require the approval of two authorized individuals in order to execute. Organizations do not require dual authorization mechanisms when immediate responses are necessary to ensure public and environmental safety. Related controls: CP-9, MP-6.
@@ -109,7 +109,7 @@ AC-3 (5):title:ACCESS ENFORCEMENT | SECURITY-RELEVANT INFORMATION
 AC-3 (5):text:The information system prevents access to [Assignment: organization-defined security-relevant information] except during secure, non-operable system states.
 AC-3 (5):supplement:Security-relevant information is any information within information systems that can potentially impact the operation of security functions or the provision of security services in a manner that could result in failure to enforce system security policies or maintain the isolation of code and data. Security-relevant information includes, for example, filtering rules for routers/firewalls, cryptographic key management information, configuration parameters for security services, and access control lists. Secure, non-operable system states include the times in which information systems are not performing mission/business-related processing (e.g., the system is off-line for maintenance, troubleshooting, boot-up, shut down). Related control: CM-3.
 AC-3 (6):title:ACCESS ENFORCEMENT | PROTECTION OF USER AND SYSTEM INFORMATION
-AC-3 (6):withdrawn
+AC-3 (6):withdrawn:Incorporated into MP-4 and SC-28
 AC-3 (7):title:ACCESS ENFORCEMENT | ROLE-BASED ACCESS CONTROL
 AC-3 (7):text:The information system enforces a role-based access control policy over defined subjects and objects and controls access based upon [Assignment: organization-defined roles and users authorized to assume such roles].
 AC-3 (7):supplement:Role-based access control (RBAC) is an access control policy that restricts information system access to authorized users. Organizations can create specific roles based on job functions and the authorizations (i.e., privileges) to perform needed operations on organizational information systems associated with the organization-defined roles. When users are assigned to the organizational roles, they inherit the authorizations or privileges defined for those roles. RBAC simplifies privilege administration for organizations because privileges are not assigned directly to every user (which can be a significant number of individuals for mid- to large-size organizations) but are instead acquired through role assignments. RBAC can be implemented either as a mandatory or discretionary form of access control. For organizations implementing RBAC with mandatory access controls, the requirements in AC-3 (3) define the scope of the subjects and objects covered by the policy.
@@ -177,7 +177,7 @@ AC-4 (15):title:INFORMATION FLOW ENFORCEMENT | DETECTION OF UNSANCTIONED INFORMA
 AC-4 (15):text:The information system, when transferring information between different security domains, examines the information for the presence of [Assignment: organized-defined unsanctioned information] and prohibits the transfer of such information in accordance with the [Assignment: organization-defined security policy].
 AC-4 (15):supplement:Detection of unsanctioned information includes, for example, checking all information to be transferred for malicious code and dirty words. Related control: SI-3.
 AC-4 (16):title:INFORMATION FLOW ENFORCEMENT | INFORMATION TRANSFERS ON INTERCONNECTED SYSTEMS
-AC-4 (16):withdrawn
+AC-4 (16):withdrawn:Incorporated into AC-4
 AC-4 (17):title:INFORMATION FLOW ENFORCEMENT | DOMAIN AUTHENTICATION
 AC-4 (17):text:The information system uniquely identifies and authenticates source and destination points by [Selection (one or more): organization, system, application, individual] for information transfer.
 AC-4 (17):supplement:Attribution is a critical component of a security concept of operations. The ability to identify source and destination points for information flowing in information systems, allows the forensic reconstruction of events when required, and encourages policy compliance by attributing policy violations to specific organizations/individuals. Successful domain authentication requires that information system labels distinguish among systems, organizations, and individuals involved in preparing, sending, receiving, or disseminating information. Related controls: IA-2, IA-3, IA-4, IA-5.
@@ -258,7 +258,7 @@ AC-7 a:text:The information system: Enforces a limit of [Assignment: organizatio
 AC-7 b:text:The information system: Automatically [Selection: locks the account/node for an [Assignment: organization-defined time period]; locks the account/node until released by an administrator; delays next logon prompt according to [Assignment: organization-defined delay algorithm]] when the maximum number of unsuccessful attempts is exceeded.
 AC-7:supplement:This control applies regardless of whether the logon occurs via a local or network connection. Due to the potential for denial of service, automatic lockouts initiated by information systems are usually temporary and automatically release after a predetermined time period established by organizations. If a delay algorithm is selected, organizations may choose to employ different algorithms for different information system components based on the capabilities of those components. Responses to unsuccessful logon attempts may be implemented at both the operating system and the application levels. Related controls: AC-2, AC-9, AC-14, IA-5.
 AC-7 (1):title:UNSUCCESSFUL LOGON ATTEMPTS | AUTOMATIC ACCOUNT LOCK
-AC-7 (1):withdrawn
+AC-7 (1):withdrawn:Incorporated into AC-7
 AC-7 (2):title:UNSUCCESSFUL LOGON ATTEMPTS | PURGE / WIPE MOBILE DEVICE
 AC-7 (2):text:The information system purges/wipes information from [Assignment: organization-defined mobile devices] based on [Assignment: organization-defined purging/wiping requirements/techniques] after [Assignment: organization-defined number] consecutive, unsuccessful device logon attempts.
 AC-7 (2):supplement:This control enhancement applies only to mobile devices for which a logon occurs (e.g., personal digital assistants, smart phones, tablets). The logon is to the mobile device, not to any one account on the device. Therefore, successful logons to any accounts on mobile devices reset the unsuccessful logon count to zero. Organizations define information to be purged/wiped carefully in order to avoid over purging/wiping which may result in devices becoming unusable. Purging/wiping may be unnecessary if the information on the device is protected with sufficiently strong encryption mechanisms. Related controls: AC-19, MP-5, MP-6, SC-13.
@@ -337,7 +337,7 @@ AC-12:low:Not Selected
 AC-12:mod:AC-12
 AC-12:high:AC-12
 AC-13:title:SUPERVISION AND REVIEW — ACCESS CONTROL
-AC-13:withdrawn
+AC-13:withdrawn:Incorporated into AC-2 and AU-6
 AC-14:title:PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION
 AC-14:text:The organization:
 AC-14 a:text:The organization: Identifies [Assignment: organization-defined user actions] that can be performed on the information system without identification or authentication consistent with organizational missions/business functions; and
@@ -349,7 +349,7 @@ AC-14:low:AC-14
 AC-14:mod:AC-14
 AC-14:high:AC-14
 AC-15:title:AUTOMATED MARKING
-AC-15:withdrawn
+AC-15:withdrawn:Incorporated into MP-3
 AC-16:title:SECURITY ATTRIBUTES
 AC-16:text:The organization:
 AC-16 a:text:The organization: Provides the means to associate [Assignment: organization-defined types of security attributes] having [Assignment: organization-defined security attribute values] with information in storage, in process, and/or in transmission;
@@ -412,14 +412,14 @@ AC-17 (4) (a):text:The organization: Authorizes the execution of privileged comm
 AC-17 (4) (b):text:The organization: Documents the rationale for such access in the security plan for the information system.
 AC-17 (4):supplement:Related control: AC-6.
 AC-17 (5):title:REMOTE ACCESS | MONITORING FOR UNAUTHORIZED CONNECTIONS
-AC-17 (5):withdrawn
+AC-17 (5):withdrawn:Incorporated into SI-4
 AC-17 (6):title:REMOTE ACCESS | PROTECTION OF INFORMATION
 AC-17 (6):text:The organization ensures that users protect information about remote access mechanisms from unauthorized use and disclosure.
 AC-17 (6):supplement:Related controls: AT-2, AT-3, PS-6.
 AC-17 (7):title:REMOTE ACCESS | ADDITIONAL PROTECTION FOR SECURITY FUNCTION ACCESS
-AC-17 (7):withdrawn
+AC-17 (7):withdrawn:Incorporated into AC-3 (10)
 AC-17 (8):title:REMOTE ACCESS | DISABLE NONSECURE NETWORK PROTOCOLS
-AC-17 (8):withdrawn
+AC-17 (8):withdrawn:Incorporated into CM-7
 AC-17 (9):title:REMOTE ACCESS | DISCONNECT / DISABLE ACCESS
 AC-17 (9):text:The organization provides the capability to expeditiously disconnect or disable remote access to the information system within [Assignment: organization-defined time period].
 AC-17 (9):supplement:This control enhancement requires organizations to have the capability to rapidly disconnect current users remotely accessing the information system and/or disable further remote access. The speed of disconnect or disablement varies based on the criticality of missions/business functions and the need to eliminate immediate or future remote access to organizational information systems.
@@ -437,7 +437,7 @@ AC-18 (1):title:WIRELESS ACCESS | AUTHENTICATION AND ENCRYPTION
 AC-18 (1):text:The information system protects wireless access to the system using authentication of [Selection (one or more): users; devices] and encryption.
 AC-18 (1):supplement:Related controls: SC-8, SC-13.
 AC-18 (2):title:WIRELESS ACCESS | MONITORING UNAUTHORIZED CONNECTIONS
-AC-18 (2):withdrawn
+AC-18 (2):withdrawn:Incorporated into SI-4
 AC-18 (3):title:WIRELESS ACCESS | DISABLE WIRELESS NETWORKING
 AC-18 (3):text:The organization disables, when not intended for use, wireless networking capabilities internally embedded within information system components prior to issuance and deployment.
 AC-18 (3):supplement:Related control: AC-19.
@@ -458,11 +458,11 @@ AC-19 a:text:The organization: Establishes usage restrictions, configuration req
 AC-19 b:text:The organization: Authorizes the connection of mobile devices to organizational information systems.
 AC-19:supplement:A mobile device is a computing device that: (i) has a small form factor such that it can easily be carried by a single individual; (ii) is designed to operate without a physical connection (e.g., wirelessly transmit or receive information); (iii) possesses local, non-removable or removable data storage; and (iv) includes a self-contained power source. Mobile devices may also include voice communication capabilities, on-board sensors that allow the device to capture information, and/or built-in features for synchronizing local data with remote locations. Examples include smart phones, E-readers, and tablets. Mobile devices are typically associated with a single individual and the device is usually in close proximity to the individual; however, the degree of proximity can vary depending upon on the form factor and size of the device. The processing, storage, and transmission capability of the mobile device may be comparable to or merely a subset of desktop systems, depending upon the nature and intended purpose of the device. Due to the large variety of mobile devices with different technical characteristics and capabilities, organizational restrictions may vary for the different classes/types of such devices. Usage restrictions and specific implementation guidance for mobile devices include, for example, configuration management, device identification and authentication, implementation of mandatory protective software (e.g., malicious code detection, firewall), scanning devices for malicious code, updating virus protection software, scanning for critical software updates and patches, conducting primary operating system (and possibly other resident software) integrity checks, and disabling unnecessary hardware (e.g., wireless, infrared). Organizations are cautioned that the need to provide adequate security for mobile devices goes beyond the requirements in this control. Many safeguards and countermeasures for mobile devices are reflected in other security controls in the catalog allocated in the initial control baselines as starting points for the development of security plans and overlays using the tailoring process. There may also be some degree of overlap in the requirements articulated by the security controls within the different families of controls. AC-20 addresses mobile devices that are not organization-controlled. Related controls: AC-3, AC-7, AC-18, AC-20, CA-9, CM-2, IA-2, IA-3, MP-2, MP-4, MP-5, PL-4, SC-7, SC-43, SI-3, SI-4.
 AC-19 (1):title:ACCESS CONTROL FOR MOBILE DEVICES | USE OF  WRITABLE / PORTABLE STORAGE DEVICES
-AC-19 (1):withdrawn
+AC-19 (1):withdrawn:Incorporated into MP-7
 AC-19 (2):title:ACCESS CONTROL FOR MOBILE DEVICES | USE OF PERSONALLY OWNED PORTABLE STORAGE DEVICES
-AC-19 (2):withdrawn
+AC-19 (2):withdrawn:Incorporated into MP-7
 AC-19 (3):title:ACCESS CONTROL FOR MOBILE DEVICES | USE OF PORTABLE STORAGE DEVICES WITH NO IDENTIFIABLE OWNER
-AC-19 (3):withdrawn
+AC-19 (3):withdrawn:Incorporated into MP-7
 AC-19 (4):title:ACCESS CONTROL FOR MOBILE DEVICES | RESTRICTIONS FOR CLASSIFIED INFORMATION
 AC-19 (4):text:The organization:
 AC-19 (4) (a):text:The organization: Prohibits the use of unclassified mobile devices in facilities containing information systems processing, storing, or transmitting classified information unless specifically permitted by the authorizing official; and
@@ -626,7 +626,7 @@ AT-4:low:AT-4
 AT-4:mod:AT-4
 AT-4:high:AT-4
 AT-5:title:CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS
-AT-5:withdrawn
+AT-5:withdrawn:Incorporated into PM-15
 AU-1:title:AUDIT AND ACCOUNTABILITY POLICY AND PROCEDURES
 AU-1:text:The organization:
 AU-1 a:text:The organization: Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:
@@ -649,14 +649,14 @@ AU-2 c:text:The organization: Provides a rationale for why the auditable events 
 AU-2 d:text:The organization: Determines that the following events are to be audited within the information system: [Assignment: organization-defined audited events (the subset of the auditable events defined in AU-2 a.) along with the frequency of (or situation requiring) auditing for each identified event].
 AU-2:supplement:An event is any observable occurrence in an organizational information system. Organizations identify audit events as those events which are significant and relevant to the security of information systems and the environments in which those systems operate in order to meet specific and ongoing audit needs. Audit events can include, for example, password changes, failed logons, or failed accesses related to information systems, administrative privilege usage, PIV credential usage, or third-party credential usage. In determining the set of auditable events, organizations consider the auditing appropriate for each of the security controls to be implemented. To balance auditing requirements with other information system needs, this control also requires identifying that subset of auditable events that are audited at a given point in time. For example, organizations may determine that information systems must have the capability to log every file access both successful and unsuccessful, but not activate that capability except for specific circumstances due to the potential burden on system performance. Auditing requirements, including the need for auditable events, may be referenced in other security controls and control enhancements. Organizations also include auditable events that are required by applicable federal laws, Executive Orders, directives, policies, regulations, and standards. Audit records can be generated at various levels of abstraction, including at the packet level as information traverses the network. Selecting the appropriate level of abstraction is a critical aspect of an audit capability and can facilitate the identification of root causes to problems. Organizations consider in the definition of auditable events, the auditing necessary to cover related events such as the steps in distributed, transaction-based processes (e.g., processes that are distributed across multiple organizations) and actions that occur in service-oriented architectures. Related controls: AC-6, AC-17, AU-3, AU-12, MA-4, MP-2, MP-4, SI-4.
 AU-2 (1):title:AUDIT EVENTS | COMPILATION OF AUDIT RECORDS FROM MULTIPLE SOURCES
-AU-2 (1):withdrawn
+AU-2 (1):withdrawn:Incorporated into AU-12
 AU-2 (2):title:AUDIT EVENTS | SELECTION OF AUDIT EVENTS BY COMPONENT
-AU-2 (2):withdrawn
+AU-2 (2):withdrawn:Incorporated into AU-12
 AU-2 (3):title:AUDIT EVENTS | REVIEWS AND UPDATES
 AU-2 (3):text:The organization reviews and updates the audited events [Assignment: organization-defined frequency].
 AU-2 (3):supplement:Over time, the events that organizations believe should be audited may change. Reviewing and updating the set of audited events periodically is necessary to ensure that the current set is still necessary and sufficient.
 AU-2 (4):title:AUDIT EVENTS | PRIVILEGED FUNCTIONS
-AU-2 (4):withdrawn
+AU-2 (4):withdrawn:Incorporated into AC-6
 AU-2:references:NIST Special Publication 800-92; Web: csrc.nist.gov/pcig/cig.html, idmanagement.gov
 AU-2:priority:P1
 AU-2:low:AU-2
@@ -718,7 +718,7 @@ AU-6 (1):title:AUDIT REVIEW, ANALYSIS, AND REPORTING | PROCESS INTEGRATION
 AU-6 (1):text:The organization employs automated mechanisms to integrate audit review, analysis, and reporting processes to support organizational processes for investigation and response to suspicious activities.
 AU-6 (1):supplement:Organizational processes benefiting from integrated audit review, analysis, and reporting include, for example, incident response, continuous monitoring, contingency planning, and Inspector General audits. Related controls: AU-12, PM-7.
 AU-6 (2):title:AUDIT REVIEW, ANALYSIS, AND REPORTING | AUTOMATED SECURITY ALERTS
-AU-6 (2):withdrawn
+AU-6 (2):withdrawn:Incorporated into SI-4
 AU-6 (3):title:AUDIT REVIEW, ANALYSIS, AND REPORTING | CORRELATE AUDIT REPOSITORIES
 AU-6 (3):text:The organization analyzes and correlates audit records across different repositories to gain organization-wide situational awareness.
 AU-6 (3):supplement:Organization-wide situational awareness includes awareness across all three tiers of risk management (i.e., organizational, mission/business process, and information system) and supports cross-organization awareness. Related controls: AU-12, IR-4.
@@ -829,7 +829,7 @@ AU-10 (4) (a):text:The information system: Validates the binding of the informat
 AU-10 (4) (b):text:The information system: Performs [Assignment: organization-defined actions] in the event of a validation error.
 AU-10 (4):supplement:This control enhancement prevents the modification of information between review and transfer/release. The validation of bindings can be achieved, for example, by the use of cryptographic checksums. Organizations determine validations are in response to user requests or generated automatically. Related controls: AC-4, AC-16.
 AU-10 (5):title:NON-REPUDIATION | DIGITAL SIGNATURES
-AU-10 (5):withdrawn
+AU-10 (5):withdrawn:Incorporated into SI-7
 AU-10:references:None
 AU-10:priority:P2
 AU-10:low:Not Selected
@@ -980,7 +980,7 @@ CA-3:low:CA-3
 CA-3:mod:CA-3 (5)
 CA-3:high:CA-3 (5)
 CA-4:title:SECURITY CERTIFICATION
-CA-4:withdrawn
+CA-4:withdrawn:Incorporated into CA-2
 CA-5:title:PLAN OF ACTION AND MILESTONES
 CA-5:text:The organization:
 CA-5 a:text:The organization: Develops a plan of action and milestones for the information system to document the organization’s planned remedial actions to correct weaknesses or deficiencies noted during the assessment of the security controls and to reduce or eliminate known vulnerabilities in the system; and
@@ -1018,7 +1018,7 @@ CA-7 (1):title:CONTINUOUS MONITORING | INDEPENDENT ASSESSMENT
 CA-7 (1):text:The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to monitor the security controls in the information system on an ongoing basis.
 CA-7 (1):supplement:Organizations can maximize the value of assessments of security controls during the continuous monitoring process by requiring that such assessments be conducted by assessors or assessment teams with appropriate levels of independence based on continuous monitoring strategies. Assessor independence provides a degree of impartiality to the monitoring process. To achieve such impartiality, assessors should not: (i) create a mutual or conflicting interest with the organizations where the assessments are being conducted; (ii) assess their own work; (iii) act as management or employees of the organizations they are serving; or (iv) place themselves in advocacy positions for the organizations acquiring their services.
 CA-7 (2):title:CONTINUOUS MONITORING | TYPES OF ASSESSMENTS
-CA-7 (2):withdrawn
+CA-7 (2):withdrawn:Incorporated into CA-2.
 CA-7 (3):title:CONTINUOUS MONITORING | TREND ANALYSES
 CA-7 (3):text:The organization employs trend analyses to determine if security control implementations, the frequency of continuous monitoring activities, and/or the types of activities used in the continuous monitoring process need to be modified based on empirical data.
 CA-7 (3):supplement:Trend analyses can include, for example, examining recent threat information regarding the types of threat events that have occurred within the organization or across the federal government, success rates of certain types of cyber attacks, emerging vulnerabilities in information technologies, evolving social engineering techniques, results from multiple security control assessments, the effectiveness of configuration settings, and findings from Inspectors General or auditors.
@@ -1084,9 +1084,9 @@ CM-2 (3):title:BASELINE CONFIGURATION | RETENTION OF PREVIOUS CONFIGURATIONS
 CM-2 (3):text:The organization retains [Assignment: organization-defined previous versions of baseline configurations of the information system] to support rollback.
 CM-2 (3):supplement:Retaining previous versions of baseline configurations to support rollback may include, for example, hardware, software, firmware, configuration files, and configuration records.
 CM-2 (4):title:BASELINE CONFIGURATION | UNAUTHORIZED SOFTWARE
-CM-2 (4):withdrawn
+CM-2 (4):withdrawn:Incorporated into CM-7
 CM-2 (5):title:BASELINE CONFIGURATION | AUTHORIZED SOFTWARE
-CM-2 (5):withdrawn
+CM-2 (5):withdrawn:Incorporated into CM-7
 CM-2 (6):title:BASELINE CONFIGURATION | DEVELOPMENT AND TEST ENVIRONMENTS
 CM-2 (6):text:The organization maintains a baseline configuration for information system development and test environments that is managed separately from the operational baseline configuration.
 CM-2 (6):supplement:Establishing separate baseline configurations for development, testing, and operational environments helps protect information systems from unplanned/unexpected events related to development and testing activities. Separate baseline configurations allow organizations to apply the configuration management that is most appropriate for each type of configuration. For example, management of operational configurations typically emphasizes the need for stability, while management of development/test configurations requires greater flexibility. Configurations in the test environment mirror the configurations in the operational environment to the extent practicable so that the results of the testing are representative of the proposed changes to the operational systems. This control enhancement requires separate configurations but not necessarily separate physical environments. Related controls: CM-4, SC-3, SC-7.
@@ -1175,7 +1175,7 @@ CM-5 (6):title:ACCESS RESTRICTIONS FOR CHANGE | LIMIT LIBRARY PRIVILEGES
 CM-5 (6):text:The organization limits privileges to change software resident within software libraries.
 CM-5 (6):supplement:Software libraries include privileged programs. Related control: AC-2.
 CM-5 (7):title:ACCESS RESTRICTIONS FOR CHANGE | AUTOMATIC IMPLEMENTATION OF SECURITY SAFEGUARDS
-CM-5 (7):withdrawn
+CM-5 (7):withdrawn:Incorporated into SI-7
 CM-5:references:None
 CM-5:priority:P1
 CM-5:low:Not Selected
@@ -1195,9 +1195,9 @@ CM-6 (2):title:CONFIGURATION SETTINGS | RESPOND TO UNAUTHORIZED CHANGES
 CM-6 (2):text:The organization employs [Assignment: organization-defined security safeguards] to respond to unauthorized changes to [Assignment: organization-defined configuration settings].
 CM-6 (2):supplement:Responses to unauthorized changes to configuration settings can include, for example, alerting designated organizational personnel, restoring established configuration settings, or in extreme cases, halting affected information system processing. Related controls: IR-4, SI-7.
 CM-6 (3):title:CONFIGURATION SETTINGS | UNAUTHORIZED CHANGE DETECTION
-CM-6 (3):withdrawn
+CM-6 (3):withdrawn:Incorporated into SI-7
 CM-6 (4):title:CONFIGURATION SETTINGS | CONFORMANCE DEMONSTRATION
-CM-6 (4):withdrawn
+CM-6 (4):withdrawn:Incorporated into CM-4
 CM-6:references:OMB Memoranda 07-11, 07-18, 08-22; NIST Special Publications 800-70, 800-128; Web: nvd.nist.gov, checklists.nist.gov, www.nsa.gov
 CM-6:priority:P1
 CM-6:low:CM-6
@@ -1426,7 +1426,7 @@ CP-4:low:CP-4
 CP-4:mod:CP-4 (1)
 CP-4:high:CP-4 (1) (2)
 CP-5:title:CONTINGENCY PLAN UPDATE
-CP-5:withdrawn
+CP-5:withdrawn:Incorporated into CP-2
 CP-6:title:ALTERNATE STORAGE SITE
 CP-6:text:The organization:
 CP-6 a:text:The organization: Establishes an alternate storage site including necessary agreements to permit the storage and retrieval of information system backup information; and
@@ -1464,7 +1464,7 @@ CP-7 (4):title:ALTERNATE PROCESSING SITE | PREPARATION FOR USE
 CP-7 (4):text:The organization prepares the alternate processing site so that the site is ready to be used as the operational site supporting essential missions and business functions.
 CP-7 (4):supplement:Site preparation includes, for example, establishing configuration settings for information system components at the alternate processing site consistent with the requirements for such settings at the primary site and ensuring that essential supplies and other logistical considerations are in place. Related controls: CM-2, CM-6.
 CP-7 (5):title:ALTERNATE PROCESSING SITE | EQUIVALENT INFORMATION SECURITY SAFEGUARDS
-CP-7 (5):withdrawn
+CP-7 (5):withdrawn:Incorporated into CP-7
 CP-7 (6):title:ALTERNATE PROCESSING SITE | INABILITY TO RETURN TO PRIMARY SITE
 CP-7 (6):text:The organization plans and prepares for circumstances that preclude returning to the primary processing site.
 CP-7:references:NIST Special Publication 800-34
@@ -1515,7 +1515,7 @@ CP-9 (3):title:INFORMATION SYSTEM BACKUP | SEPARATE STORAGE FOR CRITICAL INFORMA
 CP-9 (3):text:The organization stores backup copies of [Assignment: organization-defined critical information system software and other security-related information] in a separate facility or in a fire-rated container that is not collocated with the operational system.
 CP-9 (3):supplement:Critical information system software includes, for example, operating systems, cryptographic key management systems, and intrusion detection/prevention systems. Security-related information includes, for example, organizational inventories of hardware, software, and firmware components. Alternate storage sites typically serve as separate storage facilities for organizations. Related controls: CM-2, CM-8.
 CP-9 (4):title:INFORMATION SYSTEM BACKUP | PROTECTION FROM UNAUTHORIZED MODIFICATION
-CP-9 (4):withdrawn
+CP-9 (4):withdrawn:Incorporated into CP-9
 CP-9 (5):title:INFORMATION SYSTEM BACKUP | TRANSFER TO ALTERNATE STORAGE SITE
 CP-9 (5):text:The organization transfers information system backup information to the alternate storage site [Assignment: organization-defined time period and transfer rate consistent with the recovery time and recovery point objectives].
 CP-9 (5):supplement:Information system backup information can be transferred to alternate storage sites either electronically or by physical shipment of storage media.
@@ -1534,17 +1534,17 @@ CP-10:title:INFORMATION SYSTEM RECOVERY AND RECONSTITUTION
 CP-10:text:The organization provides for the recovery and reconstitution of the information system to a known state after a disruption, compromise, or failure.
 CP-10:supplement:Recovery is executing information system contingency plan activities to restore organizational missions/business functions. Reconstitution takes place following recovery and includes activities for returning organizational information systems to fully operational states. Recovery and reconstitution operations reflect mission and business priorities, recovery point/time and reconstitution objectives, and established organizational metrics consistent with contingency plan requirements. Reconstitution includes the deactivation of any interim information system capabilities that may have been needed during recovery operations. Reconstitution also includes assessments of fully restored information system capabilities, reestablishment of continuous monitoring activities, potential information system reauthorizations, and activities to prepare the systems against future disruptions, compromises, or failures. Recovery/reconstitution capabilities employed by organizations can include both automated mechanisms and manual procedures. Related controls: CA-2, CA-6, CA-7, CP-2, CP-6, CP-7, CP-9, SC-24.
 CP-10 (1):title:INFORMATION SYSTEM RECOVERY AND RECONSTITUTION | CONTINGENCY PLAN TESTING
-CP-10 (1):withdrawn
+CP-10 (1):withdrawn:Incorporated into CP-4
 CP-10 (2):title:INFORMATION SYSTEM RECOVERY AND RECONSTITUTION | TRANSACTION RECOVERY
 CP-10 (2):text:The information system implements transaction recovery for systems that are transaction-based.
 CP-10 (2):supplement:Transaction-based information systems include, for example, database management systems and transaction processing systems. Mechanisms supporting transaction recovery include, for example, transaction rollback and transaction journaling.
 CP-10 (3):title:INFORMATION SYSTEM RECOVERY AND RECONSTITUTION | COMPENSATING SECURITY CONTROLS
-CP-10 (3):withdrawn
+CP-10 (3):withdrawn:Addressed through tailoring procedures
 CP-10 (4):title:INFORMATION SYSTEM RECOVERY AND RECONSTITUTION | RESTORE WITHIN TIME PERIOD
 CP-10 (4):text:The organization provides the capability to restore information system components within [Assignment: organization-defined restoration time-periods] from configuration-controlled and integrity-protected information representing a known, operational state for the components.
 CP-10 (4):supplement:Restoration of information system components includes, for example, reimaging which restores components to known, operational states. Related control: CM-2.
 CP-10 (5):title:INFORMATION SYSTEM RECOVERY AND RECONSTITUTION | FAILOVER CAPABILITY
-CP-10 (5):withdrawn
+CP-10 (5):withdrawn:Incorporated into SI-13
 CP-10 (6):title:INFORMATION SYSTEM RECOVERY AND RECONSTITUTION | COMPONENT PROTECTION
 CP-10 (6):text:The organization protects backup and restoration hardware, firmware, and software.
 CP-10 (6):supplement:Protection of backup and restoration hardware, firmware, and software components includes both physical and technical safeguards. Backup and restoration software includes, for example, router tables, compilers, and other security-relevant system software. Related controls: AC-3, AC-6, PE-3.
@@ -1642,7 +1642,7 @@ IA-3 (1):title:DEVICE IDENTIFICATION AND AUTHENTICATION | CRYPTOGRAPHIC BIDIRECT
 IA-3 (1):text:The information system authenticates [Assignment: organization-defined specific devices and/or types of devices] before establishing [Selection (one or more): local; remote; network] connection using bidirectional authentication that is cryptographically based.
 IA-3 (1):supplement:A local connection is any connection with a device communicating without the use of a network. A network connection is any connection with a device that communicates through a network (e.g., local area or wide area network, Internet). A remote connection is any connection with a device communicating through an external network (e.g., the Internet). Bidirectional authentication provides stronger safeguards to validate the identity of other devices for connections that are of greater risk (e.g., remote connections). Related controls: SC-8, SC-12, SC-13.
 IA-3 (2):title:DEVICE IDENTIFICATION AND AUTHENTICATION | CRYPTOGRAPHIC BIDIRECTIONAL NETWORK AUTHENTICATION
-IA-3 (2):withdrawn
+IA-3 (2):withdrawn:Incorporated into IA-3 (1)
 IA-3 (3):title:DEVICE IDENTIFICATION AND AUTHENTICATION | DYNAMIC ADDRESS ALLOCATION
 IA-3 (3):text:The organization:
 IA-3 (3) (a):text:The organization: Standardizes dynamic address allocation lease information and the lease duration assigned to devices in accordance with [Assignment: organization-defined lease information and lease duration]; and
@@ -2014,7 +2014,7 @@ MA-2 e:text:The organization: Checks all potentially impacted security controls 
 MA-2 f:text:The organization: Includes [Assignment: organization-defined maintenance-related information] in organizational maintenance records.
 MA-2:supplement:This control addresses the information security aspects of the information system maintenance program and applies to all types of maintenance to any system component (including applications) conducted by any local or nonlocal entity (e.g., in-contract, warranty, in-house, software maintenance agreement). System maintenance also includes those components not directly associated with information processing and/or data/information retention such as scanners, copiers, and printers. Information necessary for creating effective maintenance records includes, for example: (i) date and time of maintenance; (ii) name of individuals or group performing the maintenance; (iii) name of escort, if necessary; (iv) a description of the maintenance performed; and (v) information system components/equipment removed or replaced (including identification numbers, if applicable). The level of detail included in maintenance records can be informed by the security categories of organizational information systems. Organizations consider supply chain issues associated with replacement components for information systems. Related controls: CM-3, CM-4, MA-4, MP-6, PE-16, SA-12, SI-2.
 MA-2 (1):title:CONTROLLED MAINTENANCE | RECORD CONTENT
-MA-2 (1):withdrawn
+MA-2 (1):withdrawn:Incorporated into MA-2
 MA-2 (2):title:CONTROLLED MAINTENANCE | AUTOMATED MAINTENANCE ACTIVITIES
 MA-2 (2):text:The organization:
 MA-2 (2) (a):text:The organization: Employs automated mechanisms to schedule, conduct, and document maintenance and repairs; and
@@ -2159,9 +2159,9 @@ MP-2:title:MEDIA ACCESS
 MP-2:text:The organization restricts access to [Assignment: organization-defined types of digital and/or non-digital media] to [Assignment: organization-defined personnel or roles].
 MP-2:supplement:Information system media includes both digital and non-digital media. Digital media includes, for example, diskettes, magnetic tapes, external/removable hard disk drives, flash drives, compact disks, and digital video disks. Non-digital media includes, for example, paper and microfilm. Restricting non-digital media access includes, for example, denying access to patient medical records in a community hospital unless the individuals seeking access to such records are authorized healthcare providers. Restricting access to digital media includes, for example, limiting access to design specifications stored on compact disks in the media library to the project leader and the individuals on the development team. Related controls: AC-3, IA-2, MP-4, PE-2, PE-3, PL-2.
 MP-2 (1):title:MEDIA ACCESS | AUTOMATED RESTRICTED ACCESS
-MP-2 (1):withdrawn
+MP-2 (1):withdrawn:Incorporated into MP-4 (2)
 MP-2 (2):title:MEDIA ACCESS | CRYPTOGRAPHIC PROTECTION
-MP-2 (2):withdrawn
+MP-2 (2):withdrawn:Incorporated into SC-28 (1)
 MP-2:references:FIPS Publication 199; NIST Special Publication 800-111
 MP-2:priority:P1
 MP-2:low:MP-2
@@ -2183,7 +2183,7 @@ MP-4 a:text:The organization: Physically controls and securely stores [Assignmen
 MP-4 b:text:The organization: Protects information system media until the media are destroyed or sanitized using approved equipment, techniques, and procedures.
 MP-4:supplement:Information system media includes both digital and non-digital media. Digital media includes, for example, diskettes, magnetic tapes, external/removable hard disk drives, flash drives, compact disks, and digital video disks. Non-digital media includes, for example, paper and microfilm. Physically controlling information system media includes, for example, conducting inventories, ensuring procedures are in place to allow individuals to check out and return media to the media library, and maintaining accountability for all stored media. Secure storage includes, for example, a locked drawer, desk, or cabinet, or a controlled media library. The type of media storage is commensurate with the security category and/or classification of the information residing on the media. Controlled areas are areas for which organizations provide sufficient physical and procedural safeguards to meet the requirements established for protecting information and/or information systems. For media containing information determined by organizations to be in the public domain, to be publicly releasable, or to have limited or no adverse impact on organizations or individuals if accessed by other than authorized personnel, fewer safeguards may be needed. In these situations, physical access controls provide adequate protection. Related controls: CP-6, CP-9, MP-2, MP-7, PE-3.
 MP-4 (1):title:MEDIA STORAGE  | CRYPTOGRAPHIC PROTECTION
-MP-4 (1):withdrawn
+MP-4 (1):withdrawn:Incorporated into SC-28 (1)
 MP-4 (2):title:MEDIA STORAGE | AUTOMATED RESTRICTED ACCESS
 MP-4 (2):text:The organization employs automated mechanisms to restrict access to media storage areas and to audit access attempts and access granted.
 MP-4 (2):supplement:Automated mechanisms can include, for example, keypads on the external entries to media storage areas. Related controls: AU-2, AU-9, AU-6, AU-12.
@@ -2200,9 +2200,9 @@ MP-5 c:text:The organization: Documents activities associated with the transport
 MP-5 d:text:The organization: Restricts the activities associated with the transport of information system media to authorized personnel.
 MP-5:supplement:Information system media includes both digital and non-digital media. Digital media includes, for example, diskettes, magnetic tapes, external/removable hard disk drives, flash drives, compact disks, and digital video disks. Non-digital media includes, for example, paper and microfilm. This control also applies to mobile devices with information storage capability (e.g., smart phones, tablets, E-readers), that are transported outside of controlled areas. Controlled areas are areas or spaces for which organizations provide sufficient physical and/or procedural safeguards to meet the requirements established for protecting information and/or information systems. Physical and technical safeguards for media are commensurate with the security category or classification of the information residing on the media. Safeguards to protect media during transport include, for example, locked containers and cryptography. Cryptographic mechanisms can provide confidentiality and integrity protections depending upon the mechanisms used. Activities associated with transport include the actual transport as well as those activities such as releasing media for transport and ensuring that media enters the appropriate transport processes. For the actual transport, authorized transport and courier personnel may include individuals from outside the organization (e.g., U.S. Postal Service or a commercial transport or delivery service). Maintaining accountability of media during transport includes, for example, restricting transport activities to authorized personnel, and tracking and/or obtaining explicit records of transport activities as the media moves through the transportation system to prevent and detect loss, destruction, or tampering. Organizations establish documentation requirements for activities associated with the transport of information system media in accordance with organizational assessments of risk to include the flexibility to define different record-keeping methods for the different types of media transport as part of an overall system of transport-related records. Related controls: AC-19, CP-9, MP-3, MP-4, RA-3, SC-8, SC-13, SC-28.
 MP-5 (1):title:MEDIA TRANSPORT | PROTECTION OUTSIDE OF CONTROLLED AREAS
-MP-5 (1):withdrawn
+MP-5 (1):withdrawn:Incorporated into MP-5
 MP-5 (2):title:MEDIA TRANSPORT | DOCUMENTATION OF ACTIVITIES
-MP-5 (2):withdrawn
+MP-5 (2):withdrawn:Incorporated into MP-5
 MP-5 (3):title:MEDIA TRANSPORT | CUSTODIANS
 MP-5 (3):text:The organization employs an identified custodian during transport of information system media outside of controlled areas.
 MP-5 (3):supplement:Identified custodians provide organizations with specific points of contact during the media transport process and facilitate individual accountability. Custodial responsibilities can be transferred from one individual to another as long as an unambiguous custodian is identified at all times.
@@ -2229,11 +2229,11 @@ MP-6 (3):title:MEDIA SANITIZATION | NONDESTRUCTIVE TECHNIQUES
 MP-6 (3):text:The organization applies nondestructive sanitization techniques to portable storage devices prior to connecting such devices to the information system under the following circumstances: [Assignment: organization-defined circumstances requiring sanitization of portable storage devices].
 MP-6 (3):supplement:This control enhancement applies to digital media containing classified information and Controlled Unclassified Information (CUI). Portable storage devices can be the source of malicious code insertions into organizational information systems. Many of these devices are obtained from unknown and potentially untrustworthy sources and may contain malicious code that can be readily transferred to information systems through USB ports or other entry portals. While scanning such storage devices is always recommended, sanitization provides additional assurance that the devices are free of malicious code to include code capable of initiating zero-day attacks. Organizations consider nondestructive sanitization of portable storage devices when such devices are first purchased from the manufacturer or vendor prior to initial use or when organizations lose a positive chain of custody for the devices. Related control: SI-3.
 MP-6 (4):title:MEDIA SANITIZATION | CONTROLLED UNCLASSIFIED INFORMATION
-MP-6 (4):withdrawn
+MP-6 (4):withdrawn:Incorporated into MP-6
 MP-6 (5):title:MEDIA SANITIZATION | CLASSIFIED INFORMATION
-MP-6 (5):withdrawn
+MP-6 (5):withdrawn:Incorporated into MP-6
 MP-6 (6):title:MEDIA SANITIZATION | MEDIA DESTRUCTION
-MP-6 (6):withdrawn
+MP-6 (6):withdrawn:Incorporated into MP-6
 MP-6 (7):title:MEDIA SANITIZATION | DUAL AUTHORIZATION
 MP-6 (7):text:The organization enforces dual authorization for the sanitization of [Assignment: organization-defined information system media].
 MP-6 (7):supplement:Organizations employ dual authorization to ensure that information system media sanitization cannot occur unless two technically qualified individuals conduct the task. Individuals sanitizing information system media possess sufficient skills/expertise to determine if the proposed sanitization reflects applicable federal/organizational standards, policies, and procedures. Dual authorization also helps to ensure that sanitization occurs as intended, both protecting against errors and false claims of having performed the sanitization actions. Related controls: AC-3, MP-2.
@@ -2402,7 +2402,7 @@ PE-6:low:PE-6
 PE-6:mod:PE-6 (1)
 PE-6:high:PE-6 (1) (4)
 PE-7:title:VISITOR CONTROL
-PE-7:withdrawn
+PE-7:withdrawn:Incorporated into PE-2 and PE-3
 PE-8:title:VISITOR ACCESS RECORDS
 PE-8:text:The organization:
 PE-8 a:text:The organization: Maintains visitor access records to the facility where the information system resides for [Assignment: organization-defined time period]; and
@@ -2411,7 +2411,7 @@ PE-8:supplement:Visitor access records include, for example, names and organizat
 PE-8 (1):title:VISITOR ACCESS RECORDS | AUTOMATED RECORDS MAINTENANCE / REVIEW
 PE-8 (1):text:The organization employs automated mechanisms to facilitate the maintenance and review of visitor access records.
 PE-8 (2):title:VISITOR ACCESS RECORDS | PHYSICAL ACCESS RECORDS
-PE-8 (2):withdrawn
+PE-8 (2):withdrawn:Incorporated into PE-2
 PE-8:references:None
 PE-8:priority:P3
 PE-8:low:PE-8
@@ -2437,7 +2437,7 @@ PE-10 b:text:The organization: Places emergency shutoff switches or devices in [
 PE-10 c:text:The organization: Protects emergency power shutoff capability from unauthorized activation.
 PE-10:supplement:This control applies primarily to facilities containing concentrations of information system resources including, for example, data centers, server rooms, and mainframe computer rooms. Related control: PE-15.
 PE-10 (1):title:EMERGENCY SHUTOFF | ACCIDENTAL / UNAUTHORIZED ACTIVATION
-PE-10 (1):withdrawn
+PE-10 (1):withdrawn:Incorporated into PE-10
 PE-10:references:None
 PE-10:priority:P1
 PE-10:low:Not Selected
@@ -2595,9 +2595,9 @@ PL-2 d:text:The organization: Updates the plan to address changes to the informa
 PL-2 e:text:The organization: Protects the security plan from unauthorized disclosure and modification.
 PL-2:supplement:Security plans relate security requirements to a set of security controls and control enhancements. Security plans also describe, at a high level, how the security controls and control enhancements meet those security requirements, but do not provide detailed, technical descriptions of the specific design or implementation of the controls/enhancements. Security plans contain sufficient information (including the specification of parameter values for assignment and selection statements either explicitly or by reference) to enable a design and implementation that is unambiguously compliant with the intent of the plans and subsequent determinations of risk to organizational operations and assets, individuals, other organizations, and the Nation if the plan is implemented as intended. Organizations can also apply tailoring guidance to the security control baselines in Appendix D and CNSS Instruction 1253 to develop overlays for community-wide use or to address specialized requirements, technologies, or missions/environments of operation (e.g., DoD-tactical, Federal Public Key Infrastructure, or Federal Identity, Credential, and Access Management, space operations). Appendix I provides guidance on developing overlays. Security plans need not be single documents; the plans can be a collection of various documents including documents that already exist. Effective security plans make extensive use of references to policies, procedures, and additional documents (e.g., design and implementation specifications) where more detailed information can be obtained. This reduces the documentation requirements associated with security programs and maintains security-related information in other established management/operational areas related to enterprise architecture, system development life cycle, systems engineering, and acquisition. For example, security plans do not contain detailed contingency plan or incident response plan information but instead provide explicitly or by reference, sufficient information to define what needs to be accomplished by those plans. Related controls: AC-2, AC-6, AC-14, AC-17, AC-20, CA-2, CA-3, CA-7, CM-9, CP-2, IR-8, MA-4, MA-5, MP-2, MP-4, MP-5, PL-7, PM-1, PM-7, PM-8, PM-9, PM-11, SA-5, SA-17.
 PL-2 (1):title:SYSTEM SECURITY PLAN | CONCEPT OF OPERATIONS
-PL-2 (1):withdrawn
+PL-2 (1):withdrawn:Incorporated into PL-7
 PL-2 (2):title:SYSTEM SECURITY PLAN | FUNCTIONAL ARCHITECTURE
-PL-2 (2):withdrawn
+PL-2 (2):withdrawn:Incorporated into PL-8
 PL-2 (3):title:SYSTEM SECURITY PLAN | PLAN / COORDINATE WITH OTHER ORGANIZATIONAL ENTITIES
 PL-2 (3):text:The organization plans and coordinates security-related activities affecting the information system with [Assignment: organization-defined individuals or groups] before conducting such activities in order to reduce the impact on other organizational entities.
 PL-2 (3):supplement:Security-related activities include, for example, security assessments, audits, hardware and software maintenance, patch management, and contingency plan testing. Advance planning and coordination includes emergency and nonemergency (i.e., planned or nonurgent unplanned) situations. The process defined by organizations to plan and coordinate security-related activities can be included in security plans for information systems or other documents, as appropriate. Related controls: CP-4, IR-4.
@@ -2607,7 +2607,7 @@ PL-2:low:PL-2
 PL-2:mod:PL-2 (3)
 PL-2:high:PL-2 (3)
 PL-3:title:SYSTEM SECURITY PLAN UPDATE
-PL-3:withdrawn
+PL-3:withdrawn:Incorporated into PL-2
 PL-4:title:RULES OF BEHAVIOR
 PL-4:text:The organization:
 PL-4 a:text:The organization: Establishes and makes readily available to individuals requiring access to the information system, the rules that describe their responsibilities and expected behavior with regard to information and information system usage;
@@ -2624,9 +2624,9 @@ PL-4:low:PL-4
 PL-4:mod:PL-4 (1)
 PL-4:high:PL-4 (1)
 PL-5:title:PRIVACY IMPACT ASSESSMENT
-PL-5:withdrawn
+PL-5:withdrawn:Incorporated into Appendix J, AR-2
 PL-6:title:SECURITY-RELATED ACTIVITY PLANNING
-PL-6:withdrawn
+PL-6:withdrawn:Incorporated into PL-2
 PL-7:title:SECURITY CONCEPT OF OPERATIONS
 PL-7:text:The organization:
 PL-7 a:text:The organization: Develops a security Concept of Operations (CONOPS) for the information system containing at a minimum, how the organization intends to operate the system from the perspective of information security; and
@@ -2756,7 +2756,7 @@ PS-6 c 1:text:The organization: Ensures that individuals requiring access to org
 PS-6 c 2:text:The organization: Ensures that individuals requiring access to organizational information and information systems: Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or [Assignment: organization-defined frequency].
 PS-6:supplement:Access agreements include, for example, nondisclosure agreements, acceptable use agreements, rules of behavior, and conflict-of-interest agreements. Signed access agreements include an acknowledgement that individuals have read, understand, and agree to abide by the constraints associated with organizational information systems to which access is authorized. Organizations can use electronic signatures to acknowledge access agreements unless specifically prohibited by organizational policy. Related control: PL-4, PS-2, PS-3, PS-4, PS-8.
 PS-6 (1):title:ACCESS AGREEMENTS | INFORMATION REQUIRING SPECIAL PROTECTION
-PS-6 (1):withdrawn
+PS-6 (1):withdrawn:Incorporated into PS-3
 PS-6 (2):title:ACCESS AGREEMENTS | CLASSIFIED INFORMATION REQUIRING SPECIAL PROTECTION
 PS-6 (2):text:The organization ensures that access to classified information requiring special protection is granted only to individuals who:
 PS-6 (2) (a):text:The organization ensures that access to classified information requiring special protection is granted only to individuals who: Have a valid access authorization that is demonstrated by assigned official government duties;
@@ -2835,7 +2835,7 @@ RA-3:low:RA-3
 RA-3:mod:RA-3
 RA-3:high:RA-3
 RA-4:title:RISK ASSESSMENT UPDATE
-RA-4:withdrawn
+RA-4:withdrawn:Incorporated into RA-3
 RA-5:title:VULNERABILITY SCANNING
 RA-5:text:The organization:
 RA-5 a:text:The organization: Scans for vulnerabilities in the information system and hosted applications [Assignment: organization-defined frequency and/or randomly in accordance with organization-defined process] and when new vulnerabilities potentially affecting the system/applications are identified and reported;
@@ -2865,12 +2865,12 @@ RA-5 (6):title:VULNERABILITY SCANNING | AUTOMATED TREND ANALYSES
 RA-5 (6):text:The organization employs automated mechanisms to compare the results of vulnerability scans over time to determine trends in information system vulnerabilities.
 RA-5 (6):supplement:Related controls: IR-4, IR-5, SI-4.
 RA-5 (7):title:VULNERABILITY SCANNING | AUTOMATED DETECTION AND NOTIFICATION OF UNAUTHORIZED COMPONENTS
-RA-5 (7):withdrawn
+RA-5 (7):withdrawn:Incorporated into CM-8
 RA-5 (8):title:VULNERABILITY SCANNING | REVIEW HISTORIC AUDIT LOGS
 RA-5 (8):text:The organization reviews historic audit logs to determine if a vulnerability identified in the information system has been previously exploited.
 RA-5 (8):supplement:Related control: AU-6.
 RA-5 (9):title:VULNERABILITY SCANNING | PENETRATION TESTING AND ANALYSES
-RA-5 (9):withdrawn
+RA-5 (9):withdrawn:Incorporated into CA-8
 RA-5 (10):title:VULNERABILITY SCANNING | CORRELATE SCANNING INFORMATION
 RA-5 (10):text:The organization correlates the output from vulnerability scanning tools to determine the presence of multi-vulnerability/multi-hop attack vectors.
 RA-5:references:NIST Special Publications 800-40, 800-70, 800-115; Web: cwe.mitre.org, nvd.nist.gov
@@ -2943,7 +2943,7 @@ SA-4 (3):title:ACQUISITION PROCESS | DEVELOPMENT METHODS / TECHNIQUES / PRACTICE
 SA-4 (3):text:The organization requires the developer of the information system, system component, or information system service to demonstrate the use of a system development life cycle that includes [Assignment: organization-defined state-of-the-practice system/security engineering methods, software development methods, testing/evaluation/validation techniques, and quality control processes].
 SA-4 (3):supplement:Following a well-defined system development life cycle that includes state-of-the-practice software development methods, systems/security engineering methods, quality control processes, and testing, evaluation, and validation techniques helps to reduce the number and severity of latent errors within information systems, system components, and information system services. Reducing the number/severity of such errors reduces the number of vulnerabilities in those systems, components, and services. Related control: SA-12.
 SA-4 (4):title:ACQUISITION PROCESS | ASSIGNMENT OF COMPONENTS TO SYSTEMS
-SA-4 (4):withdrawn
+SA-4 (4):withdrawn:Incorporated into CM-8 (9)
 SA-4 (5):title:ACQUISITION PROCESS | SYSTEM / COMPONENT / SERVICE CONFIGURATIONS
 SA-4 (5):text:The organization requires the developer of the information system, system component, or information system service to:
 SA-4 (5) (a):text:The organization requires the developer of the information system, system component, or information system service to: Deliver the system, component, or service with [Assignment: organization-defined security configurations] implemented; and
@@ -2988,26 +2988,26 @@ SA-5 d:text:The organization: Protects documentation as required, in accordance 
 SA-5 e:text:The organization: Distributes documentation to [Assignment: organization-defined personnel or roles].
 SA-5:supplement:This control helps organizational personnel understand the implementation and operation of security controls associated with information systems, system components, and information system services. Organizations consider establishing specific measures to determine the quality/completeness of the content provided. The inability to obtain needed documentation may occur, for example, due to the age of the information system/component or lack of support from developers and contractors. In those situations, organizations may need to recreate selected documentation if such documentation is essential to the effective implementation or operation of security controls. The level of protection provided for selected information system, component, or service documentation is commensurate with the security category or classification of the system. For example, documentation associated with a key DoD weapons system or command and control system would typically require a higher level of protection than a routine administrative system. Documentation that addresses information system vulnerabilities may also require an increased level of protection. Secure operation of the information system, includes, for example, initially starting the system and resuming secure system operation after any lapse in system operation. Related controls: CM-6, CM-8, PL-2, PL-4, PS-2, SA-3, SA-4.
 SA-5 (1):title:INFORMATION SYSTEM DOCUMENTATION | FUNCTIONAL PROPERTIES OF SECURITY CONTROLS
-SA-5 (1):withdrawn
+SA-5 (1):withdrawn:Incorporated into SA-4 (1)
 SA-5 (2):title:INFORMATION SYSTEM DOCUMENTATION | SECURITY-RELEVANT EXTERNAL SYSTEM INTERFACES
-SA-5 (2):withdrawn
+SA-5 (2):withdrawn:Incorporated into SA-4 (2)
 SA-5 (3):title:INFORMATION SYSTEM DOCUMENTATION | HIGH-LEVEL DESIGN
-SA-5 (3):withdrawn
+SA-5 (3):withdrawn:Incorporated into SA-4 (2)
 SA-5 (4):title:INFORMATION SYSTEM DOCUMENTATION | LOW-LEVEL DESIGN
-SA-5 (4):withdrawn
+SA-5 (4):withdrawn:Incorporated into SA-4 (2)
 SA-5 (5):title:INFORMATION SYSTEM DOCUMENTATION | SOURCE CODE
-SA-5 (5):withdrawn
+SA-5 (5):withdrawn:Incorporated into SA-4 (2)
 SA-5 (6):title:INFORMATION SYSTEM DOCUMENTATION | FUNCTIONS / PORTS / PROTOCOLS / SERVICES IN USE
-SA-5 (6):withdrawn
+SA-5 (6):withdrawn:Incorporated into SA-4 (9)
 SA-5:references:None
 SA-5:priority:P2
 SA-5:low:SA-5
 SA-5:mod:SA-5
 SA-5:high:SA-5
 SA-6:title:SOFTWARE USAGE RESTRICTIONS
-SA-6:withdrawn
+SA-6:withdrawn:Incorporated into CM-10 and SI-7
 SA-7:title:USER-INSTALLED SOFTWARE
-SA-7:withdrawn
+SA-7:withdrawn:Incorporated into CM-11 and SI-7
 SA-8:title:SECURITY ENGINEERING PRINCIPLES
 SA-8:text:The organization applies information system security engineering principles in the specification, design, development, implementation, and modification of the information system.
 SA-8:supplement:Organizations apply security engineering principles primarily to new development information systems or systems undergoing major upgrades. For legacy systems, organizations apply security engineering principles to system upgrades and modifications to the extent feasible, given the current state of hardware, software, and firmware within those systems. Security engineering principles include, for example: (i) developing layered protections; (ii) establishing sound security policy, architecture, and controls as the foundation for design; (iii) incorporating security requirements into the system development life cycle; (iv) delineating physical and logical security boundaries; (v) ensuring that system developers are trained on how to build secure software; (vi) tailoring security controls to meet organizational and operational needs; (vii) performing threat modeling to identify use cases, threat agents, attack vectors, and attack patterns as well as compensating controls and design patterns needed to mitigate risk; and (viii) reducing risk to acceptable levels, thus enabling informed risk management decisions. Related controls: PM-7, SA-3, SA-4, SA-17, SC-2, SC-3.
@@ -3124,14 +3124,14 @@ SA-12 (2):title:SUPPLY CHAIN PROTECTION | SUPPLIER REVIEWS
 SA-12 (2):text:The organization conducts a supplier review prior to entering into a contractual agreement to acquire the information system, system component, or information system service.
 SA-12 (2):supplement:Supplier reviews include, for example: (i) analysis of supplier processes used to design, develop, test, implement, verify, deliver, and support information systems, system components, and information system services; and (ii) assessment of supplier training and experience in developing systems, components, or services with the required security capability. These reviews provide organizations with increased levels of visibility into supplier activities during the system development life cycle to promote more effective supply chain risk management. Supplier reviews can also help to determine whether primary suppliers have security safeguards in place and a practice for vetting subordinate suppliers, for example, second- and third-tier suppliers, and any subcontractors.
 SA-12 (3):title:SUPPLY CHAIN PROTECTION | TRUSTED SHIPPING AND WAREHOUSING
-SA-12 (3):withdrawn
+SA-12 (3):withdrawn:Incorporated into SA-12 (1)
 SA-12 (4):title:SUPPLY CHAIN PROTECTION | DIVERSITY OF SUPPLIERS
-SA-12 (4):withdrawn
+SA-12 (4):withdrawn:Incorporated into SA-12 (13)
 SA-12 (5):title:SUPPLY CHAIN PROTECTION | LIMITATION OF HARM
 SA-12 (5):text:The organization employs [Assignment: organization-defined security safeguards] to limit harm from potential adversaries identifying and targeting the organizational supply chain.
 SA-12 (5):supplement:Supply chain risk is part of the advanced persistent threat (APT). Security safeguards and countermeasures to reduce the probability of adversaries successfully identifying and targeting the supply chain include, for example: (i) avoiding the purchase of custom configurations to reduce the risk of acquiring information systems, components, or products that have been corrupted via supply chain actions targeted at specific organizations; (ii) employing a diverse set of suppliers to limit the potential harm from any given supplier in the supply chain; (iii) employing approved vendor lists with standing reputations in industry, and (iv) using procurement carve outs (i.e., exclusions to commitments or obligations).
 SA-12 (6):title:SUPPLY CHAIN PROTECTION | MINIMIZING PROCUREMENT TIME
-SA-12 (6):withdrawn
+SA-12 (6):withdrawn:Incorporated into SA-12 (1)
 SA-12 (7):title:SUPPLY CHAIN PROTECTION | ASSESSMENTS PRIOR TO SELECTION / ACCEPTANCE / UPDATE
 SA-12 (7):text:The organization conducts an assessment of the information system, system component, or information system service prior to selection, acceptance, or update.
 SA-12 (7):supplement:Assessments include, for example, testing, evaluations, reviews, and analyses. Independent, third-party entities or organizational personnel conduct assessments of systems, components, products, tools, and services. Organizations conduct assessments to uncover unintentional vulnerabilities and intentional vulnerabilities including, for example, malicious code, malicious processes, defective software, and counterfeits. Assessments can include, for example, static analyses, dynamic analyses, simulations, white, gray, and black box testing, fuzz testing, penetration testing, and ensuring that components or services are genuine (e.g., using tags, cryptographic hash verifications, or digital signatures). Evidence generated during security assessments is documented for follow-on actions carried out by organizations. Related controls: CA-2, SA-11.
@@ -3413,7 +3413,7 @@ SC-4:title:INFORMATION IN SHARED RESOURCES
 SC-4:text:The information system prevents unauthorized and unintended information transfer via shared system resources.
 SC-4:supplement:This control prevents information, including encrypted representations of information, produced by the actions of prior users/roles (or the actions of processes acting on behalf of prior users/roles) from being available to any current users/roles (or current processes) that obtain access to shared system resources (e.g., registers, main memory, hard disks) after those resources have been released back to information systems. The control of information in shared resources is also commonly referred to as object reuse and residual information protection. This control does not address: (i) information remanence which refers to residual representation of data that has been nominally erased or removed; (ii) covert channels (including storage and/or timing channels) where shared resources are manipulated to violate information flow restrictions; or (iii) components within information systems for which there are only single users/roles. Related controls: AC-3, AC-4, MP-6.
 SC-4 (1):title:INFORMATION IN SHARED RESOURCES | SECURITY LEVELS
-SC-4 (1):withdrawn
+SC-4 (1):withdrawn:Incorporated into SC-4
 SC-4 (2):title:INFORMATION IN SHARED RESOURCES | PERIODS PROCESSING
 SC-4 (2):text:The information system prevents unauthorized information transfer via shared resources in accordance with [Assignment: organization-defined procedures] when system processing explicitly switches between different information classification levels or security categories.
 SC-4 (2):supplement:This control enhancement applies when there are explicit changes in information processing levels during information system operations, for example, during multilevel processing and periods processing with information at different classification levels or security categories. Organization-defined procedures may include, for example, approved sanitization processes for electronically stored information.
@@ -3456,9 +3456,9 @@ SC-7 b:text:The information system: Implements subnetworks for publicly accessib
 SC-7 c:text:The information system: Connects to external networks or information systems only through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational security architecture.
 SC-7:supplement:Managed interfaces include, for example, gateways, routers, firewalls, guards, network-based malicious code analysis and virtualization systems, or encrypted tunnels implemented within a security architecture (e.g., routers protecting firewalls or application gateways residing on protected subnetworks). Subnetworks that are physically or logically separated from internal networks are referred to as demilitarized zones or DMZs. Restricting or prohibiting interfaces within organizational information systems includes, for example, restricting external web traffic to designated web servers within managed interfaces and prohibiting external traffic that appears to be spoofing internal addresses. Organizations consider the shared nature of commercial telecommunications services in the implementation of security controls associated with the use of such services. Commercial telecommunications services are commonly based on network components and consolidated management systems shared by all attached commercial customers, and may also include third party-provided access lines and other service elements. Such transmission services may represent sources of increased risk despite contract security provisions. Related controls: AC-4, AC-17, CA-3, CM-7, CP-8, IR-4, RA-3, SC-5, SC-13.
 SC-7 (1):title:BOUNDARY PROTECTION | PHYSICALLY SEPARATED SUBNETWORKS
-SC-7 (1):withdrawn
+SC-7 (1):withdrawn:Incorporated into SC-7
 SC-7 (2):title:BOUNDARY PROTECTION | PUBLIC ACCESS
-SC-7 (2):withdrawn
+SC-7 (2):withdrawn:Incorporated into SC-7
 SC-7 (3):title:BOUNDARY PROTECTION | ACCESS POINTS
 SC-7 (3):text:The organization limits the number of external network connections to the information system.
 SC-7 (3):supplement:Limiting the number of external network connections facilitates more comprehensive monitoring of inbound and outbound communications traffic. The Trusted Internet Connection (TIC) initiative is an example of limiting the number of external network connections.
@@ -3474,7 +3474,7 @@ SC-7 (5):title:BOUNDARY PROTECTION | DENY BY DEFAULT / ALLOW BY EXCEPTION
 SC-7 (5):text:The information system at managed interfaces denies network communications traffic by default and allows network communications traffic by exception (i.e., deny all, permit by exception).
 SC-7 (5):supplement:This control enhancement applies to both inbound and outbound network communications traffic. A deny-all, permit-by-exception network communications traffic policy ensures that only those connections which are essential and approved are allowed.
 SC-7 (6):title:BOUNDARY PROTECTION | RESPONSE TO RECOGNIZED FAILURES
-SC-7 (6):withdrawn
+SC-7 (6):withdrawn:Incorporated into SC-7 (18)
 SC-7 (7):title:BOUNDARY PROTECTION | PREVENT SPLIT TUNNELING FOR REMOTE DEVICES
 SC-7 (7):text:The information system, in conjunction with a remote device, prevents the device from simultaneously establishing non-remote connections with the system and communicating via some other connection to resources in external networks.
 SC-7 (7):supplement:This control enhancement is implemented within remote devices (e.g., notebook computers) through configuration settings to disable split tunneling in those devices, and by preventing those configuration settings from being readily configurable by users. This control enhancement is implemented within the information system by the detection of split tunneling (or of configuration settings that allow split tunneling) in the remote device, and by prohibiting the connection if the remote device is using split tunneling. Split tunneling might be desirable by remote users to communicate with local information system resources such as printers/file servers. However, split tunneling would in effect allow unauthorized external connections, making the system more vulnerable to attack and to exfiltration of organizational information. The use of VPNs for remote connections, when adequately provisioned with appropriate security controls, may provide the organization with sufficient assurance that it can effectively treat such connections as non-remote connections from the confidentiality and integrity perspective. VPNs thus provide a means for allowing non-remote communications paths from remote devices. The use of an adequately provisioned VPN does not eliminate the need for preventing split tunneling.
@@ -3554,7 +3554,7 @@ SC-8:low:Not Selected
 SC-8:mod:SC-8 (1)
 SC-8:high:SC-8 (1)
 SC-9:title:TRANSMISSION CONFIDENTIALITY
-SC-9:withdrawn
+SC-9:withdrawn:Incorporated into SC-8
 SC-10:title:NETWORK DISCONNECT
 SC-10:text:The information system terminates the network connection associated with a communications session at the end of the session or after [Assignment: organization-defined time period] of inactivity.
 SC-10:supplement:This control applies to both internal and external networks. Terminating network connections associated with communications sessions include, for example, de-allocating associated TCP/IP address/port pairs at the operating system level, or de-allocating networking assignments at the application level if multiple application sessions are using a single, operating system-level network connection. Time periods of inactivity may be established by organizations and include, for example, time periods by type of network access or for specific network accesses.
@@ -3584,9 +3584,9 @@ SC-12 (2):text:The organization produces, controls, and distributes symmetric cr
 SC-12 (3):title:CRYPTOGRAPHIC KEY ESTABLISHMENT AND MANAGEMENT | ASYMMETRIC KEYS
 SC-12 (3):text:The organization produces, controls, and distributes asymmetric cryptographic keys using [Selection: NSA-approved key management technology and processes; approved PKI Class 3 certificates or prepositioned keying material; approved PKI Class 3 or Class 4 certificates and hardware security tokens that protect the user’s private key].
 SC-12 (4):title:CRYPTOGRAPHIC KEY ESTABLISHMENT AND MANAGEMENT | PKI CERTIFICATES
-SC-12 (4):withdrawn
+SC-12 (4):withdrawn:Incorporated into SC-12
 SC-12 (5):title:CRYPTOGRAPHIC KEY ESTABLISHMENT AND MANAGEMENT | PKI CERTIFICATES / HARDWARE TOKENS
-SC-12 (5):withdrawn
+SC-12 (5):withdrawn:Incorporated into SC-12
 SC-12:references:NIST Special Publications 800-56, 800-57
 SC-12:priority:P1
 SC-12:low:SC-12
@@ -3601,7 +3601,7 @@ SC-13:low:SC-13
 SC-13:mod:SC-13
 SC-13:high:SC-13
 SC-14:title:PUBLIC ACCESS PROTECTIONS
-SC-14:withdrawn
+SC-14:withdrawn:Capability provided by AC-2, AC-3, AC-5, AC-6, SI-3, SI-4, SI-5, SI-7, SI-10
 SC-15:title:COLLABORATIVE COMPUTING DEVICES
 SC-15:text:The information system:
 SC-15 a:text:The information system: Prohibits remote activation of collaborative computing devices with the following exceptions: [Assignment: organization-defined exceptions where remote activation is to be allowed]; and
@@ -3611,7 +3611,7 @@ SC-15 (1):title:COLLABORATIVE COMPUTING DEVICES | PHYSICAL DISCONNECT
 SC-15 (1):text:The information system provides physical disconnect of collaborative computing devices in a manner that supports ease of use.
 SC-15 (1):supplement:Failing to physically disconnect from collaborative computing devices can result in subsequent compromises of organizational information. Providing easy methods to physically disconnect from such devices after a collaborative computing session helps to ensure that participants actually carry out the disconnect activity without having to go through complex and tedious procedures.
 SC-15 (2):title:COLLABORATIVE COMPUTING DEVICES | BLOCKING INBOUND / OUTBOUND COMMUNICATIONS TRAFFIC
-SC-15 (2):withdrawn
+SC-15 (2):withdrawn:Incorporated into SC-7
 SC-15 (3):title:COLLABORATIVE COMPUTING DEVICES | DISABLING / REMOVAL IN SECURE WORK AREAS
 SC-15 (3):text:The organization disables or removes collaborative computing devices from [Assignment: organization-defined information systems or information system components] in [Assignment: organization-defined secure work areas].
 SC-15 (3):supplement:Failing to disable or remove collaborative computing devices from information systems or information system components can result in subsequent compromises of organizational information including, for example, eavesdropping on conversations.
@@ -3681,7 +3681,7 @@ SC-20 a:text:The information system: Provides additional data origin and integri
 SC-20 b:text:The information system: Provides the means to indicate the security status of child zones and (if the child supports secure resolution services) to enable verification of a chain of trust among parent and child domains, when operating as part of a distributed, hierarchical namespace.
 SC-20:supplement:This control enables external clients including, for example, remote Internet clients, to obtain origin authentication and integrity verification assurances for the host/service name to network address resolution information obtained through the service. Information systems that provide name and address resolution services include, for example, domain name system (DNS) servers. Additional artifacts include, for example, DNS Security (DNSSEC) digital signatures and cryptographic keys. DNS resource records are examples of authoritative data. The means to indicate the security status of child zones includes, for example, the use of delegation signer resource records in the DNS. The DNS security controls reflect (and are referenced from) OMB Memorandum 08-23. Information systems that use technologies other than the DNS to map between host/service names and network addresses provide other means to assure the authenticity and integrity of response data. Related controls: AU-10, SC-8, SC-12, SC-13, SC-21, SC-22.
 SC-20 (1):title:SECURE NAME / ADDRESS RESOLUTION SERVICE (AUTHORITATIVE SOURCE) | CHILD SUBSPACES
-SC-20 (1):withdrawn
+SC-20 (1):withdrawn:Incorporated into SC-20
 SC-20 (2):title:SECURE NAME / ADDRESS RESOLUTION SERVICE (AUTHORITATIVE SOURCE) | DATA ORIGIN / INTEGRITY
 SC-20 (2):text:The information system provides data origin and integrity protection artifacts for internal name/address resolution queries.
 SC-20:references:OMB Memorandum 08-23; NIST Special Publication 800-81
@@ -3712,12 +3712,12 @@ SC-23 (1):title:SESSION AUTHENTICITY | INVALIDATE SESSION IDENTIFIERS AT LOGOUT
 SC-23 (1):text:The information system invalidates session identifiers upon user logout or other session termination.
 SC-23 (1):supplement:This control enhancement curtails the ability of adversaries from capturing and continuing to employ previously valid session IDs.
 SC-23 (2):title:SESSION AUTHENTICITY | USER-INITIATED LOGOUTS / MESSAGE DISPLAYS
-SC-23 (2):withdrawn
+SC-23 (2):withdrawn:Incorporated into AC-12 (1)
 SC-23 (3):title:SESSION AUTHENTICITY | UNIQUE SESSION IDENTIFIERS WITH RANDOMIZATION
 SC-23 (3):text:The information system generates a unique session identifier for each session with [Assignment: organization-defined randomness requirements] and recognizes only session identifiers that are system-generated.
 SC-23 (3):supplement:This control enhancement curtails the ability of adversaries from reusing previously valid session IDs. Employing the concept of randomness in the generation of unique session identifiers helps to protect against brute-force attacks to determine future session identifiers. Related control: SC-13.
 SC-23 (4):title:SESSION AUTHENTICITY | UNIQUE SESSION IDENTIFIERS WITH RANDOMIZATION
-SC-23 (4):withdrawn
+SC-23 (4):withdrawn:Incorporated into SC-23 (3)
 SC-23 (5):title:SESSION AUTHENTICITY | ALLOWED CERTIFICATE AUTHORITIES
 SC-23 (5):text:The information system only allows the use of [Assignment: organization-defined certificate authorities] for verification of the establishment of protected sessions.
 SC-23 (5):supplement:Reliance on certificate authorities (CAs) for the establishment of secure sessions includes, for example, the use of Secure Socket Layer (SSL) and/or Transport Layer Security (TLS) certificates. These certificates, after verification by the respective certificate authorities, facilitate the establishment of protected sessions between web clients and web servers. Related control: SC-13.
@@ -3787,7 +3787,7 @@ SC-30:title:CONCEALMENT AND MISDIRECTION
 SC-30:text:The organization employs [Assignment: organization-defined concealment and misdirection techniques] for [Assignment: organization-defined information systems] at [Assignment: organization-defined time periods] to confuse and mislead adversaries.
 SC-30:supplement:Concealment and misdirection techniques can significantly reduce the targeting capability of adversaries (i.e., window of opportunity and available attack surface) to initiate and complete cyber attacks. For example, virtualization techniques provide organizations with the ability to disguise information systems, potentially reducing the likelihood of successful attacks without the cost of having multiple platforms. Increased use of concealment/misdirection techniques including, for example, randomness, uncertainty, and virtualization, may sufficiently confuse and mislead adversaries and subsequently increase the risk of discovery and/or exposing tradecraft. Concealment/misdirection techniques may also provide organizations additional time to successfully perform core missions and business functions. Because of the time and effort required to support concealment/misdirection techniques, it is anticipated that such techniques would be used by organizations on a very limited basis. Related controls: SC-26, SC-29, SI-14.
 SC-30 (1):title:CONCEALMENT AND MISDIRECTION | VIRTUALIZATION TECHNIQUES
-SC-30 (1):withdrawn
+SC-30 (1):withdrawn:Incorporated into SC-29 (1)
 SC-30 (2):title:CONCEALMENT AND MISDIRECTION | RANDOMNESS
 SC-30 (2):text:The organization employs [Assignment: organization-defined techniques] to introduce randomness into organizational operations and assets.
 SC-30 (2):supplement:Randomness introduces increased levels of uncertainty for adversaries regarding the actions organizations take in defending against cyber attacks. Such actions may impede the ability of adversaries to correctly target information resources of organizations supporting critical missions/business functions. Uncertainty may also cause adversaries to hesitate before initiating or continuing attacks. Misdirection techniques involving randomness include, for example, performing certain routine actions at different times of day, employing different information technologies (e.g., browsers, search engines), using different suppliers, and rotating roles and responsibilities of organizational personnel.
@@ -3832,7 +3832,7 @@ SC-32:low:Not Selected
 SC-32:mod:Not Selected
 SC-32:high:Not Selected
 SC-33:title:TRANSMISSION PREPARATION INTEGRITY
-SC-33:withdrawn
+SC-33:withdrawn:Incorporated into SC-8
 SC-34:title:NON-MODIFIABLE EXECUTABLE PROGRAMS
 SC-34:text:The information system at [Assignment: organization-defined information system components]:
 SC-34 a:text:The information system at [Assignment: organization-defined information system components]: Loads and executes the operating environment from hardware-enforced, read-only media; and
@@ -4002,7 +4002,7 @@ SI-2 (3) (a):text:The organization: Measures the time between flaw identificatio
 SI-2 (3) (b):text:The organization: Establishes [Assignment: organization-defined benchmarks] for taking corrective actions.
 SI-2 (3):supplement:This control enhancement requires organizations to determine the current time it takes on the average to correct information system flaws after such flaws have been identified, and subsequently establish organizational benchmarks (i.e., time frames) for taking corrective actions. Benchmarks can be established by type of flaw and/or severity of the potential vulnerability if the flaw can be exploited.
 SI-2 (4):title:FLAW REMEDIATION | AUTOMATED PATCH MANAGEMENT TOOLS
-SI-2 (4):withdrawn
+SI-2 (4):withdrawn:Incorporated into SI-2
 SI-2 (5):title:FLAW REMEDIATION | AUTOMATIC SOFTWARE / FIRMWARE UPDATES
 SI-2 (5):text:The organization installs [Assignment: organization-defined security-relevant software and firmware updates] automatically to [Assignment: organization-defined information system components].
 SI-2 (5):supplement:Due to information system integrity and availability concerns, organizations give careful consideration to the methodology used to carry out automatic updates. Organizations must balance the need to ensure that the updates are installed as soon as possible with the need to maintain configuration management and with any mission or operational impacts that automatic updates might impose.
@@ -4030,12 +4030,12 @@ SI-3 (2):title:MALICIOUS CODE PROTECTION | AUTOMATIC UPDATES
 SI-3 (2):text:The information system automatically updates malicious code protection mechanisms.
 SI-3 (2):supplement:Malicious code protection mechanisms include, for example, signature definitions. Due to information system integrity and availability concerns, organizations give careful consideration to the methodology used to carry out automatic updates. Related control: SI-8.
 SI-3 (3):title:MALICIOUS CODE PROTECTION | NON-PRIVILEGED USERS
-SI-3 (3):withdrawn
+SI-3 (3):withdrawn:Incorporated into AC-6 (10)
 SI-3 (4):title:MALICIOUS CODE PROTECTION | UPDATES ONLY BY PRIVILEGED USERS
 SI-3 (4):text:The information system updates malicious code protection mechanisms only when directed by a privileged user.
 SI-3 (4):supplement:This control enhancement may be appropriate for situations where for reasons of security or operational continuity, updates are only applied when selected/approved by designated organizational personnel. Related controls: AC-6, CM-5.
 SI-3 (5):title:MALICIOUS CODE PROTECTION | PORTABLE STORAGE DEVICES
-SI-3 (5):withdrawn
+SI-3 (5):withdrawn:Incorporated into MP-7
 SI-3 (6):title:MALICIOUS CODE PROTECTION | TESTING / VERIFICATION
 SI-3 (6):text:The organization:
 SI-3 (6) (a):text:The organization: Tests malicious code protection mechanisms [Assignment: organization-defined frequency] by introducing a known benign, non-spreading test case into the information system; and
@@ -4086,12 +4086,12 @@ SI-4 (5):title:INFORMATION SYSTEM MONITORING | SYSTEM-GENERATED ALERTS
 SI-4 (5):text:The information system alerts [Assignment: organization-defined personnel or roles] when the following indications of compromise or potential compromise occur: [Assignment: organization-defined compromise indicators].
 SI-4 (5):supplement:Alerts may be generated from a variety of sources, including, for example, audit records or inputs from malicious code protection mechanisms, intrusion detection or prevention mechanisms, or boundary protection devices such as firewalls, gateways, and routers. Alerts can be transmitted, for example, telephonically, by electronic mail messages, or by text messaging. Organizational personnel on the notification list can include, for example, system administrators, mission/business owners, system owners, or information system security officers. Related controls: AU-5, PE-6.
 SI-4 (6):title:INFORMATION SYSTEM MONITORING | RESTRICT NON-PRIVILEGED USERS
-SI-4 (6):withdrawn
+SI-4 (6):withdrawn:Incorporated into AC-6 (10)
 SI-4 (7):title:INFORMATION SYSTEM MONITORING | AUTOMATED RESPONSE TO SUSPICIOUS EVENTS
 SI-4 (7):text:The information system notifies [Assignment: organization-defined incident response personnel (identified by name and/or by role)] of detected suspicious events and takes [Assignment: organization-defined least-disruptive actions to terminate suspicious events].
 SI-4 (7):supplement:Least-disruptive actions may include, for example, initiating requests for human responses.
 SI-4 (8):title:INFORMATION SYSTEM MONITORING | PROTECTION OF MONITORING INFORMATION
-SI-4 (8):withdrawn
+SI-4 (8):withdrawn:Incorporated into SI-4
 SI-4 (9):title:INFORMATION SYSTEM MONITORING | TESTING OF MONITORING TOOLS
 SI-4 (9):text:The organization tests intrusion-monitoring tools [Assignment: organization-defined frequency].
 SI-4 (9):supplement:Testing intrusion-monitoring tools is necessary to ensure that the tools are operating correctly and continue to meet the monitoring objectives of organizations. The frequency of testing depends on the types of tools used by organizations and methods of deployment. Related control: CP-9.
@@ -4168,7 +4168,7 @@ SI-6 c:text:The information system: Notifies [Assignment: organization-defined p
 SI-6 d:text:The information system: [Selection (one or more): shuts the information system down; restarts the information system; [Assignment: organization-defined alternative action(s)]] when anomalies are discovered.
 SI-6:supplement:Transitional states for information systems include, for example, system startup, restart, shutdown, and abort. Notifications provided by information systems include, for example, electronic alerts to system administrators, messages to local computer consoles, and/or hardware indications such as lights. Related controls: CA-7, CM-6.
 SI-6 (1):title:SECURITY FUNCTION VERIFICATION | NOTIFICATION OF FAILED SECURITY TESTS
-SI-6 (1):withdrawn
+SI-6 (1):withdrawn:Incorporated into SI-6
 SI-6 (2):title:SECURITY FUNCTION VERIFICATION | AUTOMATION SUPPORT FOR DISTRIBUTED TESTING
 SI-6 (2):text:The information system implements automated mechanisms to support for the management of distributed security testing.
 SI-6 (2):supplement:Related control: SI-2.
@@ -4193,7 +4193,7 @@ SI-7 (3):title:SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | CENTRALLY-MANAGED
 SI-7 (3):text:The organization employs centrally managed integrity verification tools.
 SI-7 (3):supplement:Related controls: AU-3, SI-2, SI-8.
 SI-7 (4):title:SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | TAMPER-EVIDENT PACKAGING
-SI-7 (4):withdrawn
+SI-7 (4):withdrawn:Incorporated into SA-12
 SI-7 (5):title:SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY | AUTOMATED RESPONSE TO INTEGRITY VIOLATIONS
 SI-7 (5):text:The information system automatically [Selection (one or more): shuts the information system down; restarts the information system; implements [Assignment: organization-defined security safeguards]] when integrity violations are discovered.
 SI-7 (5):supplement:Organizations may define different integrity checking and anomaly responses: (i) by type of information (e.g., firmware, software, user data); (ii) by specific information (e.g., boot firmware, boot firmware for a specific types of machines); or (iii) a combination of both. Automatic implementation of specific safeguards within organizational information systems includes, for example, reversing the changes, halting the information system, or triggering audit alerts when unauthorized modifications to critical security files occur.
@@ -4256,7 +4256,7 @@ SI-8:low:Not Selected
 SI-8:mod:SI-8 (1) (2)
 SI-8:high:SI-8 (1) (2)
 SI-9:title:INFORMATION INPUT RESTRICTIONS
-SI-9:withdrawn
+SI-9:withdrawn:Incorporated into AC-2, AC-3, AC-5, AC-6
 SI-10:title:INFORMATION INPUT VALIDATION
 SI-10:text:The information system checks the validity of [Assignment: organization-defined information inputs].
 SI-10:supplement:Checking the valid syntax and semantics of information system inputs (e.g., character set, length, numerical range, and acceptable values) verifies that inputs match specified definitions for format and content. Software applications typically follow well-defined protocols that use structured messages (i.e., commands or queries) to communicate between software modules or system components. Structured messages can contain raw or unstructured data interspersed with metadata or control information. If software applications use attacker-supplied inputs to construct structured messages without properly encoding such messages, then the attacker could insert malicious commands or special characters that can cause the data to be interpreted as control information or metadata. Consequently, the module or component that receives the tainted output will perform the wrong operations or otherwise interpret the data incorrectly. Prescreening inputs prior to passing to interpreters prevents the content from being unintentionally interpreted as commands. Input validation helps to ensure accurate and correct inputs and prevent attacks such as cross-site scripting and a variety of injection attacks.
@@ -4309,7 +4309,7 @@ SI-13:supplement:While MTTF is primarily a reliability issue, this control addre
 SI-13 (1):title:PREDICTABLE FAILURE PREVENTION | TRANSFERRING COMPONENT RESPONSIBILITIES
 SI-13 (1):text:The organization takes information system components out of service by transferring component responsibilities to substitute components no later than [Assignment: organization-defined fraction or percentage] of mean time to failure.
 SI-13 (2):title:PREDICTABLE FAILURE PREVENTION | TIME LIMIT ON PROCESS EXECUTION WITHOUT SUPERVISION
-SI-13 (2):withdrawn
+SI-13 (2):withdrawn:Incorporated into SI-7 (16)
 SI-13 (3):title:PREDICTABLE FAILURE PREVENTION | MANUAL TRANSFER BETWEEN COMPONENTS
 SI-13 (3):text:The organization manually initiates transfers between active and standby information system components [Assignment: organization-defined frequency] if the mean time to failure exceeds [Assignment: organization-defined time period].
 SI-13 (4):title:PREDICTABLE FAILURE PREVENTION | STANDBY COMPONENT INSTALLATION / NOTIFICATION
