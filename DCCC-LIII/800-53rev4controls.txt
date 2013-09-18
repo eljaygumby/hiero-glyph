@@ -1910,6 +1910,17 @@ IR-4:priority:P1
 IR-4:low:IR-4
 IR-4:mod:IR-4 (1)
 IR-4:high:IR-4 (1) (4)
+IR-5:title:INCIDENT MONITORING
+IR-5:text:The organization tracks and documents information system security incidents.
+IR-5:supplement:Documenting information system security incidents includes, for example, maintaining records about each incident, the status of the incident, and other pertinent information necessary for forensics, evaluating incident details, trends, and handling. Incident information can be obtained from a variety of sources including, for example, incident reports, incident response teams, audit monitoring, network monitoring, physical access monitoring, and user/administrator reports. Related controls: AU-6, IR-8, PE-6, SC-5, SC-7, SI-3, SI-4, SI-7.
+IR-5 (1):title:INCIDENT MONITORING | AUTOMATED TRACKING / DATA COLLECTION / ANALYSIS
+IR-5 (1):text:The organization employs automated mechanisms to assist in the tracking of security incidents and in the collection and analysis of incident information.
+IR-5 (1):supplement:Automated mechanisms for tracking security incidents and collecting/analyzing incident information include, for example, the Einstein network monitoring device and monitoring online Computer Incident Response Centers (CIRCs) or other electronic databases of incidents. Related controls: AU-7, IR-4.
+IR-5:references:NIST Special Publication 800-61
+IR-5:priority:P1
+IR-5:low:IR-5
+IR-5:mod:IR-5
+IR-5:high:IR-5 (1)
 IR-6:title:INCIDENT REPORTING
 IR-6:text:The organization:
 IR-6 a:text:The organization: Requires personnel to report suspected security incidents to the organizational incident response capability within [Assignment: organization-defined time period]; and
