@@ -2001,6 +2001,14 @@ IR-9:priority:P0
 IR-9:low:Not Selected
 IR-9:mod:Not Selected
 IR-9:high:Not Selected
+IR-10:title:INTEGRATED INFORMATION SECURITY ANALYSIS TEAM
+IR-10:text:The organization establishes an integrated team of forensic/malicious code analysts, tool developers, and real-time operations personnel.
+IR-10:supplement:Having an integrated team for incident response facilitates information sharing. Such capability allows organizational personnel, including developers, implementers, and operators, to leverage the team knowledge of the threat in order to implement defensive measures that will enable organizations to deter intrusions more effectively. Moreover, it promotes the rapid detection of intrusions, development of appropriate mitigations, and the deployment of effective defensive measures. For example, when an intrusion is detected, the integrated security analysis team can rapidly develop an appropriate response for operators to implement, correlate the new incident with information on past intrusions, and augment ongoing intelligence development. This enables the team to identify adversary TTPs that are linked to the operations tempo or to specific missions/business functions, and to define responsive actions in a way that does not disrupt the mission/business operations. Ideally, information security analysis teams are distributed within organizations to make the capability more resilient.
+IR-10:references:None
+IR-10:priority:P0
+IR-10:low:Not Selected
+IR-10:mod:Not Selected
+IR-10:high:Not Selected
 MA-1:title:SYSTEM MAINTENANCE POLICY AND PROCEDURES
 MA-1:text:The organization:
 MA-1 a:text:The organization: Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:
