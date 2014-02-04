@@ -45998,7 +45998,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>g. Monitors the use of, information system accounts; </LBody>
+<LBody>g. Monitors the use of information system accounts; </LBody>
 </LI>
 </L>
 
@@ -46221,7 +46221,7 @@ Information system developers can increase the strength of security functionalit
 </TD>
 
 <TD>
-<P>HIGH   AC-2 (1) (2) (3) (4) (5) (12) (13) </P>
+<P>HIGH   AC-2 (1) (2) (3) (4) (5) (11) (12) (13) </P>
 </TD>
 </TR>
 </Table>
@@ -46254,7 +46254,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The information system enforces dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions]. </P>
 
-<P>Supplemental Guidance:  Dual authorization mechanisms require the approval of two authorized individuals in order to execute. Organizations do not require dual authorization mechanisms when immediate responses are necessary to ensure public and environmental safety. Related controls: CP-9, MP-6. </P>
+<P>Supplemental Guidance:  Dual authorization mechanisms require the approval of two authorized individuals in order to execute. Organizations do not require dual authorization mechanisms when immediate responses are necessary to ensure public and environmental safety. Dual authorization may also be known as two-person control. Related controls: CP-9, MP-6. </P>
 
 <L>
 <LI>
@@ -46662,7 +46662,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  The information system, for example, provides a desktop for users to access each connected security domain without providing any mechanisms to allow transfer of information between the different security domains. </P>
 
-<P>References:  Web: ucdmo.gov. </P>
+<P>References:  None. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -48262,7 +48262,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Potential indicators and possible precursors of insider threat can include behaviors such as inordinate, long-term job dissatisfaction, attempts to gain access to information not required for job performance, unexplained access to financial resources, bullying or sexual harassment of fellow employees, workplace violence, and other serious violations of organizational policies, procedures, directives, rules, or practices. Security awareness training includes how to communicate employee and management concerns regarding potential indicators of insider threat through appropriate organizational channels in accordance with established organizational policies and procedures. Related controls: PL-4, PM-12, PS-3, PS-6. </P>
 
-<P>References:  C.F.R. Part 5 Subpart C (5 C.F.R 930.301); Executive Order 13587; NIST Special Publication 800-50. </P>
+<P>References:  C.F.R. Part 5 Subpart C (5 C.F.R. 930.301); Executive Order 13587; NIST Special Publication 800-50. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -48548,9 +48548,9 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>[Withdrawn: Incorporated into AC-6]. </P>
+<P>[Withdrawn: Incorporated into AC-6 (9)]. </P>
 
-<P>References:  NIST Special Publication 800-92; Web: csrc.nist.gov/pcig/cig.html, idmanagement.gov. </P>
+<P>References:  NIST Special Publication 800-92; Web: http://idmanagement.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -48834,7 +48834,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization correlates information from audit records with information obtained from monitoring physical access to further enhance the ability to identify suspicious, inappropriate, unusual, or malevolent activity. </P>
 
-<P>Supplemental Guidance:  The correlation of physical audit information and audit logs from information systems may assist organizations in identifying examples of suspicious behavior or supporting evidence of such behavior. For example, the correlation of an individual's identify for logical access to certain information systems with the additional physical security information that the individual was actually present at the facility when the logical access occurred, may prove to be useful in investigations. </P>
+<P>Supplemental Guidance:  The correlation of physical audit information and audit logs from information systems may assist organizations in identifying examples of suspicious behavior or supporting evidence of such behavior. For example, the correlation of an individual's identity for logical access to certain information systems with the additional physical security information that the individual was actually present at the facility when the logical access occurred, may prove to be useful in investigations. </P>
 
 <L>
 <LI>
@@ -49102,7 +49102,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization enforces dual authorization for [Selection (one or more): movement; deletion] of [Assignment: organization-defined audit information]. </P>
 
-<P>Supplemental Guidance:  Organizations may choose different selection options for different types of audit information. Dual authorization mechanisms require the approval of two authorized individuals in order to execute. Related controls: AC-3, MP-2. </P>
+<P>Supplemental Guidance:  Organizations may choose different selection options for different types of audit information. Dual authorization mechanisms require the approval of two authorized individuals in order to execute. Dual authorization may also be known as two-person control. Related controls: AC-3, MP-2. </P>
 
 <L>
 <LI>
@@ -49497,6 +49497,8 @@ Information system developers can increase the strength of security functionalit
 <P>Control:  The organization provides an alternate audit capability in the event of a failure in primary audit capability that provides [Assignment: organization-defined alternate audit functionality]. </P>
 
 <P>Supplemental Guidance:  Since an alternate audit capability may be a short-term protection employed until the failure in the primary auditing capability is corrected, organizations may determine that the alternate audit capability need only provide a subset of the primary audit functionality that is impacted by the failure. Related control: AU-5. </P>
+
+<P>Control Enhancements: None.</P>
 
 <P>References:  None. </P>
 
@@ -50314,7 +50316,7 @@ Information system developers can increase the strength of security functionalit
 </L>
 </L>
 
-<P>Supplemental Guidance:  When it is known that information systems, system components, or devices (e.g., notebook computers, mobile devices) will be located in high-risk areas, additional security controls may be implemented to counter the greater threat in such areas coupled with the lack of physical security relative to organizational-controlled areas. For example, organizational policies and procedures for notebook computers used by individuals departing on and returning from travel include, for example, determining which locations are of concern, defining required configurations for the devices, ensuring that the devices are configured as intended before travel is initiated, and applying specific safeguards to the device after travel is completed. Specially configured notebook computers include, for example, computers with sanitized hard drives, limited applications, and additional hardening (e.g., more stringent configuration settings). Specified safeguards applied to mobile devices upon return from travel include, for example, examining the device for signs of physical tampering and purging/reimaging the hard disk drive. Protecting information residing on mobile devices is covered in the media protection family.. </P>
+<P>Supplemental Guidance:  When it is known that information systems, system components, or devices (e.g., notebook computers, mobile devices) will be located in high-risk areas, additional security controls may be implemented to counter the greater threat in such areas coupled with the lack of physical security relative to organizational-controlled areas. For example, organizational policies and procedures for notebook computers used by individuals departing on and returning from travel include, for example, determining which locations are of concern, defining required configurations for the devices, ensuring that the devices are configured as intended before travel is initiated, and applying specific safeguards to the device after travel is completed. Specially configured notebook computers include, for example, computers with sanitized hard drives, limited applications, and additional hardening (e.g., more stringent configuration settings). Specified safeguards applied to mobile devices upon return from travel include, for example, examining the device for signs of physical tampering and purging/reimaging the hard disk drive. Protecting information residing on mobile devices is covered in the media protection family. </P>
 
 <P>References:  NIST Special Publication 800-128. </P>
 
@@ -50372,11 +50374,11 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>g. Coordinates and provides oversight for configuration change control activities through [Assignment: organization-defined configuration change control element (e.g., committee, board] that convenes [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined configuration change conditions]]. </LBody>
+<LBody>g. Coordinates and provides oversight for configuration change control activities through [Assignment: organization-defined configuration change control element (e.g., committee, board)] that convenes [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined configuration change conditions]]. </LBody>
 </LI>
 </L>
 
-<P>Supplemental Guidance:  Configuration change controls for organizational information systems involve the systematic proposal, justification, implementation, testing, review, and disposition of changes to the systems, including system upgrades and modifications. Configuration change control includes changes to baseline configurations for components and configuration items of information systems, changes to configuration settings for information technology products (e.g., operating systems, applications, firewalls, routers, and mobile devices), unscheduled/unauthorized changes, and changes to remediate vulnerabilities. Typical processes for managing configuration changes to information systems include, for example, Configuration Control Boards that approve proposed changes to systems. For new development information systems or systems undergoing major upgrades, organizations consider including representatives from development organizations on the Configuration Control Boards. Auditing of changes includes activities before and after changes are made to organizational information systems and the auditing activities required to implement such changes. Related controls: CM-2, CM-4, CM-5, CM-6, CM-9, SA-10, SI-2, SI-12. </P>
+<P>Supplemental Guidance:  Configuration change controls for organizational information systems involve the systematic proposal, justification, implementation, testing, review, and disposition of changes to the systems, including system upgrades and modifications. Configuration change control includes changes to baseline configurations for components and configuration items of information systems, changes to configuration settings for information technology products (e.g., operating systems, applications, firewalls, routers, and mobile devices), unscheduled/unauthorized changes, and changes to remediate vulnerabilities. Typical processes for managing configuration changes to information systems include, for example, Configuration Control Boards that approve proposed changes to systems. For new development information systems or systems undergoing major upgrades, organizations consider including representatives from development organizations on the Configuration Control Boards. Auditing of changes includes activities before and after changes are made to organizational information systems and the auditing activities required to implement such changes. Related controls: CA-7, CM-2, CM-4, CM-5, CM-6, CM-9, SA-10, SI-2, SI-12. </P>
 
 <P>Control Enhancements: </P>
 
@@ -50590,7 +50592,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization enforces dual authorization for implementing changes to [Assignment: organization-defined information system components and system-level information]. </P>
 
-<P>Supplemental Guidance:  Organizations employ dual authorization to ensure that any changes to selected information system components and information cannot occur unless two qualified individuals implement such changes. The two individuals possess sufficient skills/expertise to determine if the proposed changes are correct implementations of approved changes. Related controls: AC-5, CM-3. </P>
+<P>Supplemental Guidance:  Organizations employ dual authorization to ensure that any changes to selected information system components and information cannot occur unless two qualified individuals implement such changes. The two individuals possess sufficient skills/expertise to determine if the proposed changes are correct implementations of approved changes. Dual authorization may also be known as two-person control. Related controls: AC-5, CM-3. </P>
 
 <L>
 <LI>
@@ -50726,7 +50728,7 @@ Information system developers can increase the strength of security functionalit
 
 <P> [Withdrawn: Incorporated into CM-4]. </P>
 
-<P>References:  OMB Memoranda 07-11, 07-18, 08-22; NIST Special Publications 800-70, 800-128; Web: nvd.nist.gov, checklists.nist.gov, www.nsa.gov.  </P>
+<P>References:  OMB Memoranda 07-11, 07-18, 08-22; NIST Special Publications 800-70, 800-128; Web: http://nvd.nist.gov, http://checklists.nist.gov, http://www.nsa.gov.  </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -50982,7 +50984,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The organization verifies that all components within the authorization boundary of the information system are not duplicated in other information system inventories. </P>
+<P>The organization verifies that all components within the authorization boundary of the information system are not duplicated in other information system component inventories. </P>
 
 <P>Supplemental Guidance:  This control enhancement addresses the potential problem of duplicate accounting of information system components in large or complex interconnected systems. </P>
 
@@ -51930,7 +51932,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization tests alternate telecommunication services [Assignment: organization-defined frequency]. </P>
 
-<P>References:  NIST Special Publication 800-34; National Communications Systems Directive 3-10; Web: tsp.ncs.gov. </P>
+<P>References:  NIST Special Publication 800-34; National Communications Systems Directive 3-10; Web: http://www.dhs.gov/telecommunications-service-priority-tsp </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -52048,7 +52050,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization enforces dual authorization for the deletion or destruction of [Assignment: organization-defined backup information]. </P>
 
-<P>Supplemental Guidance:  Dual authorization ensures that the deletion or destruction of backup information cannot occur unless two qualified individuals carry out the task. Individuals deleting/destroying backup information possess sufficient skills/expertise to determine if the proposed deletion/destruction of backup information reflects organizational policies and procedures. Related controls: AC-3, MP-2. </P>
+<P>Supplemental Guidance:  Dual authorization ensures that the deletion or destruction of backup information cannot occur unless two qualified individuals carry out the task. Individuals deleting/destroying backup information possess sufficient skills/expertise to determine if the proposed deletion/destruction of backup information reflects organizational policies and procedures. Dual authorization may also be known as two-person control. Related controls: AC-3, MP-2. </P>
 
 <P>References:  NIST Special Publication 800-34.  </P>
 
@@ -52468,7 +52470,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>from the user. The user may either confirm the intended action to an individual on the telephone or provide an authentication code via the telephone. This type of authentication can be employed by organizations to mitigate actual or suspected man-in the-middle attacks. The conditions for activation can include, for example, suspicious activities, new threat indicators or elevated threat levels, or the impact level or classification level of information in requested transactions. Related controls: IA-10, IA-11, SC-37. </P>
 
-<P>References:  HSPD 12; OMB Memoranda 04-04, 06-16, 11-11; FIPS Publication 201; NIST Special Publications 800-63, 800-73, 800-76, 800-78; FICAM Roadmap and Implementation Guidance; Web: idmanagement.gov. </P>
+<P>References:  HSPD-12; OMB Memoranda 04-04, 06-16, 11-11; FIPS Publication 201; NIST Special Publications 800-63, 800-73, 800-76, 800-78; FICAM Roadmap and Implementation Guidance; Web: http://idmanagement.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -52776,7 +52778,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>(c) Stores and transmits only encrypted representations of passwords; </LBody>
+<LBody>(c) Stores and transmits only cryptographically-protected passwords; </LBody>
 </LI>
 
 <LI>
@@ -52796,7 +52798,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  This control enhancement applies to single-factor authentication of individuals using passwords as individual or group authenticators, and in a similar manner, when passwords are part of multifactor authenticators. This control enhancement does not apply when passwords are used to unlock hardware authenticators (e.g., Personal Identity </P>
 
-<P>Verification cards). The implementation of such password mechanisms may not meet all of the requirements in the enhancement. Encrypted representations of passwords include, for example, encrypted versions of passwords and one-way cryptographic hashes of passwords. The number of changed characters refers to the number of changes required with respect to the total number of positions in the current password. Password lifetime restrictions do not apply to temporary passwords. Related control: IA-6. </P>
+<P>Verification cards). The implementation of such password mechanisms may not meet all of the requirements in the enhancement. Cryptographically-protected passwords include, for example, encrypted versions of passwords and one-way cryptographic hashes of passwords. The number of changed characters refers to the number of changes required with respect to the total number of positions in the current password. Password lifetime restrictions do not apply to temporary passwords. To mitigate certain brute force attacks against passwords, organizations may also consider salting passwords. Related control: IA-6. </P>
 
 <L>
 <LI>
@@ -52954,7 +52956,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Federal Identity, Credential, and Access Management (FICAM)-approved path discovery and validation products and services are those products and services that have been approved through the FICAM conformance program, where applicable. </P>
 
-<P>References:  OMB Memoranda 04-04, 11-11; FIPS Publication 201; NIST Special Publications 800-73, 800-63, 800-76, 800-78; FICAM Roadmap and Implementation Guidance; Web: idmanagement.gov. </P>
+<P>References:  OMB Memoranda 04-04, 11-11; FIPS Publication 201; NIST Special Publications 800-73, 800-63, 800-76, 800-78; FICAM Roadmap and Implementation Guidance; Web: http://idmanagement.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -53022,7 +53024,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Control Enhancements:  None. </P>
 
-<P>References:  FIPS Publication 140; Web: csrc.nist.gov/groups/STM/cmvp/index.html. </P>
+<P>References:  FIPS Publication 140; Web: http://csrc.nist.gov/groups/STM/cmvp/index.html. </P>
 
 <P>  </P>
 
@@ -53108,7 +53110,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  This control enhancement: (i) applies to logical and physical access control systems; and (ii) addresses Non-Federal Issuers (NFIs) of identity cards that desire to interoperate with United States Government Personal Identity Verification (PIV) information systems and that can be trusted by federal government-relying parties. The X.509 certificate policy for the Federal Bridge Certification Authority (FBCA) addresses PIV-I requirements. The PIV-I card is suitable for Assurance Level 4 as defined in OMB Memorandum 04-04 and NIST Special Publication 800-63, and multifactor authentication as defined in NIST Special Publication 800-116. PIV-I credentials are those credentials issued by a PIV-I provider whose PIV-I certificate policy maps to the Federal Bridge PIV-I Certificate Policy. A PIV-I provider is cross-certified (directly or through another PKI bridge) with the FBCA with policies that have been mapped and approved as meeting the requirements of the PIV-I policies defined in the FBCA certificate policy. Related control: AU-2. </P>
 
-<P>References:  OMB Memoranda 04-04, 11-11, 10-06-2011; FICAM Roadmap and Implementation Guidance; FIPS Publication 201; NIST Special Publications 800-63, 800-116; National Strategy for Trusted Identities in Cyberspace; Web: idmanagement.gov. </P>
+<P>References:  OMB Memoranda 04-04, 11-11, 10-06-2011; FICAM Roadmap and Implementation Guidance; FIPS Publication 201; NIST Special Publications 800-63, 800-116; National Strategy for Trusted Identities in Cyberspace; Web: http://idmanagement.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -53672,7 +53674,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Organizations involved in supply chain activities include, for example, system/product developers, integrators, manufacturers, packagers, assemblers, distributors, vendors, and resellers. Supply chain incidents include, for example, compromises/breaches involving information system components, information technology products, development processes or personnel, and distribution processes or warehousing facilities. Organizations determine the appropriate information to share considering the value gained from support by external organizations with the potential for harm due to sensitive information being released to outside organizations of perhaps questionable trustworthiness. </P>
 
-<P>References:  NIST Special Publication 800-61: Web: www.us-cert.gov. </P>
+<P>References:  NIST Special Publication 800-61; Web: http://www.us-cert.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -55018,7 +55020,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Organizations employ dual authorization to ensure that information system media sanitization cannot occur unless two technically qualified individuals conduct the task. Individuals sanitizing information system media possess sufficient skills/expertise to determine if the proposed sanitization reflects applicable federal/organizational standards, policies, and procedures. Dual authorization also helps to ensure that sanitization occurs as </P>
 
-<P>intended, both protecting against errors and false claims of having performed the sanitization actions. Related controls: AC-3, MP-2. </P>
+<P>intended, both protecting against errors and false claims of having performed the sanitization actions. Dual authorization may also be known as two-person control. Related controls: AC-3, MP-2. </P>
 
 <L>
 <LI>
@@ -55030,7 +55032,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  This control enhancement protects data/information on organizational information systems, system components, or devices (e.g., mobile devices) if such systems, components, or devices are obtained by unauthorized individuals. Remote purge/wipe commands require strong authentication to mitigate the risk of unauthorized individuals purging/wiping the system/component/device. The purge/wipe function can be implemented in a variety of ways including, for example, by overwriting data/information multiple times or by destroying the key necessary to decrypt encrypted data. </P>
 
-<P>References:  FIPS Publication 199; NIST Special Publications 800-60, 800-88; Web: www.nsa.gov/ia/mitigation_guidance/media_destruction_guidance/index.shtml. </P>
+<P>References:  FIPS Publication 199; NIST Special Publications 800-60, 800-88; Web: http://www.nsa.gov/ia/mitigation_guidance/media_destruction_guidance/index.shtml. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -55448,7 +55450,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Related controls: CA-2, CA-7. </P>
 
-<P>References:  FIPS Publication 201; NIST Special Publications 800-73, 800-76, 800-78, 800-116; ICD 704, 705; DoDI 5200.39; Personal Identity Verification (PIV) in Enterprise Physical Access Control System (E-PACS); Web: idmanagement.gov, fips201ep.cio.gov. </P>
+<P>References:  FIPS Publication 201; NIST Special Publications 800-73, 800-76, 800-78, 800-116; ICD 704, 705; DoD Instruction 5200.39; Personal Identity Verification (PIV) in Enterprise Physical Access Control System (E-PACS); Web: http://idmanagement.gov, http://fips201ep.cio.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -56474,7 +56476,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>8. Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring and supplementation decisions; and </LBody>
+<LBody>8. Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring decisions; and </LBody>
 </LI>
 
 <LI>
@@ -56598,7 +56600,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  This control enhancement addresses rules of behavior related to the use of social media/networking sites: (i) when organizational personnel are using such sites for official duties or in the conduct of official business; (ii) when organizational information is involved in social media/networking transactions; and (iii) when personnel are accessing social media/networking sites from organizational information systems. Organizations also address specific rules that prevent unauthorized entities from obtaining and/or inferring non-public organizational information (e.g., system account information, personally identifiable information) from social media/networking sites. </P>
 
-<P>References:  NIST Publication 800-18. </P>
+<P>References:  NIST Special Publication 800-18. </P>
 
 <P>  </P>
 
@@ -56653,6 +56655,8 @@ Information system developers can increase the strength of security functionalit
 </L>
 
 <P>Supplemental Guidance:  The security CONOPS may be included in the security plan for the information system or in other system development life cycle-related documents, as appropriate. Changes to the CONOPS are reflected in ongoing updates to the security plan, the information security architecture, and other appropriate organizational documents (e.g., security specifications for procurements/acquisitions, system development life cycle documents, and systems/security engineering documents). Related control: PL-2. </P>
+
+<P>Control Enhancements: None. </P>
 
 <P>References:  None. </P>
 
@@ -56780,9 +56784,11 @@ Information system developers can increase the strength of security functionalit
 
 <P> Control:  The organization centrally manages [Assignment: organization-defined security controls and related processes]. </P>
 
-<P>Supplemental Guidance:  Central management refers to the organization-wide management and implementation of selected security controls and related processes. Central management includes planning, implementing, assessing, authorizing, and monitoring the organization-defined, centrally managed security controls and processes. As central management of security controls is generally associated with common controls, such management promotes and facilitates standardization of security control implementations and management and judicious use of organizational resources.  Centrally-managed security controls and processes may also meet independence requirements for assessments in support of initial and ongoing authorizations to operate as part of organizational continuous monitoring. As part of the security control selection process, organizations determine which controls may be suitable for central management based on organizational resources and capabilities. Organizations consider that it may not always be possible to centrally manage every aspect of a security control. In such cases, the security control is treated as a hybrid control with the control managed and implemented either centrally or at the information system level. Controls and control enhancements that are candidates for full or partial central management include, but are not limited to: AC-2 (1) (2) (3) (4); AC-17 (1) (2) (3) (9); AC-18 (1) (3) (4) (5); AC-19 (4) (6) (8) (9); AC-22; AC-23; AT-2 (1) (2); AT-3 (1) (2) (3); AT-4; AT-5; AU-6 (1) (3) (5) (6) (9); AU-7 (1) (2); AU-11, AU-13, AU-16, CA-2 (1) (2) (3); CA-3 (1) (2) (3); CA-7 (1); CA-9; CM-2 (1) (2); CM-3 (1) (4); CM-4; CM-6 (1); CM-7 (4) (5); CM-8 (all); CM-9 (1); CM-10; CM-11; CP-7 (all); CP-8 (all); SC-43; SI-2; SI-3; SI-7; and SI-8. </P>
+<P>Supplemental Guidance:  Central management refers to the organization-wide management and implementation of selected security controls and related processes. Central management includes planning, implementing, assessing, authorizing, and monitoring the organization-defined, centrally managed security controls and processes. As central management of security controls is generally associated with common controls, such management promotes and facilitates standardization of security control implementations and management and judicious use of organizational resources.  Centrally-managed security controls and processes may also meet independence requirements for assessments in support of initial and ongoing authorizations to operate as part of organizational continuous monitoring. As part of the security control selection process, organizations determine which controls may be suitable for central management based on organizational resources and capabilities. Organizations consider that it may not always be possible to centrally manage every aspect of a security control. In such cases, the security control is treated as a hybrid control with the control managed and implemented either centrally or at the information system level. Controls and control enhancements that are candidates for full or partial central management include, but are not limited to: AC-2 (1) (2) (3) (4); AC-17 (1) (2) (3) (9); AC-18 (1) (3) (4) (5); AC-19 (4); AC-22; AC-23; AT-2 (1) (2); AT-3 (1) (2) (3); AT-4; AU-6 (1) (3) (5) (6) (9); AU-7 (1) (2); AU-11, AU-13, AU-16, CA-2 (1) (2) (3); CA-3 (1) (2) (3); CA-7 (1); CA-9; CM-2 (1) (2); CM-3 (1) (4); CM-4; CM-6 (1); CM-7 (4) (5); CM-8 (all); CM-9 (1); CM-10; CM-11; CP-7 (all); CP-8 (all); SC-43; SI-2; SI-3; SI-7; and SI-8. </P>
 
-<P>References:  NIST Publication 800-37. </P>
+<P>Control Enhancements: None. </P>
+
+<P>References:  NIST Special Publication 800-37. </P>
 
 <P> Priority and Baseline Allocation: </P>
 
@@ -56892,7 +56898,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Control Enhancements:  None. </P>
 
-<P>References:  5 C.F.R. 731.106(a). </P>
+<P>References:  5 C.F.R. 731.106. </P>
 
 <P>  </P>
 
@@ -57516,7 +57522,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Control Enhancements:  None. </P>
 
-<P>References:  OMB Memorandum 04-04; NIST Special Publication 800-30, 800-39; Web: idmanagement.gov. </P>
+<P>References:  OMB Memorandum 04-04; NIST Special Publications 800-30, 800-39; Web: http://idmanagement.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -57684,7 +57690,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization correlates the output from vulnerability scanning tools to determine the presence of multi-vulnerability/multi-hop attack vectors. </P>
 
-<P>References:  NIST Special Publications 800-40, 800-70, 800-115; Web: cwe.mitre.org, nvd.nist.gov. </P>
+<P>References:  NIST Special Publications 800-40, 800-70, 800-115; Web: http://cwe.mitre.org, http://nvd.nist.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -58076,7 +58082,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Related controls: IA-2; IA-8. </P>
 
-<P>References:  HSPD-12; ISO/IEC 15408; FIPS Publications 140-2, 201; NIST Special Publications 800-23, 800-35, 800-36, 800-37, 800-64, 800-70, 800-137; Federal Acquisition Regulation; Web: www.niap-ccevs.org, fips201ep.cio.gov, www.acquisition.gov/far. </P>
+<P>References:  HSPD-12; ISO/IEC 15408; FIPS Publications 140-2, 201; NIST Special Publications 800-23, 800-35, 800-36, 800-37, 800-64, 800-70, 800-137; Federal Acquisition Regulation; Web: http://www.niap-ccevs.org, http://fips201ep.cio.gov, http://www.acquisition.gov/far. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -58632,9 +58638,9 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Dynamic code analysis provides run-time verification of software programs, using tools capable of monitoring programs for memory corruption, user privilege </P>
 
-<P>issues, and other potential security problems. Dynamic code analysis employs run-time tools to help to ensure that security functionality performs in the manner in which it was designed. A specialized type of dynamic analysis, known as fuzz testing, induces program failures by deliberately introducing malformed or random data into software programs. Fuzz testing strategies derive from the intended use of applications and the functional and design specifications for the applications. </P>
+<P>issues, and other potential security problems. Dynamic code analysis employs run-time tools to help to ensure that security functionality performs in the manner in which it was designed. A specialized type of dynamic analysis, known as fuzz testing, induces program failures by deliberately introducing malformed or random data into software programs. Fuzz testing strategies derive from the intended use of applications and the functional and design specifications for the applications. To understand the scope of dynmaic code analysis and hence the assurance provided, organizations may also consider conducting code coverage analysis (checking the degree to which the code has been tested using metrics such as percent of subroutines tested or precent of program statements called during execution of the test suite) and/or concordance analysis (checking for words that are out of place in software code such as non-English language words or derogatory terms).</P>
 
-<P>References:  ISO/IEC 15408; NIST Special Publication 800-53A; Web: nvd.nist.gov, cwe.mitre.org, cve.mitre.org, capec.mitre.org. </P>
+<P>References:  ISO/IEC 15408; NIST Special Publication 800-53A; Web: http://nvd.nist.gov, http://cwe.mitre.org, http://cve.mitre.org, http://capec.mitre.org. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -59156,6 +59162,8 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  This control applies to external and internal (in-house) developers. Training of personnel is an essential element to ensure the effectiveness of security controls implemented within organizational information systems. Training options include, for example, classroom-style training, web-based/computer-based training, and hands-on training. Organizations can also request sufficient training materials from developers to conduct in-house training or offer self-training to organizational personnel. Organizations determine the type of training necessary and may require different types of training for different security functions, controls, or mechanisms. Related controls: AT-2, AT-3, SA-5. </P>
 
+<P>Control Enhancements:  None. </P>
+
 <P>References:  None. </P>
 
 <P>Priority and Baseline Allocation: </P>
@@ -59476,7 +59484,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(4) COMPONENT AUTHENTICITY | ANTI-COUNTERFEIT TRAINING  </LBody>
+<LBody>(4) COMPONENT AUTHENTICITY | ANTI-COUNTERFEIT SCANNING  </LBody>
 </LI>
 </L>
 
@@ -60340,7 +60348,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Control:  The information system protects the [Selection (one or more): confidentiality; integrity] of transmitted information. </P>
 
-<P>Supplemental Guidance:  This control applies to both internal and external networks and all types of information system components from which information can be transmitted (e.g., servers, mobile devices, notebook computers, printers, copiers, scanners, facsimile machines). Communication paths outside the physical protection of a controlled boundary are exposed to the possibility of interception and modification. Protecting the confidentiality and/or integrity of organizational information can be accomplished by physical means (e.g., by employing physical distribution systems) or by logical means (e.g., employing encryption techniques). Organizations relying on commercial providers offering transmission services as commodity services rather than as fully dedicated services (i.e., services which can be highly specialized to individual customer needs), may find it difficult to obtain the necessary assurances regarding the implementation of needed security controls for transmission confidentiality/integrity. In such situations, organizations determine what types of confidentiality/integrity services are available in standard, commercial telecommunication service packages. If it is infeasible or impractical to obtain the necessary security controls and assurances of control effectiveness through appropriate contracting vehicles, organizations implement appropriate compensating security controls or explicitly accept the additional risk. Related controls: AC-17, PE-4. </P>
+<P>Supplemental Guidance:  This control applies to both internal and external networks and all types of information system components from which information can be transmitted (e.g., servers, mobile devices, notebook computers, printers, copiers, scanners, facsimile machines). Communication paths outside the physical protection of a controlled boundary are exposed to the possibility of interception and modification. Protecting the confidentiality and/or integrity of organizational information can be accomplished by physical means (e.g., by employing protected distribution systems) or by logical means (e.g., employing encryption techniques). Organizations relying on commercial providers offering transmission services as commodity services rather than as fully dedicated services (i.e., services which can be highly specialized to individual customer needs), may find it difficult to obtain the necessary assurances regarding the implementation of needed security controls for transmission confidentiality/integrity. In such situations, organizations determine what types of confidentiality/integrity services are available in standard, commercial telecommunication service packages. If it is infeasible or impractical to obtain the necessary security controls and assurances of control effectiveness through appropriate contracting vehicles, organizations implement appropriate compensating security controls or explicitly accept the additional risk. Related controls: AC-17, PE-4. </P>
 
 <P>Control Enhancements: </P>
 
@@ -60614,7 +60622,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>[Withdrawn: Incorporated into SC-13]. </P>
 
-<P>References:  FIPS Publication 140-2; Web: csrc.nist.gov/cryptval, www.cnss.gov. </P>
+<P>References:  FIPS Publication 140; Web: http://csrc.nist.gov/cryptval, http://www.cnss.gov. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -60952,7 +60960,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>a. Provides additional data origin and integrity artifacts along with the authoritative name resolution data the system returns in response to external name/address resolution queries; and </LBody>
+<LBody>a. Provides additional data origin authentication and integrity verification artifacts along with the authoritative name resolution data the system returns in response to external name/address resolution queries; and </LBody>
 </LI>
 
 <LI>
@@ -61693,6 +61701,8 @@ Information system developers can increase the strength of security functionalit
 <P>Control:  The information system includes components that proactively seek to identify malicious websites and/or web-based malicious code. </P>
 
 <P>Supplemental Guidance:  Honeyclients differ from honeypots in that the components actively probe the Internet in search of malicious code (e.g., worms) contained on external websites. As with honeypots, honeyclients require some supporting isolation measures (e.g., virtualization) to ensure that any malicious code discovered during the search and subsequently executed does not infect organizational information systems. Related controls: SC-26, SC-44, SI-3, SI-4. </P>
+
+<P>Control Enhancements:  None. </P>
 
 <P>References:  None. </P>
 
@@ -63870,7 +63880,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Control Enhancements:  None. </P>
 
-<P>References:  Web: www.omb.gov. </P>
+<P>References:  Web: http://www.omb.gov. </P>
 
 <H1 id="LinkTarget_11463">PM-6 INFORMATION SECURITY MEASURES OF PERFORMANCE </H1>
 
@@ -63890,7 +63900,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Control Enhancements:  None. </P>
 
-<P>References:  NIST Special Publication 800-39; Web: www.fsam.gov. </P>
+<P>References:  NIST Special Publication 800-39. </P>
 
 <H1 id="LinkTarget_11428">PM-8 CRITICAL INFRASTRUCTURE PLAN  </H1>
 
