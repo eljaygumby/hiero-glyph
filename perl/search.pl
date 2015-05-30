@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 
-$srcfile = "$ENV{DOCUMENT_ROOT}/../DCCC-LIII/800-53rev4controls.txt";
+$srcfile = "$ENV{DOCUMENT_ROOT}/../DCCC-LIII/ControlsAndCCIs.txt";
 
 # What are we looking for?
 $qstring = $ENV{QUERY_STRING};

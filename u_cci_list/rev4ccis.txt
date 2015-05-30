@@ -2997,4 +2997,3 @@ UL-2 c:policy/CCI-003594:The organization trains its staff on the authorized sha
 UL-2 c:policy/CCI-003595:The organization trains its staff on the consequences of unauthorized use or sharing of personally identifiable information (PII).
 UL-2 d:policy/CCI-003596:The organization evaluates any proposed new instances of sharing personally identifiable information (PII) with third parties to assess whether the sharing is authorized.
 UL-2 d:policy/CCI-003597:The organization evaluates any proposed new instances of sharing personally identifiable information (PII) with third parties to assess whether additional or new public notice is required.
-
