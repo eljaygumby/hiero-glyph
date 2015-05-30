@@ -7,7 +7,7 @@
   </xsl:template>
  
   <xsl:template match="cci_item">
-      <xsl:value-of select="references/reference/@index" />:<xsl:value-of select="@id" />:<xsl:value-of select="type" />:<xsl:value-of select="definition" />\n
+      <xsl:value-of select="references/reference/@index" />:<xsl:value-of select="type" />/<xsl:value-of select="@id" />:<xsl:value-of select="definition" />XXX
 </xsl:template>
  
 </xsl:stylesheet>
