@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 
-$srcfile = "$ENV{DOCUMENT_ROOT}/../DCCC-LIII/ControlsAndCCIs.txt";
+$srcfile = "$ENV{DOCUMENT_ROOT}/../ControlsAndCCIs.txt";
 
 # What are we looking for?
 $qstring = $ENV{QUERY_STRING};
@@ -74,7 +74,7 @@ print <<EOF
 </head>
 <body>
   <h1>
-    Welcome to DCCC-LIII revision IV (as of 2015-01-22)
+    Welcome to DCCC-LIII revision IV (as of 2015-01-22) and 201s (as of 2013-11-08)
   </h1>
   <form action="search.pl" method="GET">
     New search:  <input type="text" name="find">
