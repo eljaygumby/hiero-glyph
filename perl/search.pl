@@ -74,7 +74,7 @@ print <<EOF
 </head>
 <body>
   <h1>
-    Welcome to DCCC-LIII revision IV
+    Welcome to DCCC-LIII revision IV (as of 2015-01-22)
   </h1>
   <form action="search.pl" method="GET">
     New search:  <input type="text" name="find">

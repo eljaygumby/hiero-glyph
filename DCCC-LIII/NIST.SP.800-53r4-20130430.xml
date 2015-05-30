@@ -46146,7 +46146,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(9) ACCOUNT MANAGEMENT | RESTRICTIONS ON USE OF SHARED GROUPS / ACCOUNTS </LBody>
+<LBody>(9) ACCOUNT MANAGEMENT | RESTRICTIONS ON USE OF SHARED / GROUP ACCOUNTS </LBody>
 </LI>
 </L>
 
@@ -46181,7 +46181,7 @@ Information system developers can increase the strength of security functionalit
 <L>
 <L>
 <LI>
-<LBody>(a) Monitors information system accounts for [Assignment: organization-defined atypical use]; and </LBody>
+<LBody>(a) Monitors information system accounts for [Assignment: organization-defined atypical usage]; and </LBody>
 </LI>
 
 <LI>
@@ -46262,15 +46262,15 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The information system enforces [Assignment: organization-defined mandatory access control policies] over all subjects and objects where the policy specifies that: </P>
+<P>The information system enforces [Assignment: organization-defined mandatory access control policy] over all subjects and objects where the policy: </P>
 
 <L>
 <LI>
-<LBody>(a) The policy is uniformly enforced across all subjects and objects within the boundary of the information system;  </LBody>
+<LBody>(a) Is uniformly enforced across all subjects and objects within the boundary of the information system;  </LBody>
 </LI>
 
 <LI>
-<LBody>(b) A subject that has been granted access to information is constrained from doing any of the following; </LBody>
+<LBody>(b) Specifies that a subject that has been granted access to information is constrained from doing any of the following; </LBody>
 </LI>
 
 <LI>
@@ -46294,7 +46294,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>(c) [Assignment: Organized-defined subjects] may explicitly be granted [Assignment: organization-defined privileges (i.e., they are trusted subjects)] such that they are not limited by some or all of the above constraints.  </LBody>
+<LBody>(c) Specifies that [Assignment: Organization-defined subjects] may explicitly be granted [Assignment: organization-defined privileges (i.e., they are trusted subjects)] such that they are not limited by some or all of the above constraints.  </LBody>
 </LI>
 </L>
 
@@ -46308,7 +46308,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The information system enforces [Assignment: organization-defined discretionary access control policies] over defined subjects and objects where the policy specifies that a subject that has been granted access to information can do one or more of the following: </P>
+<P>The information system enforces [Assignment: organization-defined discretionary access control policy] over defined subjects and objects where the policy specifies that a subject that has been granted access to information can do one or more of the following: </P>
 
 <L>
 <LI>
@@ -46510,7 +46510,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The information system enforces [Assignment: organization-defined one-way flows] using hardware mechanisms. </P>
+<P>The information system enforces [Assignment: organization-defined one-way information flows] using hardware mechanisms. </P>
 
 <L>
 <LI>
@@ -48314,7 +48314,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(1) SECURITY TRAINING | ENVIRONMENTAL CONTROLS  </LBody>
+<LBody>(1) ROLE-BASED SECURITY TRAINING | ENVIRONMENTAL CONTROLS  </LBody>
 </LI>
 </L>
 
@@ -48324,7 +48324,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(2) SECURITY TRAINING | PHYSICAL SECURITY CONTROLS </LBody>
+<LBody>(2) ROLE-BASED SECURITY TRAINING | PHYSICAL SECURITY CONTROLS </LBody>
 </LI>
 </L>
 
@@ -48334,7 +48334,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(3) SECURITY TRAINING | PRACTICAL EXERCISES </LBody>
+<LBody>(3) ROLE-BASED SECURITY TRAINING | PRACTICAL EXERCISES </LBody>
 </LI>
 </L>
 
@@ -48344,7 +48344,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(4) SECURITY TRAINING | SUSPICIOUS COMMUNICATIONS AND ANOMALOUS SYSTEM BEHAVIOR </LBody>
+<LBody>(4) ROLE-BASED SECURITY TRAINING | SUSPICIOUS COMMUNICATIONS AND ANOMALOUS SYSTEM BEHAVIOR </LBody>
 </LI>
 </L>
 
@@ -49330,7 +49330,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The information system compiles audit records from [Assignment: organization-defined information system components] into a system-wide (logical or physical) audit trail that is time-correlated to within [Assignment: organization-defined level of tolerance for relationship between time stamps of individual records in the audit trail]. </P>
+<P>The information system compiles audit records from [Assignment: organization-defined information system components] into a system-wide (logical or physical) audit trail that is time-correlated to within [Assignment: organization-defined level of tolerance for the relationship between time stamps of individual records in the audit trail]. </P>
 
 <P>Supplemental Guidance:  Audit trails are time-correlated if the time stamps in the individual audit records can be reliably related to the time stamps in other audit records to achieve a time ordering of the records within organizational tolerances. Related controls: AU-8, AU-12. </P>
 
@@ -50004,7 +50004,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>[Withdrawn: Incorporated into CA-2.] </P>
+<P>[Withdrawn: Incorporated into CA-2]. </P>
 
 <L>
 <LI>
@@ -51756,7 +51756,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>c. Ensures that the alternate processing site provides information security safeguards equivalent to that of the primary site. </LBody>
+<LBody>c. Ensures that the alternate processing site provides information security safeguards equivalent to those of the primary site. </LBody>
 </LI>
 </L>
 
@@ -52434,7 +52434,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The information system provides a single sign-on capability for [Assignment: organization-defined list of information system accounts and services]. </P>
+<P>The information system provides a single sign-on capability for [Assignment: organization-defined information system accounts and services]. </P>
 
 <P>Supplemental Guidance:  Single sign-on enables users to log in once and gain access to multiple information system resources. Organizations consider the operational efficiencies provided by single sign-on capabilities with the increased risk from disclosures of single authenticators providing access to multiple system resources. </P>
 
@@ -52636,9 +52636,9 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The organization requires multiple forms of certification of individual identification such as documentary evidence or a combination of documents and biometrics be presented to the registration authority. </P>
+<P>The organization requires multiple forms of certification of individual identification be presented to the registration authority. </P>
 
-<P>Supplemental Guidance:  Requiring multiple forms of identification reduces the likelihood of individuals using fraudulent identification to establish an identity, or at least increases the work factor of potential adversaries. </P>
+<P>Supplemental Guidance:  Requiring multiple forms of identification, such as documentary evidence or a combination of documents and biometrics, reduces the likelihood of individuals using fraudulent identification to establish an identity, or at least increases the work factor of potential adversaries. </P>
 
 <L>
 <LI>
@@ -52922,7 +52922,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(12) AUTHENTICATOR MANAGEMENT | BIOMETRIC AUTHENTICATION  </LBody>
+<LBody>(12) AUTHENTICATOR MANAGEMENT | BIOMETRIC-BASED AUTHENTICATION  </LBody>
 </LI>
 </L>
 
@@ -53452,7 +53452,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>c. Incorporates lessons learned from ongoing incident handling activities into incident response procedures, training, and testing/exercises, and implements the resulting changes accordingly. </LBody>
+<LBody>c. Incorporates lessons learned from ongoing incident handling activities into incident response procedures, training, and testing, and implements the resulting changes accordingly. </LBody>
 </LI>
 </L>
 
@@ -54320,7 +54320,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>(b) Removes the component to be serviced from the information system and prior to nonlocal maintenance or diagnostic services, sanitizes the component (with regard to organizational information) before removal from organizational facilities, and after the service is performed, inspects and sanitizes the component (with regard to potentially malicious software) before reconnecting the component to the information system. </LBody>
+<LBody>(b) Removes the component to be serviced from the information system prior to nonlocal maintenance or diagnostic services, sanitizes the component (with regard to organizational information) before removal from organizational facilities, and after the service is performed, inspects and sanitizes the component (with regard to potentially malicious software) before reconnecting the component to the information system. </LBody>
 </LI>
 </L>
 
@@ -55084,7 +55084,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization prohibits the use of sanitization-resistant media in organizational information systems. </P>
 
-<P>Supplemental Guidance:  Sanitation-resistance applies to the capability to purge information from media. Certain types of media do not support sanitize commands, or if supported, the interfaces are not supported in a standardized way across these devices. Sanitation-resistant media include, for example, compact flash, embedded flash on boards and devices, solid state drives, and USB removable media. Related control: MP-6. </P>
+<P>Supplemental Guidance:  Sanitization-resistance applies to the capability to purge information from media. Certain types of media do not support sanitize commands, or if supported, the interfaces are not supported in a standardized way across these devices. Sanitization-resistant media include, for example, compact flash, embedded flash on boards and devices, solid state drives, and USB removable media. Related control: MP-6. </P>
 
 <P>References:  FIPS Publication 199; NIST Special Publication 800-111. </P>
 
@@ -56582,7 +56582,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>d. Requires individuals who have signed a previous version of the rules of behavior to read and resign when the rules of behavior are revised/updated. </LBody>
+<LBody>d. Requires individuals who have signed a previous version of the rules of behavior to read and re-sign when the rules of behavior are revised/updated. </LBody>
 </LI>
 </L>
 
@@ -57452,7 +57452,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>c. Ensures that the security categorization decision is reviewed and approved by the authorizing official or authorizing official designated representative. </LBody>
+<LBody>c. Ensures that the authorizing official or authorizing official designated representative reviews and approves the security categorization decision. </LBody>
 </LI>
 </L>
 
@@ -58080,7 +58080,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization employs only information technology products on the FIPS 201-approved products list for Personal Identity Verification (PIV) capability implemented within organizational information systems. </P>
 
-<P>Supplemental Guidance:  Related controls: IA-2; IA-8. </P>
+<P>Supplemental Guidance:  Related controls: IA-2, IA-8. </P>
 
 <P>References:  HSPD-12; ISO/IEC 15408; FIPS Publications 140-2, 201; NIST Special Publications 800-23, 800-35, 800-36, 800-37, 800-64, 800-70, 800-137; Federal Acquisition Regulation; Web: http://www.niap-ccevs.org, http://fips201ep.cio.gov, http://www.acquisition.gov/far. </P>
 
@@ -58148,7 +58148,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>c. Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and [Assignment: organization-defined actions] in response; </LBody>
+<LBody>c. Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and takes [Assignment: organization-defined actions] in response; </LBody>
 </LI>
 
 <LI>
@@ -58579,7 +58579,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>(b) Ensures that the independent agent either is provided with sufficient information to complete the verification process or has been granted the authority to obtain such information. </LBody>
+<LBody>(b) Ensures that the independent agent is either provided with sufficient information to complete the verification process or granted the authority to obtain such information. </LBody>
 </LI>
 </L>
 </L>
@@ -58600,7 +58600,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(5) DEVELOPER SECURITY TESTING AND EVALUATION | PENETRATION TESTING / ANALYSIS </LBody>
+<LBody>(5) DEVELOPER SECURITY TESTING AND EVALUATION | PENETRATION TESTING</LBody>
 </LI>
 </L>
 
@@ -58670,7 +58670,7 @@ Information system developers can increase the strength of security functionalit
 
 <P> Control:  The organization protects against supply chain threats to the information system, system component, or information system service by employing [Assignment: organization-defined security safeguards] as part of a comprehensive, defense-in-breadth information security strategy. </P>
 
-<P>Supplemental Guidance:  Information systems (including system components that compose those systems) need to be protected throughout the system development life cycle (i.e., during design, development, manufacturing, packaging, assembly, distribution, system integration, operations, maintenance, and retirement). Protection of organizational information systems is accomplished through threat awareness, by the identification, management, and reduction of vulnerabilities at each phase of the life cycle and the use of complementary, mutually reinforcing strategies to respond to risk. Organizations consider implementing a standardized process to address supply chain risk with respect to information systems and system components, and to educate the acquisition workforce on threats, risk, and required security controls. Organizations use the acquisition/procurement processes to require supply chain entities to implement necessary security safeguards to: (i) reduce the likelihood of unauthorized modifications at each stage in the supply chain; and (ii) protect information systems and information system components, prior to taking delivery of such systems/components. This control enhancement also applies to information system services. Security safeguards include, for example: (i) security controls for development systems, development facilities, and external connections to development systems; (ii) vetting development personnel; and (iii) use of tamper-evident packaging during shipping/warehousing. Methods for reviewing and protecting development plans, evidence, and documentation are commensurate with the security category or classification level of the information system. Contracts may specify documentation protection requirements. Related controls: AT-3, CM-8, IR-4, PE-16, PL-8, SA-3, SA-4, SA-8, SA-10, SA-14, SA-15, SA-18, SA-19, SC-29, SC-30, SC-38, SI-7. </P>
+<P>Supplemental Guidance:  Information systems (including system components that compose those systems) need to be protected throughout the system development life cycle (i.e., during design, development, manufacturing, packaging, assembly, distribution, system integration, operations, maintenance, and retirement). Protection of organizational information systems is accomplished through threat awareness, by the identification, management, and reduction of vulnerabilities at each phase of the life cycle and the use of complementary, mutually reinforcing strategies to respond to risk. Organizations consider implementing a standardized process to address supply chain risk with respect to information systems and system components, and to educate the acquisition workforce on threats, risk, and required security controls. Organizations use the acquisition/procurement processes to require supply chain entities to implement necessary security safeguards to: (i) reduce the likelihood of unauthorized modifications at each stage in the supply chain; and (ii) protect information systems and information system components, prior to taking delivery of such systems/components. This control also applies to information system services. Security safeguards include, for example: (i) security controls for development systems, development facilities, and external connections to development systems; (ii) vetting development personnel; and (iii) use of tamper-evident packaging during shipping/warehousing. Methods for reviewing and protecting development plans, evidence, and documentation are commensurate with the security category or classification level of the information system. Contracts may specify documentation protection requirements. Related controls: AT-3, CM-8, IR-4, PE-16, PL-8, SA-3, SA-4, SA-8, SA-10, SA-14, SA-15, SA-18, SA-19, SC-29, SC-30, SC-38, SI-7. </P>
 
 <P>Control Enhancements: </P>
 
@@ -58758,7 +58758,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization employs [Assignment: organization-defined Operations Security (OPSEC) safeguards] in accordance with classification guides to protect supply chain-related information for the information system, system component, or information system service. </P>
 
-<P>Supplemental Guidance:  Supply chain information includes, for example: user identities; uses for information systems, information system components, and information system services; supplier identities; supplier processes; security requirements; design specifications; testing and evaluation results; and system/component configurations. This control enhancement expands the scope of OPSEC to include suppliers and potential suppliers. OPSEC is a process of identifying critical information and subsequently analyzing friendly actions attendant to operations and other activities to: (i) identify those actions that can be observed by potential adversaries; (ii) determine indicators that adversaries might obtain that could be interpreted or pieced together to derive critical information in sufficient time to cause harm to organizations; (iii) implement safeguards or countermeasures to eliminate or reduce to an acceptable level, exploitable vulnerabilities; and (iv) consider how aggregated information may compromise the confidentiality of users or uses of the supply chain. OPSEC may require organizations to withhold critical mission/business information from suppliers and may include the use of intermediaries to hide the end use, or users, of information systems, system components, or information system services. Related control: PE-21. </P>
+<P>Supplemental Guidance:  Supply chain information includes, for example: user identities; uses for information systems, information system components, and information system services; supplier identities; supplier processes; security requirements; design specifications; testing and evaluation results; and system/component configurations. This control enhancement expands the scope of OPSEC to include suppliers and potential suppliers. OPSEC is a process of identifying critical information and subsequently analyzing friendly actions attendant to operations and other activities to: (i) identify those actions that can be observed by potential adversaries; (ii) determine indicators that adversaries might obtain that could be interpreted or pieced together to derive critical information in sufficient time to cause harm to organizations; (iii) implement safeguards or countermeasures to eliminate or reduce to an acceptable level, exploitable vulnerabilities; and (iv) consider how aggregated information may compromise the confidentiality of users or uses of the supply chain. OPSEC may require organizations to withhold critical mission/business information from suppliers and may include the use of intermediaries to hide the end use, or users, of information systems, system components, or information system services. </P>
 
 <L>
 <LI>
@@ -59924,7 +59924,7 @@ Information system developers can increase the strength of security functionalit
 
 <H1 id="LinkTarget_13463">SC-5 DENIAL OF SERVICE PROTECTION </H1>
 
-<P>Control:  The information system protects against or limits the effects of the following types of denial of service attacks: [Assignment: organization-defined types of denial of service attacks or reference to source for such information] by employing [Assignment: organization-defined security safeguards]. </P>
+<P>Control:  The information system protects against or limits the effects of the following types of denial of service attacks: [Assignment: organization-defined types of denial of service attacks or references to sources for such information] by employing [Assignment: organization-defined security safeguards]. </P>
 
 <P>Supplemental Guidance:  A variety of technologies exist to limit, or in some cases, eliminate the effects of denial of service attacks. For example, boundary protection devices can filter certain types of packets to protect information system components on internal organizational networks from being directly affected by denial of service attacks. Employing increased capacity and bandwidth combined with service redundancy may also reduce the susceptibility to denial of service attacks. Related controls: SC-6, SC-7. </P>
 
@@ -60192,7 +60192,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The information system only allows incoming communications from [Assignment: organization-defined authorized sources] routed to [Assignment: organization-defined authorized destinations]. </P>
+<P>The information system only allows incoming communications from [Assignment: organization-defined authorized sources] to be routed to [Assignment: organization-defined authorized destinations]. </P>
 
 <P>Supplemental Guidance:  This control enhancement provides determinations that source and destination address pairs represent authorized/allowed communications. Such determinations can be based on several factors including, for example, the presence of source/destination </P>
 
@@ -62558,7 +62558,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 
 <LI>
-<LBody>c. Deploys monitoring devices: (i) strategically within the information system to collect organization-determined essential information; and (ii) at ad hoc locations within the system to track specific types of transactions of interest to the organization; </LBody>
+<LBody>c. Deploys monitoring devices: (1) strategically within the information system to collect organization-determined essential information; and (2) at ad hoc locations within the system to track specific types of transactions of interest to the organization; </LBody>
 </LI>
 
 <LI>
@@ -62790,7 +62790,7 @@ Information system developers can increase the strength of security functionalit
 
 <L>
 <LI>
-<LBody>(20) INFORMATION SYSTEM MONITORING | PRIVILEGED USER </LBody>
+<LBody>(20) INFORMATION SYSTEM MONITORING | PRIVILEGED USERS </LBody>
 </LI>
 </L>
 
@@ -62964,7 +62964,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>The information system implements automated mechanisms to support for the management of distributed security testing. </P>
+<P>The information system implements automated mechanisms to support the management of distributed security testing. </P>
 
 <P>Supplemental Guidance:  Related control: SI-2. </P>
 
@@ -63350,7 +63350,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization accounts for timing interactions among information system components in determining appropriate responses for invalid inputs. </P>
 
-<P>Supplemental Guidance:  In addressing invalid information system inputs received across protocol interfaces, timing interfaces become relevant, where one protocol needs to consider the impact of the error response on other protocols within the protocol stack. For example, 802.11 standard wireless network protocols do not interact well with Transmission Control Protocols (TCP) when packets are dropped (which could be due to invalid packet input). TCP assumes packet losses are due to congestion, while packets lost over 802.11 links are typically dropped due to collisions or noise on the link. If TCP makes a congestion response, it takes </P>
+<P>Supplemental Guidance:  In addressing invalid information system inputs received across protocol interfaces, timing interactions become relevant, where one protocol needs to consider the impact of the error response on other protocols within the protocol stack. For example, 802.11 standard wireless network protocols do not interact well with Transmission Control Protocols (TCP) when packets are dropped (which could be due to invalid packet input). TCP assumes packet losses are due to congestion, while packets lost over 802.11 links are typically dropped due to collisions or noise on the link. If TCP makes a congestion response, it takes </P>
 
 <P>precisely the wrong action in response to a collision event. Adversaries may be able to use apparently acceptable individual behaviors of the protocols in concert to achieve adverse effects through suitable construction of invalid input. </P>
 
@@ -80581,7 +80581,7 @@ Information system developers can increase the strength of security functionalit
 </LI>
 </L>
 
-<P>Supplemental Guidance:  The PII inventory enables organizations to implement effective administrative, technical, and physical security policies and procedures to protect PII consistent with Appendix F, and to mitigate risks of PII exposure. As one method of gathering information for their PII inventories, organizations may extract the following information elements from Privacy Impact Assessments (PIA) for information systems containing PII: (i) the name and acronym for each system identified; (ii) the types of PII contained in that system; (iii) classification of level of sensitivity of all types of PII, as combined in that information system; and (iv) classification of level of potential risk of substantial harm, embarrassment, inconvenience, or unfairness to affected individuals, as well as the financial or reputational risks to organizations, if PII is exposed. Organizations take due care in updating the inventories by identifying linkable data that could create PII. Related controls: AR-1, AR-4, AR-5, AT-1, DM-1, PM-5, UL-3. </P>
+<P>Supplemental Guidance:  The PII inventory enables organizations to implement effective administrative, technical, and physical security policies and procedures to protect PII consistent with Appendix F, and to mitigate risks of PII exposure. As one method of gathering information for their PII inventories, organizations may extract the following information elements from Privacy Impact Assessments (PIA) for information systems containing PII: (i) the name and acronym for each system identified; (ii) the types of PII contained in that system; (iii) classification of level of sensitivity of all types of PII, as combined in that information system; and (iv) classification of level of potential risk of substantial harm, embarrassment, inconvenience, or unfairness to affected individuals, as well as the financial or reputational risks to organizations, if PII is exposed. Organizations take due care in updating the inventories by identifying linkable data that could create PII. Related controls: AR-1, AR-4, AR-5, AT-1, DM-1, PM-5. </P>
 
 <P>Control Enhancements:  None. </P>
 
