@@ -15,6 +15,26 @@ $error = "";
 eval {'xxxx' =~ /$qstring/};
 $error = $@ if $@;
 
+sub clicketysplit {
+  my ($id) = @_;
+  my (@headers, $i, $rebuild, $returned);
+
+  $returned = "";
+  @headers = split(/ /, $id);
+  for ($i=0;$i<scalar(@headers);$i++) {
+    if ($i == 0) {
+      $rebuild = $headers[$i];
+    } else {
+      $rebuild = qq($rebuild $headers[$i]);
+    }
+    $rebuilt = $rebuild;
+    $rebuilt =~ s/\(/\\(/g;
+    $rebuilt =~ s/\)/\\)/g;
+    $returned = qq($returned <a href="search.pl?find=^$rebuilt\[ :]">$headers[$i]</a>);
+  }
+  return $returned;
+}
+
 $found = 0;
 $results = qq(<table border="2">\n);
 $results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
@@ -29,6 +49,7 @@ if ($qstring ne "" && $error eq "") {
       $escaped = $section;
       $escaped =~ s/\(/\\(/g;
       $escaped =~ s/\)/\\)/g;
+      $escaped = &clicketysplit($section);
 
       # make enhancements in withdrawn controls clickable
       if ($type eq 'withdrawn') {
@@ -52,7 +73,7 @@ if ($qstring ne "" && $error eq "") {
       # highlight text that matches the search string, outside HTML elements
       $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>$1</b>#gi;
 
-      $results .= qq(<tr><td valign="top" nowrap><a href="search.pl?find=^$escaped\[ :]">$section</a></td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
+      $results .= qq(<tr><td valign="top" nowrap>$escaped</td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
     }
   }
 }
@@ -89,3 +110,4 @@ print <<EOF
 </body>
 </html>
 EOF
+
