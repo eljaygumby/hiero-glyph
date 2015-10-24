@@ -47260,7 +47260,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  This control addresses situations in which organizations determine that no identification or authentication is required in organizational information systems. Organizations may allow a limited number of user actions without identification or authentication including, for example, when individuals access public websites or other publicly accessible federal information systems, when individuals use mobile phones to receive calls, or when facsimiles are received. Organizations also identify actions that normally require identification or authentication but may under certain circumstances (e.g., emergencies), allow identification or authentication mechanisms to be bypassed. Such bypasses may occur, for example, via a software-readable physical switch that commands bypass of the logon functionality and is protected from accidental or unmonitored use. This control does not apply to situations where identification and authentication have already occurred and are not repeated, but rather to situations where identification and authentication have not yet occurred. Organizations may decide that there are no user actions that can be performed on organizational information systems without identification and authentication and thus, the values for assignment statements can be none. Related controls: CP-2, IA-2. </P>
 
-<P>Control Enhancements:  None. </P>
+<P>Control Enhancements:  </P>
 
 <L>
 <LI>
@@ -51932,7 +51932,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>The organization tests alternate telecommunication services [Assignment: organization-defined frequency]. </P>
 
-<P>References:  NIST Special Publication 800-34; National Communications Systems Directive 3-10; Web: http://www.dhs.gov/telecommunications-service-priority-tsp </P>
+<P>References:  NIST Special Publication 800-34; National Communications Systems Directive 3-10; Web: http://www.dhs.gov/telecommunications-service-priority-tsp. </P>
 
 <P>Priority and Baseline Allocation: </P>
 
@@ -58902,7 +58902,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Criticality analysis is a key tenet of supply chain risk management and informs the prioritization of supply chain protection activities such as attack surface reduction, use of all-source intelligence, and tailored acquisition strategies. Information system engineers can conduct an end-to-end functional decomposition of an information system to identify mission-critical functions and components. The functional decomposition includes the identification of core organizational missions supported by the system, decomposition into the specific functions to perform those missions, and traceability to the hardware, software, and firmware components that implement those functions, including when the functions are shared by many components within and beyond the information system boundary. Information system components that allow for unmediated access to critical components or functions are considered critical due to the inherent vulnerabilities such components create. Criticality is assessed in terms of the impact of the function or component failure on the ability of the component to complete the organizational missions supported by the information system. A criticality analysis is performed whenever an architecture or design is being developed or modified, including upgrades. Related controls: CP-2, PL-2, PL-8, PM-1, SA-8, SA-12, SA-13, SA-15, SA-20. </P>
 
-<P>Control Enhancements:  None. </P>
+<P>Control Enhancements:  </P>
 
 <L>
 <LI>
@@ -60588,7 +60588,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Cryptography can be employed to support a variety of security solutions including, for example, the protection of classified and Controlled Unclassified Information, the provision of digital signatures, and the enforcement of information separation when authorized individuals have the necessary clearances for such information but lack the necessary formal access approvals. Cryptography can also be used to support random number generation and hash generation. Generally applicable cryptographic standards include FIPS-validated cryptography and NSA-approved cryptography. This control does not impose any requirements on organizations to use cryptography. However, if cryptography is required based on the selection of other security controls, organizations define each type of cryptographic use and the type of cryptography required (e.g., protection of classified information: NSA-approved cryptography; provision of digital signatures: FIPS-validated cryptography). Related controls: AC-2, AC-3, AC-7, AC-17, AC-18, AU-9, AU-10, CM-11, CP-9, IA-3, IA-7, MA-4, MP-2, MP-4, MP-5, SA-4, SC-8, SC-12, SC-28, SI-7. </P>
 
-<P>Control Enhancements:  None. </P>
+<P>Control Enhancements:  </P>
 
 <L>
 <LI>
@@ -61020,7 +61020,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Supplemental Guidance:  Each client of name resolution services either performs this validation on its own, or has authenticated channels to trusted validation providers. Information systems that provide name and address resolution services for local clients include, for example, recursive resolving or caching domain name system (DNS) servers. DNS client resolvers either perform validation of DNSSEC signatures, or clients use authenticated channels to recursive resolvers that perform such validations. Information systems that use technologies other than the DNS to map between host/service names and network addresses provide other means to enable clients to verify the authenticity and integrity of response data. Related controls: SC-20, SC-22. </P>
 
-<P>Control Enhancements:  None. </P>
+<P>Control Enhancements:  </P>
 
 <L>
 <LI>
@@ -61248,7 +61248,7 @@ Information system developers can increase the strength of security functionalit
 
 <P>Depending upon the specific usage of the honeypot, consultation with the Office of the General Counsel before deployment may be needed. Related controls: SC-30, SC-44, SI-3, SI-4. </P>
 
-<P>Control Enhancements:  None. </P>
+<P>Control Enhancements:  </P>
 
 <L>
 <LI>

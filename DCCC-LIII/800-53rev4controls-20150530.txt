@@ -343,8 +343,6 @@ AC-14:text:The organization:
 AC-14 a:text:The organization: Identifies [Assignment: organization-defined user actions] that can be performed on the information system without identification or authentication consistent with organizational missions/business functions; and
 AC-14 b:text:The organization: Documents and provides supporting rationale in the security plan for the information system, user actions not requiring identification or authentication.
 AC-14:supplement:This control addresses situations in which organizations determine that no identification or authentication is required in organizational information systems. Organizations may allow a limited number of user actions without identification or authentication including, for example, when individuals access public websites or other publicly accessible federal information systems, when individuals use mobile phones to receive calls, or when facsimiles are received. Organizations also identify actions that normally require identification or authentication but may under certain circumstances (e.g., emergencies), allow identification or authentication mechanisms to be bypassed. Such bypasses may occur, for example, via a software-readable physical switch that commands bypass of the logon functionality and is protected from accidental or unmonitored use. This control does not apply to situations where identification and authentication have already occurred and are not repeated, but rather to situations where identification and authentication have not yet occurred. Organizations may decide that there are no user actions that can be performed on organizational information systems without identification and authentication and thus, the values for assignment statements can be none. Related controls: CP-2, IA-2.
-AC-14 (1):title:PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION | NECESSARY USES
-AC-14 (1):withdrawn:Incorporated into AC-14
 AC-14:references:None
 AC-14:priority:P3
 AC-14:low:AC-14
@@ -1475,31 +1473,9 @@ CP-7:low:Not Selected
 CP-7:mod:CP-7 (1) (2) (3)
 CP-7:high:CP-7 (1) (2) (3) (4)
 CP-8:title:TELECOMMUNICATIONS SERVICES
-CP-8:text:The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of [Assignment: organization-defined information system operations] for essential missions and business functions within [Assignment: organization-defined time period] when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites.
-CP-8:supplement:This control applies to telecommunications services (data and voice) for primary and alternate processing and storage sites. Alternate telecommunications services reflect the continuity requirements in contingency plans to maintain essential missions/business functions despite the loss of primary telecommunications services. Organizations may specify different time periods for primary/alternate sites. Alternate telecommunications services include, for example, additional organizational or commercial ground-based circuits/lines or satellites in lieu of ground-based communications. Organizations consider factors such as availability, quality of service, and access when entering into alternate telecommunications agreements. Related controls: CP-2, CP-6, CP-7.
-CP-8 (1):title:TELECOMMUNICATIONS SERVICES | PRIORITY OF SERVICE PROVISIONS
-CP-8 (1):text:The organization:
-CP-8 (1) (a):text:The organization: Develops primary and alternate telecommunications service agreements that contain priority-of-service provisions in accordance with organizational availability requirements (including recovery time objectives); and
-CP-8 (1) (b):text:The organization: Requests Telecommunications Service Priority for all telecommunications services used for national security emergency preparedness in the event that the primary and/or alternate telecommunications services are provided by a common carrier.
-CP-8 (1):supplement:Organizations consider the potential mission/business impact in situations where telecommunications service providers are servicing other organizations with similar priority-of-service provisions.
-CP-8 (2):title:TELECOMMUNICATIONS SERVICES | SINGLE POINTS OF FAILURE
-CP-8 (2):text:The organization obtains alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services.
-CP-8 (3):title:TELECOMMUNICATIONS SERVICES | SEPARATION OF PRIMARY / ALTERNATE PROVIDERS
-CP-8 (3):text:The organization obtains alternate telecommunications services from providers that are separated from primary service providers to reduce susceptibility to the same threats.
-CP-8 (3):supplement:Threats that affect telecommunications services are typically defined in organizational assessments of risk and include, for example, natural disasters, structural failures, hostile cyber/physical attacks, and errors of omission/commission. Organizations seek to reduce common susceptibilities by, for example, minimizing shared infrastructure among telecommunications service providers and achieving sufficient geographic separation between services. Organizations may consider using a single service provider in situations where the service provider can provide alternate telecommunications services meeting the separation needs addressed in the risk assessment.
-CP-8 (4):title:TELECOMMUNICATIONS SERVICES | PROVIDER CONTINGENCY PLAN
-CP-8 (4):text:The organization:
-CP-8 (4) (a):text:The organization: Requires primary and alternate telecommunications service providers to have contingency plans;
-CP-8 (4) (b):text:The organization: Reviews provider contingency plans to ensure that the plans meet organizational contingency requirements; and
-CP-8 (4) (c):text:The organization: Obtains evidence of contingency testing/training by providers [Assignment: organization-defined frequency].
-CP-8 (4):supplement:Reviews of provider contingency plans consider the proprietary nature of such plans. In some situations, a summary of provider contingency plans may be sufficient evidence for organizations to satisfy the review requirement. Telecommunications service providers may also participate in ongoing disaster recovery exercises in coordination with the Department of Homeland Security, state, and local governments. Organizations may use these types of activities to satisfy evidentiary requirements related to service provider contingency plan reviews, testing, and training.
-CP-8 (5):title:TELECOMMUNICATIONS SERVICES | ALTERNATE TELECOMMUNICATION SERVICE TESTING
-CP-8 (5):text:The organization tests alternate telecommunication services [Assignment: organization-defined frequency].
-CP-8:references:NIST Special Publication 800-34; National Communications Systems Directive 3-10; Web: http://www.dhs.gov/telecommunications-service-priority-tsp
-CP-8:priority:P1
-CP-8:low:Not Selected
-CP-8:mod:CP-8 (1) (2)
-CP-8:high:CP-8 (1) (2) (3) (4)
+CP-8:text:
+CP-8:supplement:
+CP-8:references:
 CP-9:title:INFORMATION SYSTEM BACKUP
 CP-9:text:The organization:
 CP-9 a:text:The organization: Conducts backups of user-level information contained in the information system [Assignment: organization-defined frequency consistent with recovery time and recovery point objectives];
@@ -3198,8 +3174,6 @@ SA-13:high:Not Selected
 SA-14:title:CRITICALITY ANALYSIS
 SA-14:text:The organization identifies critical information system components and functions by performing a criticality analysis for [Assignment: organization-defined information systems, information system components, or information system services] at [Assignment: organization-defined decision points in the system development life cycle].
 SA-14:supplement:Criticality analysis is a key tenet of supply chain risk management and informs the prioritization of supply chain protection activities such as attack surface reduction, use of all-source intelligence, and tailored acquisition strategies. Information system engineers can conduct an end-to-end functional decomposition of an information system to identify mission-critical functions and components. The functional decomposition includes the identification of core organizational missions supported by the system, decomposition into the specific functions to perform those missions, and traceability to the hardware, software, and firmware components that implement those functions, including when the functions are shared by many components within and beyond the information system boundary. Information system components that allow for unmediated access to critical components or functions are considered critical due to the inherent vulnerabilities such components create. Criticality is assessed in terms of the impact of the function or component failure on the ability of the component to complete the organizational missions supported by the information system. A criticality analysis is performed whenever an architecture or design is being developed or modified, including upgrades. Related controls: CP-2, PL-2, PL-8, PM-1, SA-8, SA-12, SA-13, SA-15, SA-20.
-SA-14 (1):title:CRITICALITY ANALYSIS | CRITICAL COMPONENTS WITH  NO VIABLE ALTERNATIVE SOURCING
-SA-14 (1):withdrawn:Incorporated into SA-20
 SA-14:references:None
 SA-14:priority:P0
 SA-14:low:Not Selected
@@ -3618,14 +3592,6 @@ SC-12:high:SC-12 (1)
 SC-13:title:CRYPTOGRAPHIC PROTECTION
 SC-13:text:The information system implements [Assignment: organization-defined cryptographic uses and type of cryptography required for each use] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards.
 SC-13:supplement:Cryptography can be employed to support a variety of security solutions including, for example, the protection of classified and Controlled Unclassified Information, the provision of digital signatures, and the enforcement of information separation when authorized individuals have the necessary clearances for such information but lack the necessary formal access approvals. Cryptography can also be used to support random number generation and hash generation. Generally applicable cryptographic standards include FIPS-validated cryptography and NSA-approved cryptography. This control does not impose any requirements on organizations to use cryptography. However, if cryptography is required based on the selection of other security controls, organizations define each type of cryptographic use and the type of cryptography required (e.g., protection of classified information: NSA-approved cryptography; provision of digital signatures: FIPS-validated cryptography). Related controls: AC-2, AC-3, AC-7, AC-17, AC-18, AU-9, AU-10, CM-11, CP-9, IA-3, IA-7, MA-4, MP-2, MP-4, MP-5, SA-4, SC-8, SC-12, SC-28, SI-7.
-SC-13 (1):title:CRYPTOGRAPHIC PROTECTION | FIPS-VALIDATED CRYPTOGRAPHY
-SC-13 (1):withdrawn:Incorporated into SC-13
-SC-13 (2):title:CRYPTOGRAPHIC PROTECTION | NSA-APPROVED CRYPTOGRAPHY
-SC-13 (2):withdrawn:Incorporated into SC-13
-SC-13 (3):title:CRYPTOGRAPHIC PROTECTION | INDIVIDUALS WITHOUT FORMAL ACCESS  APPROVALS
-SC-13 (3):withdrawn:Incorporated into SC-13
-SC-13 (4):title:CRYPTOGRAPHIC PROTECTION | DIGITAL SIGNATURES
-SC-13 (4):withdrawn:Incorporated into SC-13
 SC-13:references:FIPS Publication 140; Web: http://csrc.nist.gov/cryptval, http://www.cnss.gov
 SC-13:priority:P1
 SC-13:low:SC-13
@@ -3723,8 +3689,6 @@ SC-20:high:SC-20
 SC-21:title:SECURE NAME / ADDRESS RESOLUTION SERVICE (RECURSIVE OR CACHING RESOLVER)
 SC-21:text:The information system requests and performs data origin authentication and data integrity verification on the name/address resolution responses the system receives from authoritative sources.
 SC-21:supplement:Each client of name resolution services either performs this validation on its own, or has authenticated channels to trusted validation providers. Information systems that provide name and address resolution services for local clients include, for example, recursive resolving or caching domain name system (DNS) servers. DNS client resolvers either perform validation of DNSSEC signatures, or clients use authenticated channels to recursive resolvers that perform such validations. Information systems that use technologies other than the DNS to map between host/service names and network addresses provide other means to enable clients to verify the authenticity and integrity of response data. Related controls: SC-20, SC-22.
-SC-21 (1):title:SECURE NAME / ADDRESS RESOLUTION SERVICE (RECURSIVE OR CACHING RESOLVER) | DATA ORIGIN / INTEGRITY
-SC-21 (1):withdrawn:Incorporated into SC-21
 SC-21:references:NIST Special Publication 800-81
 SC-21:priority:P1
 SC-21:low:SC-21
@@ -3778,8 +3742,6 @@ SC-25:high:Not Selected
 SC-26:title:HONEYPOTS
 SC-26:text:The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.
 SC-26:supplement:A honeypot is set up as a decoy to attract adversaries and to deflect their attacks away from the operational systems supporting organizational missions/business function. Depending upon the specific usage of the honeypot, consultation with the Office of the General Counsel before deployment may be needed. Related controls: SC-30, SC-44, SI-3, SI-4.
-SC-26 (1):title:HONEYPOTS | DETECTION OF MALICIOUS CODE
-SC-26 (1):withdrawn:Incorporated into SC-35
 SC-26:references:None
 SC-26:priority:P0
 SC-26:low:Not Selected
