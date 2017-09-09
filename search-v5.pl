@@ -95,7 +95,7 @@ print <<EOF
 </head>
 <body>
   <h1>
-    Welcome to DCCC-LIII revision IV (initial public draft of 2017-08-15)
+    Welcome to DCCC-LIII revision V (initial public draft of 2017-08-15)
   </h1>
   <form action="search.pl" method="GET">
     New search:  <input type="text" name="find">
