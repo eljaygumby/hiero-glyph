@@ -9,6 +9,7 @@ print <<EOF
 </head>
 <body>
  <a href="search.pl">Search IA controls from NIST SP 800-53 rev 4</a>
+ <a href="search-v5.pl">Search IA controls from NIST SP 800-53 rev5 initial public draft</a>
 </body>
 </html>
 EOF
