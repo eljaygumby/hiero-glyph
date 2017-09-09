@@ -84,7 +84,7 @@ if ($xml == 1) {
 sub printcontrol {
   my ($controlid, $control) = @_;
   my ($id, $text);
-  my (@subcontrols) = split(/\n([a-z]+)\.\s+/s, $control);
+  my (@subcontrols) = split(/\n?([a-z]+)\.\s+/s, $control);
 
   printelement($controlid, 'text', $subcontrols[0], $subcontrols[0]);
   my $controltext = shift @subcontrols;
@@ -130,10 +130,13 @@ sub printsubcontrol {
 sub printelement {
   my ($id, $element, $text, $fulltext) = @_;
 
+  return if $text =~ /^\s*$/;
   $text =~ s/(\n|\s+)/ /gs;  # remove unnecessary newlines and extra spaces
   $text =~ s/\s+$//gs;  # remove trailing spaces
+  $text =~ s/^\s+//gs;  # remove leading spaces
   $fulltext =~ s/(\n|\s+)/ /gs;  # remove unnecessary newlines and extra spaces
   $fulltext =~ s/\s+$//gs;  # remove trailing spaces
+  $fulltext =~ s/^\s+//gs;  # remove leading spaces
   if ($xml == 1) {
     print qq(<$element>$text</$element>\n);
   } else {
