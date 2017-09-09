@@ -30,7 +30,7 @@ sub clicketysplit {
     $rebuilt = $rebuild;
     $rebuilt =~ s/\(/\\(/g;
     $rebuilt =~ s/\)/\\)/g;
-    $returned = qq($returned <a href="search.pl?find=^$rebuilt\[ :]">$headers[$i]</a>);
+    $returned = qq($returned <a href="search-v5.pl?find=^$rebuilt\[ :]">$headers[$i]</a>);
   }
   return $returned;
 }
@@ -53,21 +53,21 @@ if ($qstring ne "" && $error eq "") {
 
       # make enhancements in withdrawn controls clickable
       if ($type eq 'withdrawn') {
-        $text =~ s#([A-Z]{2}-[0-9]+ \([0-9]+\))#<a href="search.pl?find=^$1\[ :\]">$1</a>#g; 
+        $text =~ s#([A-Z]{2}-[0-9]+ \([0-9]+\))#<a href="search-v5.pl?find=^$1\[ :\]">$1</a>#g; 
         # escape parens in the regex
         $text =~ s/(\))\[/\\$1\[/g; # escape closing parens, identified by open square bracket
         $text =~ s/(\([0-9]+)\\\)\[/\\$1\\\)\[/g; # escape opening parens, identified by previous regex
       }
 
       # make related controls (but not enhancements) clickable in the text
-      $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^$1\[ :\]">$1</a>#g;
+      $text =~ s# ([A-Z]{2}-[0-9]+)# <a href="search-v5.pl?find=^$1\[ :\]">$1</a>#g;
 
       # make baseline selections clickable
       if ($type =~ /^(low|mod|high)$/) {
         # main control
-        $text =~ s#([A-Z]{2}-[0-9]+)# <a href="search.pl?find=^$1\[ :\]">$1</a>#g;
+        $text =~ s#([A-Z]{2}-[0-9]+)# <a href="search-v5.pl?find=^$1\[ :\]">$1</a>#g;
         # enhancements
-        $text =~ s# \(([0-9]+)\)# <a href="search.pl?find=^$section \\($1\\)\[ :\]">($1)</a>#g;
+        $text =~ s# \(([0-9]+)\)# <a href="search-v5.pl?find=^$section \\($1\\)\[ :\]">($1)</a>#g;
       }
 
       # highlight text that matches the search string, outside HTML elements
@@ -97,7 +97,7 @@ print <<EOF
   <h1>
     Welcome to DCCC-LIII revision V (initial public draft of 2017-08-15)
   </h1>
-  <form action="search.pl" method="GET">
+  <form action="search-v5.pl" method="GET">
     New search:  <input type="text" name="find">
   </form>
   <p>
