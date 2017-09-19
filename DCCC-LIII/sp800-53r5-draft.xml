@@ -6747,7 +6747,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(1) AUTHORIZATION | JOINT AUTHORIZATION — SAME ORGANIZATION </LBody>
+<LBody xml:lang="EN-US">(1) AUTHORIZATION | JOINT AUTHORIZATION - SAME ORGANIZATION </LBody>
 </LI>
 </L>
 
@@ -6759,7 +6759,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(2) AUTHORIZATION | JOINT AUTHORIZATION — DIFFERENT ORGANIZATIONS  </LBody>
+<LBody xml:lang="EN-US">(2) AUTHORIZATION | JOINT AUTHORIZATION - DIFFERENT ORGANIZATIONS  </LBody>
 </LI>
 </L>
 
@@ -7621,7 +7621,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(4) LEAST FUNCTIONALITY | UNAUTHORIZED SOFTWARE — BLACKLISTING 
+<LBody xml:lang="EN-US">(4) LEAST FUNCTIONALITY | UNAUTHORIZED SOFTWARE - BLACKLISTING 
 <L>
 <L>
 <LI>
@@ -7647,7 +7647,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(5) LEAST FUNCTIONALITY | AUTHORIZED SOFTWARE — WHITELISTING </LBody>
+<LBody xml:lang="EN-US">(5) LEAST FUNCTIONALITY | AUTHORIZED SOFTWARE - WHITELISTING </LBody>
 </LI>
 
 <LI>
@@ -9091,7 +9091,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(6) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | NETWORK ACCESS TO PRIVILEGED ACCOUNTS — SEPARATE DEVICE  </LBody>
+<LBody xml:lang="EN-US">(6) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | NETWORK ACCESS TO PRIVILEGED ACCOUNTS - SEPARATE DEVICE  </LBody>
 </LI>
 </L>
 
@@ -9099,7 +9099,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(7) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS — SEPARATE DEVICE  </LBody>
+<LBody xml:lang="EN-US">(7) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - SEPARATE DEVICE  </LBody>
 </LI>
 </L>
 
@@ -9119,7 +9119,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(9) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS — REPLAY RESISTANT  </LBody>
+<LBody xml:lang="EN-US">(9) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - REPLAY RESISTANT  </LBody>
 </LI>
 </L>
 
@@ -9139,7 +9139,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(11) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | REMOTE ACCESS — SEPARATE DEVICE  </LBody>
+<LBody xml:lang="EN-US">(11) IDENTIFICATION AND AUTHENTICATION (ORGANIZATIONAL USERS) | REMOTE ACCESS - SEPARATE DEVICE  </LBody>
 </LI>
 </L>
 
@@ -10535,7 +10535,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(6) INCIDENT HANDLING | INSIDER THREATS — SPECIFIC CAPABILITIES </LBody>
+<LBody xml:lang="EN-US">(6) INCIDENT HANDLING | INSIDER THREATS - SPECIFIC CAPABILITIES </LBody>
 </LI>
 </L>
 
@@ -10547,7 +10547,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(7) INCIDENT HANDLING | INSIDER THREATS — INTRA-ORGANIZATION COORDINATION </LBody>
+<LBody xml:lang="EN-US">(7) INCIDENT HANDLING | INSIDER THREATS - INTRA-ORGANIZATION COORDINATION </LBody>
 </LI>
 </L>
 
@@ -12755,7 +12755,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(1) EMERGENCY POWER | LONG-TERM ALTERNATE POWER SUPPLY — MINIMAL OPERATIONAL CAPABILITY  </LBody>
+<LBody xml:lang="EN-US">(1) EMERGENCY POWER | LONG-TERM ALTERNATE POWER SUPPLY - MINIMAL OPERATIONAL CAPABILITY  </LBody>
 </LI>
 </L>
 
@@ -12767,7 +12767,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(2) EMERGENCY POWER | LONG-TERM ALTERNATE POWER SUPPLY — SELF-CONTAINED </LBody>
+<LBody xml:lang="EN-US">(2) EMERGENCY POWER | LONG-TERM ALTERNATE POWER SUPPLY - SELF-CONTAINED </LBody>
 </LI>
 </L>
 
@@ -17427,7 +17427,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">(5) BOUNDARY PROTECTION | DENY BY DEFAULT — ALLOW BY EXCEPTION  </LBody>
+<LBody xml:lang="EN-US">(5) BOUNDARY PROTECTION | DENY BY DEFAULT - ALLOW BY EXCEPTION  </LBody>
 </LI>
 </L>
 
