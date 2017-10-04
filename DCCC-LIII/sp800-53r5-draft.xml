@@ -5503,7 +5503,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 
 <LI>
-<LBody xml:lang="EN-US">d. Specify that the following event types are to be audited within the system: [Assignment: organization-defined audited events (the subset of the auditable events defined in AU-2 a.) along with the frequency of (or situation requiring) auditing for each identified event]. </LBody>
+<LBody xml:lang="EN-US">d. Specify that the following event types are to be audited within the system: [Assignment: organization-defined audited events (the subset of the auditable events defined in AU-2 a) along with the frequency of (or situation requiring) auditing for each identified event]. </LBody>
 </LI>
 </L>
 
@@ -6185,7 +6185,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">a. Provide audit record generation capability for the auditable event types in AU-2 a. at [Assignment: organization-defined system components]; </LBody>
+<LBody xml:lang="EN-US">a. Provide audit record generation capability for the auditable event types in AU-2 a at [Assignment: organization-defined system components]; </LBody>
 </LI>
 
 <LI>
@@ -6193,7 +6193,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 
 <LI>
-<LBody xml:lang="EN-US">c. Generate audit records for the event types defined in AU-2 d. with the content in AU-3. </LBody>
+<LBody xml:lang="EN-US">c. Generate audit records for the event types defined in AU-2 d with the content in AU-3. </LBody>
 </LI>
 </L>
 
@@ -6777,7 +6777,7 @@ for each organization, sector, or individual company based on specific operating
 <Link xml:lang="EN-US">Supplemental Guidance on Ongoing Authorization</Link>
 . </P>
 
-<P xml:lang="EN-US">CA-7 CONTINUOUS MONITORING  </P>
+<H1 xml:lang="EN-US">CA-7 CONTINUOUS MONITORING  </H1>
 
 <P xml:lang="EN-US"> Control:  Develop a security and privacy continuous monitoring strategy and implement security and privacy continuous monitoring programs that include: </P>
 
@@ -10093,7 +10093,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Supplemental Guidance:  This control transfers risk that arises from the processing of personally identifiable information from the organization to an individual. It is only selected as required by law or regulation or when individuals can be reasonably expected to understand and accept any privacy risks arising from their authorization. Organizations consider whether other controls may more effectively mitigate privacy risk either alone or in conjunction with consent. </P>
 
-<P xml:lang="EN-US">To help users understand the risks being accepted when providing consent, organizations write materials in plain language and avoid technical jargon. The examples required in IP-2 a. focus on key points necessary for user decision-making. When developing or purchasing consent tools, organizations consider the application of good information design procedures in all user-facing consent materials; use of active voice and conversational style; logical sequencing of main points; consistent use of the same word (rather than synonyms) to avoid confusion; the use of bullets, numbers, and formatting where appropriate to aid readability; and legibility of text, such as font style, size, color, and contrast with surrounding background.  </P>
+<P xml:lang="EN-US">To help users understand the risks being accepted when providing consent, organizations write materials in plain language and avoid technical jargon. The examples required in IP-2 a focus on key points necessary for user decision-making. When developing or purchasing consent tools, organizations consider the application of good information design procedures in all user-facing consent materials; use of active voice and conversational style; logical sequencing of main points; consistent use of the same word (rather than synonyms) to avoid confusion; the use of bullets, numbers, and formatting where appropriate to aid readability; and legibility of text, such as font style, size, color, and contrast with surrounding background.  </P>
 
 <P xml:lang="EN-US">Related Controls:  AC-16, IP-4. </P>
 
@@ -10605,7 +10605,7 @@ for each organization, sector, or individual company based on specific operating
 <Link xml:lang="EN-US">7599</Link>
 . </P>
 
-<P xml:lang="EN-US">IR-5 INCIDENT MONITORING </P>
+<H1 xml:lang="EN-US">IR-5 INCIDENT MONITORING </H1>
 
 <P xml:lang="EN-US">Control:  Track and document system security and privacy incidents. </P>
 
@@ -10923,7 +10923,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">References:  None. </P>
 
-<P xml:lang="EN-US">IR-10 INTEGRATED INFORMATION SECURITY ANALYSIS TEAM </P>
+<H1 xml:lang="EN-US">IR-10 INTEGRATED INFORMATION SECURITY ANALYSIS TEAM </H1>
 
 <P xml:lang="EN-US">Control:  Establish an integrated team of forensic and malicious code analysts, tool developers, and real-time operations personnel to handle incidents. </P>
 
@@ -17019,7 +17019,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 
 <LI>
-<LBody xml:lang="EN-US">c. Provide information that the access authorizations and screening criteria specified in a. and b. are satisfied.  </LBody>
+<LBody xml:lang="EN-US">c. Provide information that the access authorizations and screening criteria specified in a and b are satisfied.  </LBody>
 </LI>
 </L>
 
