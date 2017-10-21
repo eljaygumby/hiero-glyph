@@ -332,6 +332,8 @@ AC-14:title:PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION:v5ipd
 AC-14 a:text:Identify [Assignment: organization-defined user actions] that can be performed on the system without identification or authentication consistent with organizational missions and business functions; and:v5ipd
 AC-14 b:text:Document and provide supporting rationale in the security plan for the system, user actions not requiring identification or authentication.:v5ipd
 AC-14:supplement:This control addresses situations in which organizations determine that no identification or authentication is required in organizational systems. Organizations may allow a limited number of user actions without identification or authentication including, for example, when individuals access public websites or other publicly accessible federal systems, when individuals use mobile phones to receive calls, or when facsimiles are received. Organizations also identify actions that normally require identification or authentication but may under certain circumstances, allow identification or authentication mechanisms to be bypassed. Such bypasses may occur, for example, via a software-readable physical switch that commands bypass of the logon functionality and is protected from accidental or unmonitored use. This control does not apply to situations where identification and authentication have already occurred and are not repeated, but rather to situations where identification and authentication have not yet occurred. Organizations may decide that there are no user actions that can be performed on organizational systems without identification and authentication and therefore, the values for assignment statements can be none. Related Controls: AC-8, IA-2, PL-2.:v5ipd
+AC-14 (1):title:PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION | NECESSARY USES:v5ipd
+AC-14 (1):withdrawn:Incorporated into AC-14:v5ipd
 AC-14:references:None:v5ipd
 AC-15:title:AUTOMATED MARKING:v5ipd
 AC-15:withdrawn:Incorporated into MP-3:v5ipd
@@ -3380,6 +3382,14 @@ SC-12:references:NIST Special Publications 800-56A , 800-56B , 800-56C , 800-57-
 SC-13:title:CRYPTOGRAPHIC PROTECTION:v5ipd
 SC-13:text:Implement the following cryptographic uses and type of cryptography for each use: [Assignment: organization-defined cryptographic uses and type of cryptography required for each use].:v5ipd
 SC-13:supplement:Cryptography can be employed to support a variety of security solutions including, for example, the protection of classified information and Controlled Unclassified Information; the provision and implementation of digital signatures; and the enforcement of information separation when authorized individuals have the necessary clearances but lack the necessary formal access approvals. Cryptography can also be used to support random number generation and hash generation. Generally applicable cryptographic standards include FIPS-validated cryptography and NSA-approved cryptography. This control does not impose any requirements on organizations to use cryptography. However, if cryptography is required due to the selection of other security controls, organizations define each type of cryptographic use and the type of cryptography required. For example, organizations that need to protect classified information specify the use of NSA-approved cryptography. Organizations that need to provision and implement digital signatures specify the use of FIPS-validated cryptography. In all instances, cryptography is implemented in accordance with applicable laws, Executive Orders, directives, policies, regulations, standards, and guidelines. Related Controls: AC-2, AC-3, AC-7, AC-17, AC-18, AC-19, AU-9, AU-10, CM-11, CP-9, IA-3, IA-7, MA-4, MP-2, MP-4, MP-5, SA-4, SA-9, SC-8, SC-12, SC-20, SC-23, SC-28, SC-40, SI-3, SI-7.:v5ipd
+SC-13 (1):title:CRYPTOGRAPHIC PROTECTION | FIPS-VALIDATED CRYPTOGRAPHY:v5ipd
+SC-13 (1):withdrawn:Incorporated into SC-13:v5ipd
+SC-13 (2):title:CRYPTOGRAPHIC PROTECTION | NSA-APPROVED CRYPTOGRAPHY:v5ipd
+SC-13 (2):withdrawn:Incorporated into SC-13:v5ipd
+SC-13 (3):title:CRYPTOGRAPHIC PROTECTION | INDIVIDUALS WITHOUT FORMAL ACCESS APPROVALS:v5ipd
+SC-13 (3):withdrawn:Incorporated into SC-13:v5ipd
+SC-13 (4):title:CRYPTOGRAPHIC PROTECTION | DIGITAL SIGNATURES:v5ipd
+SC-13 (4):withdrawn:Incorporated into SC-13:v5ipd
 SC-13:references:FIPS Publication 140-2:v5ipd
 SC-14:title:PUBLIC ACCESS PROTECTIONS:v5ipd
 SC-14:withdrawn:Incorporated into AC-2, AC-3, AC-5, AC-6, SI-3, SI-4, SI-5, SI-7, SI-10:v5ipd
@@ -3449,6 +3459,8 @@ SC-20:references:FIPS Publications 140-2 , 186-4 ; NIST Special Publication 800-
 SC-21:title:SECURE NAME/ADDRESS RESOLUTION SERVICE (RECURSIVE OR CACHING RESOLVER):v5ipd
 SC-21:text:Request and perform data origin authentication and data integrity verification on the name/address resolution responses the system receives from authoritative sources.:v5ipd
 SC-21:supplement:Each client of name resolution services either performs this validation on its own, or has authenticated channels to trusted validation providers. Systems that provide name and address resolution services for local clients include, for example, recursive resolving or caching domain name system (DNS) servers. DNS client resolvers either perform validation of DNSSEC signatures, or clients use authenticated channels to recursive resolvers that perform such validations. Systems that use technologies other than the DNS to map between host/service names and network addresses provide some other means to enable clients to verify the authenticity and integrity of response data. Related Controls: SC-20, SC-22.:v5ipd
+SC-21 (1):title:SECURE NAME/ADDRESS RESOLUTION SERVICE (RECURSIVE OR CACHING RESOLVER) | DATA ORIGIN AND INTEGRITY:v5ipd
+SC-21 (1):withdrawn:Incorporated into SC-21:v5ipd
 SC-21:references:NIST Special Publication 800-81:v5ipd
 SC-22:title:ARCHITECTURE AND PROVISIONING FOR NAME/ADDRESS RESOLUTION SERVICE:v5ipd
 SC-22:text:Ensure the systems that collectively provide name/address resolution service for an organization are fault-tolerant and implement internal and external role separation.:v5ipd
@@ -3482,6 +3494,8 @@ SC-25:references:None:v5ipd
 SC-26:title:HONEYPOTS:v5ipd
 SC-26:text:Include components within organizational systems specifically designed to be the target of malicious attacks for detecting, deflecting, and analyzing such attacks.:v5ipd
 SC-26:supplement:A honeypot is established as a decoy to attract adversaries and to deflect their attacks away from the operational systems supporting organizational missions and business functions. Depending upon the specific usage of the honeypot, consultation with the Office of the General Counsel before deployment may be needed. Related Controls: SC-30, SC-35, SC-44, SI-3, SI-4.:v5ipd
+SC-26 (1):title:HONEYPOTS | DETECTION OF MALICIOUS CODE:v5ipd
+SC-26 (1):withdrawn:Incorporated into SC-35:v5ipd
 SC-26:references:None:v5ipd
 SC-27:title:PLATFORM-INDEPENDENT APPLICATIONS:v5ipd
 SC-27:text:Include within organizational systems: [Assignment: organization-defined platform-independent applications].:v5ipd

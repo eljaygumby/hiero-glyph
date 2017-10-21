@@ -152,7 +152,7 @@ sub printenhancements {
   $enhancement =~ s/^Control Enhancements:\s+//;
 #  @enhancements = split(/(\([0-9]+\))\s+([A-Z \/-]{2,})\s*\n(.*?)\n(Supplemental Guidance:\s+.*?\n)?\s*/s, $enhancement);
   @enhancements = split(/(\([0-9]+\))\s+?([A-Z \/_|,()-]{2,}?)\s*\n/s, $enhancement);
-  if ($enhancements[0] !~ /^\s*None\.\s*$/) {
+  #if ($enhancements[0] !~ /^\s*None\.\s*$/) {
     shift @enhancements;
     while (($id, $title, $text) = splice(@enhancements, 0, 3)) {
       if ($xml == 1) {
@@ -165,7 +165,7 @@ sub printenhancements {
         print qq(</control>\n);
       }
     }
-  }
+  #}
 }
 
 
