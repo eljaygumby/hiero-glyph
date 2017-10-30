@@ -33,5 +33,5 @@ while (<>) {
   printf "%d", $types{$type};
   printf "%03d", ord($section);
   printf "%03d", ord($sub);
-  print ":::$_";
+  print ":$_";
 }
