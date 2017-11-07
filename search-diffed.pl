@@ -37,7 +37,7 @@ sub clicketysplit {
 
 $found = 0;
 $results = qq(<table border="2">\n);
-$results .= qq(<tr><th>Section</th><th>Type</th><th>Full-Text</th></tr>\n);
+$results .= qq(<tr><th>Section</th><th>Type</th><th>Split</th><th>Full-Text</th></tr>\n);
 if ($qstring ne "" && $error eq "") {
   foreach $line (<$fh>) {
     if ($line =~ /$qstring/i) {
@@ -49,6 +49,7 @@ if ($qstring ne "" && $error eq "") {
       $escaped = $section;
       $escaped =~ s/\(/\\(/g;
       $escaped =~ s/\)/\\)/g;
+      $linkbait = $escaped; # save to link to split 
       $escaped = &clicketysplit($section);
 
       # make enhancements in withdrawn controls clickable
@@ -73,7 +74,7 @@ if ($qstring ne "" && $error eq "") {
       # highlight text that matches the search string, outside HTML elements
       $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>$1</b>#gi;
 
-      $results .= qq(<tr><td valign="top" nowrap>$escaped</td><td valign="top">$type</td><td valign="top">$text</td></tr>\n);
+      $results .= qq(<tr><td valign="top" nowrap>$escaped</td><td valign="top">$type</td><td><a href="search-merged.pl?find=^$linkbait:$type">Split</a></td><td valign="top">$text</td></tr>\n);
     }
   }
 }
