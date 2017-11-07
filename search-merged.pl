@@ -74,7 +74,7 @@ if ($qstring ne "" && $error eq "") {
       # highlight text that matches the search string, outside HTML elements
       $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>$1</b>#gi;
 
-      $results .= qq(<tr><td valign="top" nowrap>$escaped</td><td valign="top">$type</td><td><a href="search-merged.pl?find=^$linkbait:$type:">Diff</a></td><td valign="top">$text</td></tr>\n);
+      $results .= qq(<tr><td valign="top" nowrap>$escaped</td><td valign="top">$type</td><td><a href="search-diffed.pl?find=^$linkbait:$type:">Diff</a></td><td valign="top">$text</td></tr>\n);
     }
   }
 }
