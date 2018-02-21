@@ -225,7 +225,7 @@
 <bookmark title="AC-12 SESSION TERMINATION">
 <destination structID="LinkTarget_85192"/>
 </bookmark>
-<bookmark title="AC-13 SUPERVISION AND REVIEW — ACCESS CONTROL">
+<bookmark title="AC-13 SUPERVISION AND REVIEW - ACCESS CONTROL">
 <destination structID="LinkTarget_85155"/>
 </bookmark>
 <bookmark title="AC-14 PERMITTED ACTIONS WITHOUT IDENTIFICATION OR AUTHENTICATION">
@@ -1477,7 +1477,7 @@
 
 <P xml:lang="EN-US">Reports on Computer Systems Technology </P>
 
-<P xml:lang="EN-US">The Information Technology Laboratory (ITL) at the National Institute of Standards and Technology (NIST) promotes the U.S. economy and public welfare by providing technical leadership for the Nation’s measurement and standards infrastructure. ITL develops tests, test methods, reference data, proof of concept implementations, and technical analyses to advance the development and productive use of information technology (IT). ITL’s responsibilities include the development of management, administrative, technical, and physical standards and guidelines for the cost-effective security of other than national security-related information and protection of individuals’ privacy in federal information systems. The Special Publication 800-series reports on ITL’s research, guidelines, and outreach efforts in information systems security and its collaborative activities with industry, government, and academic organizations. </P>
+<P xml:lang="EN-US">The Information Technology Laboratory (ITL) at the National Institute of Standards and Technology (NIST) promotes the U.S. economy and public welfare by providing technical leadership for the Nation's measurement and standards infrastructure. ITL develops tests, test methods, reference data, proof of concept implementations, and technical analyses to advance the development and productive use of information technology (IT). ITL's responsibilities include the development of management, administrative, technical, and physical standards and guidelines for the cost-effective security of other than national security-related information and protection of individuals' privacy in federal information systems. The Special Publication 800-series reports on ITL's research, guidelines, and outreach efforts in information systems security and its collaborative activities with industry, government, and academic organizations. </P>
 
 <H1 id="LinkTarget_86547" xml:lang="EN-US">Abstract </H1>
 
@@ -1523,15 +1523,15 @@
 
 <P xml:lang="EN-US">Matt Scholl      Kevin Dulany </P>
 
-<P xml:lang="EN-US">Chief, Computer Security Division    Tri-Chair—Defense Community </P>
+<P xml:lang="EN-US">Chief, Computer Security Division    Tri-Chair-Defense Community </P>
 
 <P xml:lang="EN-US">Kevin Stine      Peter H. Duspiva </P>
 
-<P xml:lang="EN-US">Chief, Applied Cybersecurity Division    Tri-Chair—Intelligence Community </P>
+<P xml:lang="EN-US">Chief, Applied Cybersecurity Division    Tri-Chair-Intelligence Community </P>
 
 <P xml:lang="EN-US">Ron Ross       Daniel Dister </P>
 
-<P xml:lang="EN-US">FISMA Implementation Project Leader    Tri-Chair—Civil Agencies </P>
+<P xml:lang="EN-US">FISMA Implementation Project Leader    Tri-Chair-Civil Agencies </P>
 
 <P xml:lang="EN-US">Joint Task Force Transformation Initiative Interagency Working Group </P>
 
@@ -1551,13 +1551,13 @@
 
 <P xml:lang="EN-US">The MITRE Corporation The MITRE Corporation  Aerospace Corporation NIST </P>
 
-<P xml:lang="EN-US">In addition to the above acknowledgments, a special note of thanks goes to Peggy Himes, Jim Foti, and Elizabeth Lennon of NIST for their superb technical editing and administrative support. The authors also wish to recognize Kristen Baldwin, Carol Bales, John Bazile, Jon Boyens, Sean Brooks, Ruth Cannatti, Kathleen Coupe, Keesha Crosby, Dominic Cussatt, Ja’Nelle DeVore, Jennifer Fabius, Jim Fenton, Matthew Halstead, Hildy Ferraiolo, Ryan Galluzzo, Robin Gandhi, Mike Garcia, Paul Grassi, Marc Groman, Matthew Halstead, Kevin Herms, Scott Hill, Ralph </P>
+<P xml:lang="EN-US">In addition to the above acknowledgments, a special note of thanks goes to Peggy Himes, Jim Foti, and Elizabeth Lennon of NIST for their superb technical editing and administrative support. The authors also wish to recognize Kristen Baldwin, Carol Bales, John Bazile, Jon Boyens, Sean Brooks, Ruth Cannatti, Kathleen Coupe, Keesha Crosby, Dominic Cussatt, Ja'Nelle DeVore, Jennifer Fabius, Jim Fenton, Matthew Halstead, Hildy Ferraiolo, Ryan Galluzzo, Robin Gandhi, Mike Garcia, Paul Grassi, Marc Groman, Matthew Halstead, Kevin Herms, Scott Hill, Ralph </P>
 
-<P xml:lang="EN-US">Jones, Martin Kihiko, Raquel Leone, Michael McEvilley, Kirsten Moncada, Elaine Newton, Michael Nieles, Michael Nussdorfer, Celia Paulsen, Andrew Regenscheid, Joe Stuntz, members of the Federal Privacy Council’s Risk Management Subcommittee, and the technical staff from the NIST Computer Security Division and Applied Cybersecurity Division for their exceptional contributions in helping to improve the content of the publication. And finally, the authors also gratefully acknowledge the significant contributions from individuals and organizations in the public and private sectors, both nationally and internationally, whose insightful and constructive comments improved the overall quality, thoroughness, and usefulness of this publication. </P>
+<P xml:lang="EN-US">Jones, Martin Kihiko, Raquel Leone, Michael McEvilley, Kirsten Moncada, Elaine Newton, Michael Nieles, Michael Nussdorfer, Celia Paulsen, Andrew Regenscheid, Joe Stuntz, members of the Federal Privacy Council's Risk Management Subcommittee, and the technical staff from the NIST Computer Security Division and Applied Cybersecurity Division for their exceptional contributions in helping to improve the content of the publication. And finally, the authors also gratefully acknowledge the significant contributions from individuals and organizations in the public and private sectors, both nationally and internationally, whose insightful and constructive comments improved the overall quality, thoroughness, and usefulness of this publication. </P>
 
 <H3 id="LinkTarget_86505" xml:lang="EN-US">Historical Contributions to NIST Special Publication 800-53 </H3>
 
-<P xml:lang="EN-US">The authors wanted to acknowledge the many individuals who contributed to previous versions of Special Publication 800-53 since its inception in 2005. They include Marshall Abrams, Dennis Bailey, Lee Badger, Curt Barker, Matt Barrett, Nadya Bartol, Frank Belz, Paul Bicknell, Deb Bodeau, Paul Brusil, Brett Burley, Bill Burr, Dawn Cappelli, Roger Caslow, Corinne Castanza, Mike Cooper, Matt Coose, Dom Cussatt, George Dinolt, Randy Easter, Kurt Eleam, Denise Farrar, Dave Ferraiolo, Cita Furlani, Harriett Goldman, Peter Gouldmann, Tim Grance, Jennifer Guild, Gary Guissanie, Sarbari Gupta, Priscilla Guthrie, Richard Hale, Bennett Hodge, William Hunteman, Cynthia Irvine, Arnold Johnson, Roger Johnson, Don Jones, Lisa Kaiser, Stu Katke, Sharon Keller, Tom Kellerman, Cass Kelly, Eustace King, Steve LaFountain, Annabelle Lee, Robert Lentz, Steve Lipner, Bill MacGregor, Tom Macklin, Tom Madden, Robert Martin, Erika McCallister, Tim McChesney, Michael McEvilley, Rosalie McQuaid, Peter Mell, John Mildner, Pam Miller, Sandra Miravalle, Joji Montelibano, Doug Montgomery, George Moore, Mark Morrison, Sherrill Nicely, Robert Niemeyer, LouAnna Notargiacomo, Pat O’Reilly, Tim Polk, Karen Quigg, Steve Quinn, Mark Riddle, Ed Roback, Cheryl Roby, George Rogers, Scott Rose, Mike Rubin, Karen Scarfone, Roger Schell, Jackie Snouffer, Ray Snouffer, Murugiah Souppaya, Gary Stoneburner, Keith Stouffer, Marianne Swanson, Pat Toth, Glenda Turner, Pat Viscuso, Joe Weiss, Richard Wilsher, Mark Wilson, John Woodward, and Carol Woody. </P>
+<P xml:lang="EN-US">The authors wanted to acknowledge the many individuals who contributed to previous versions of Special Publication 800-53 since its inception in 2005. They include Marshall Abrams, Dennis Bailey, Lee Badger, Curt Barker, Matt Barrett, Nadya Bartol, Frank Belz, Paul Bicknell, Deb Bodeau, Paul Brusil, Brett Burley, Bill Burr, Dawn Cappelli, Roger Caslow, Corinne Castanza, Mike Cooper, Matt Coose, Dom Cussatt, George Dinolt, Randy Easter, Kurt Eleam, Denise Farrar, Dave Ferraiolo, Cita Furlani, Harriett Goldman, Peter Gouldmann, Tim Grance, Jennifer Guild, Gary Guissanie, Sarbari Gupta, Priscilla Guthrie, Richard Hale, Bennett Hodge, William Hunteman, Cynthia Irvine, Arnold Johnson, Roger Johnson, Don Jones, Lisa Kaiser, Stu Katke, Sharon Keller, Tom Kellerman, Cass Kelly, Eustace King, Steve LaFountain, Annabelle Lee, Robert Lentz, Steve Lipner, Bill MacGregor, Tom Macklin, Tom Madden, Robert Martin, Erika McCallister, Tim McChesney, Michael McEvilley, Rosalie McQuaid, Peter Mell, John Mildner, Pam Miller, Sandra Miravalle, Joji Montelibano, Doug Montgomery, George Moore, Mark Morrison, Sherrill Nicely, Robert Niemeyer, LouAnna Notargiacomo, Pat O'Reilly, Tim Polk, Karen Quigg, Steve Quinn, Mark Riddle, Ed Roback, Cheryl Roby, George Rogers, Scott Rose, Mike Rubin, Karen Scarfone, Roger Schell, Jackie Snouffer, Ray Snouffer, Murugiah Souppaya, Gary Stoneburner, Keith Stouffer, Marianne Swanson, Pat Toth, Glenda Turner, Pat Viscuso, Joe Weiss, Richard Wilsher, Mark Wilson, John Woodward, and Carol Woody. </P>
 
 <P xml:lang="EN-US"> </P>
 
@@ -1567,11 +1567,11 @@
 
 <P xml:lang="EN-US">Notes to Reviewers </P>
 
-<P xml:lang="EN-US">As we push computers to “the edge” building an increasingly complex world of interconnected information systems and devices, security and privacy continue to dominate the national dialog. The Defense Science Board in its 2017 report, 
+<P xml:lang="EN-US">As we push computers to "the edge" building an increasingly complex world of interconnected information systems and devices, security and privacy continue to dominate the national dialog. The Defense Science Board in its 2017 report, 
 <Link xml:lang="EN-US">Task Force on Cyber Defense</Link>
 , provides a sobering assessment of the current vulnerabilities in the U.S. critical infrastructure and the information systems that support the mission essential operations and assets in the public and private sectors. </P>
 
-<P xml:lang="EN-US">“…The Task Force notes that the cyber threat to U.S. critical infrastructure is outpacing </P>
+<P xml:lang="EN-US">"…The Task Force notes that the cyber threat to U.S. critical infrastructure is outpacing </P>
 
 <P xml:lang="EN-US">efforts to reduce pervasive vulnerabilities, so that for the next decade at least the United States </P>
 
@@ -1579,9 +1579,9 @@
 
 <P xml:lang="EN-US">U.S. adversaries. It is clear that a more proactive and systematic approach to U.S. cyber </P>
 
-<P xml:lang="EN-US">deterrence is urgently needed…” </P>
+<P xml:lang="EN-US">deterrence is urgently needed…" </P>
 
-<P xml:lang="EN-US">There is an urgent need to further strengthen the underlying information systems, component products, and services that we depend on in every sector of the critical infrastructure—ensuring those systems, components, and services are sufficiently trustworthy and provide the necessary resilience to support the economic and national security interests of the United States. This update to NIST Special Publication 800-53 (Revision 5) responds to the call by the Defense Science Board by embarking on a proactive and systemic approach to develop and make available to a broad base of public and private sector organizations, a comprehensive set of safeguarding measures for all types of computing platforms, including general purpose computing systems, cyber-physical systems, cloud and mobile systems, industrial/process control systems, and Internet of Things (IoT) devices. Those safeguarding measures include security and privacy controls to protect the critical and essential operations and assets of organizations and the personal privacy of individuals. The ultimate objective is to make the information systems we depend on more penetration resistant to attacks; limit the damage from attacks when they occur; and make the systems resilient and survivable. </P>
+<P xml:lang="EN-US">There is an urgent need to further strengthen the underlying information systems, component products, and services that we depend on in every sector of the critical infrastructure-ensuring those systems, components, and services are sufficiently trustworthy and provide the necessary resilience to support the economic and national security interests of the United States. This update to NIST Special Publication 800-53 (Revision 5) responds to the call by the Defense Science Board by embarking on a proactive and systemic approach to develop and make available to a broad base of public and private sector organizations, a comprehensive set of safeguarding measures for all types of computing platforms, including general purpose computing systems, cyber-physical systems, cloud and mobile systems, industrial/process control systems, and Internet of Things (IoT) devices. Those safeguarding measures include security and privacy controls to protect the critical and essential operations and assets of organizations and the personal privacy of individuals. The ultimate objective is to make the information systems we depend on more penetration resistant to attacks; limit the damage from attacks when they occur; and make the systems resilient and survivable. </P>
 
 <P xml:lang="EN-US">Revision 5 of this foundational NIST publication represents a one-year effort to develop the next generation security and privacy controls that will be needed to accomplish the above objectives. It includes changes to make the controls more consumable by diverse consumer groups including, for example, enterprises conducting mission and business operations; engineering organizations developing information systems and systems-of-systems; and industry partners building system components, products, and services. The major changes to the publication include: </P>
 
@@ -1636,7 +1636,7 @@
 <TextBox>
 <P xml:lang="EN-US">COMMON SECURITY AND PRIVACY FOUNDATIONS </P>
 
-<P xml:lang="EN-US">In developing standards and guidelines required by FISMA, NIST consults with federal agencies, state, local, and tribal governments, and private sector organizations to improve information security and privacy; avoid unnecessary and costly duplication of effort; and ensure that its publications are complementary with the standards and guidelines used for the protection of national security systems. In addition to a comprehensive and transparent public review and vetting process, NIST is engaged in a collaborative partnership with the Office of Management and Budget, Office of the Director of National Intelligence, Department of Defense, Committee on National Security Systems, and the Federal Privacy Council—and has established a risk management framework applicable to both information security and privacy for the federal government. This common foundation for security and privacy provides the Civil, Defense, and Intelligence Communities of the federal government and their contractors, more cost-effective, flexible, and consistent ways to manage security and privacy risks to organizational operations and assets, individuals, other organizations, and the Nation. The unified framework also provides a strong basis for reciprocal acceptance of authorization decisions and facilitate information sharing and collaboration. NIST continues to work with public and private sector entities to establish mappings and relationships between the information security and privacy standards and guidelines developed by NIST and those developed by external organizations. </P>
+<P xml:lang="EN-US">In developing standards and guidelines required by FISMA, NIST consults with federal agencies, state, local, and tribal governments, and private sector organizations to improve information security and privacy; avoid unnecessary and costly duplication of effort; and ensure that its publications are complementary with the standards and guidelines used for the protection of national security systems. In addition to a comprehensive and transparent public review and vetting process, NIST is engaged in a collaborative partnership with the Office of Management and Budget, Office of the Director of National Intelligence, Department of Defense, Committee on National Security Systems, and the Federal Privacy Council-and has established a risk management framework applicable to both information security and privacy for the federal government. This common foundation for security and privacy provides the Civil, Defense, and Intelligence Communities of the federal government and their contractors, more cost-effective, flexible, and consistent ways to manage security and privacy risks to organizational operations and assets, individuals, other organizations, and the Nation. The unified framework also provides a strong basis for reciprocal acceptance of authorization decisions and facilitate information sharing and collaboration. NIST continues to work with public and private sector entities to establish mappings and relationships between the information security and privacy standards and guidelines developed by NIST and those developed by external organizations. </P>
 
 <P xml:lang="EN-US"> </P>
 <Figure>
@@ -1664,7 +1664,7 @@
 <TextBox>
 <P xml:lang="EN-US">SECURITY AS A DESIGN PROBLEM </P>
 
-<P xml:lang="EN-US">“Providing satisfactory security controls in a computer system is in itself a system design problem. A combination of hardware, software, communications, physical, personnel and administrative-procedural safeguards is required for comprehensive security. In particular, software safeguards alone are not sufficient.” </P>
+<P xml:lang="EN-US">"Providing satisfactory security controls in a computer system is in itself a system design problem. A combination of hardware, software, communications, physical, personnel and administrative-procedural safeguards is required for comprehensive security. In particular, software safeguards alone are not sufficient." </P>
 
 <P xml:lang="EN-US">-- The Ware Report </P>
 
@@ -1678,9 +1678,9 @@
 <P xml:lang="EN-US">  </P>
 
 <TextBox>
-<P xml:lang="EN-US">INFORMATION SYSEMS — A BROAD-BASED PERSPECTIVE </P>
+<P xml:lang="EN-US">INFORMATION SYSEMS - A BROAD-BASED PERSPECTIVE </P>
 
-<P xml:lang="EN-US">As we push computers to “the edge” building an increasingly complex world of interconnected information systems and devices, security and privacy continue to dominate the national dialog. There is an urgent need to further strengthen the underlying information systems, component products, and services that we depend on in every sector of the critical infrastructure—ensuring those systems, components, and services are sufficiently trustworthy and provide the necessary resilience to support the economic and national security interests of the United States. NIST Special Publication 800-53 (Revision 5) responds to this need by embarking on a proactive and systemic approach to develop and make available to a broad base of public and private sector organizations, a comprehensive set of security and privacy safeguarding measures for all types of computing platforms, including general purpose computing systems; cyber-physical systems; cloud and mobile systems; industrial and process control systems; and Internet of Things (IoT) devices. Those safeguarding measures include both security and privacy controls to protect the critical and essential operations and assets of organizations and personal privacy of individuals. The ultimate objective is to make the information systems we depend on more penetration resistant to attacks; limit the damage from attacks when they occur; and make the systems resilient and survivable. </P>
+<P xml:lang="EN-US">As we push computers to "the edge" building an increasingly complex world of interconnected information systems and devices, security and privacy continue to dominate the national dialog. There is an urgent need to further strengthen the underlying information systems, component products, and services that we depend on in every sector of the critical infrastructure-ensuring those systems, components, and services are sufficiently trustworthy and provide the necessary resilience to support the economic and national security interests of the United States. NIST Special Publication 800-53 (Revision 5) responds to this need by embarking on a proactive and systemic approach to develop and make available to a broad base of public and private sector organizations, a comprehensive set of security and privacy safeguarding measures for all types of computing platforms, including general purpose computing systems; cyber-physical systems; cloud and mobile systems; industrial and process control systems; and Internet of Things (IoT) devices. Those safeguarding measures include both security and privacy controls to protect the critical and essential operations and assets of organizations and personal privacy of individuals. The ultimate objective is to make the information systems we depend on more penetration resistant to attacks; limit the damage from attacks when they occur; and make the systems resilient and survivable. </P>
 
 <P xml:lang="EN-US"> </P>
 <Figure>
@@ -1873,11 +1873,11 @@
 
 <P xml:lang="EN-US">Prologue </P>
 
-<P xml:lang="EN-US">“…Through the process of risk management, leaders must consider risk to US interests from adversaries using cyberspace to their advantage and from our own efforts to employ the global nature of cyberspace to achieve objectives in military, intelligence, and business operations… “ </P>
+<P xml:lang="EN-US">"…Through the process of risk management, leaders must consider risk to US interests from adversaries using cyberspace to their advantage and from our own efforts to employ the global nature of cyberspace to achieve objectives in military, intelligence, and business operations… " </P>
 
-<P xml:lang="EN-US">  “…For operational plans development, the combination of threats, vulnerabilities, and impacts must be evaluated in order to identify important trends and decide where effort should be applied to eliminate or reduce threat capabilities; eliminate or reduce vulnerabilities; and assess, coordinate, and deconflict all cyberspace operations…” </P>
+<P xml:lang="EN-US">  "…For operational plans development, the combination of threats, vulnerabilities, and impacts must be evaluated in order to identify important trends and decide where effort should be applied to eliminate or reduce threat capabilities; eliminate or reduce vulnerabilities; and assess, coordinate, and deconflict all cyberspace operations…" </P>
 
-<P xml:lang="EN-US">“…Leaders at all levels are accountable for ensuring readiness and security to the same degree as in any other domain…&quot; </P>
+<P xml:lang="EN-US">"…Leaders at all levels are accountable for ensuring readiness and security to the same degree as in any other domain…&quot; </P>
 
 <P xml:lang="EN-US">THE NATIONAL STRATEGY FOR CYBERSPACE OPERATIONS </P>
 
@@ -1889,11 +1889,11 @@
 
 <P xml:lang="EN-US"> </P>
 
-<P xml:lang="EN-US">“Networking and information technology is transforming life in the 21st century, changing the way people, businesses, and government interact. Vast improvements in computing, storage, and communications are creating new opportunities for enhancing our social wellbeing; improving health and health care; eliminating barriers to education and employment; and increasing efficiencies in many sectors such as manufacturing, transportation, and agriculture.  </P>
+<P xml:lang="EN-US">"Networking and information technology is transforming life in the 21st century, changing the way people, businesses, and government interact. Vast improvements in computing, storage, and communications are creating new opportunities for enhancing our social wellbeing; improving health and health care; eliminating barriers to education and employment; and increasing efficiencies in many sectors such as manufacturing, transportation, and agriculture.  </P>
 
-<P xml:lang="EN-US">The promise of these new applications often stems from their ability to create, collect, transmit, process, and archive information on a massive scale. However, the vast increase in the quantity of personal information that is being collected and retained, combined with the increased ability to analyze it and combine it with other information, is creating valid concerns about privacy and about the ability of entities to manage these unprecedented volumes of data responsibly…. A key challenge of this era is to assure that growing capabilities to create, capture, store, and process vast quantities of information will not damage the core values of the country….”  </P>
+<P xml:lang="EN-US">The promise of these new applications often stems from their ability to create, collect, transmit, process, and archive information on a massive scale. However, the vast increase in the quantity of personal information that is being collected and retained, combined with the increased ability to analyze it and combine it with other information, is creating valid concerns about privacy and about the ability of entities to manage these unprecedented volumes of data responsibly…. A key challenge of this era is to assure that growing capabilities to create, capture, store, and process vast quantities of information will not damage the core values of the country…."  </P>
 
-<P xml:lang="EN-US">“…When systems process personal information, whether by collecting, analyzing, generating, disclosing, retaining, or otherwise using the information, they can impact privacy of individuals. System designers need to account for individuals as stakeholders in the overall development of the solution. …Designing for privacy must connect individuals’ privacy desires with system requirements and controls in a way that effectively bridges the aspirations with development….”  </P>
+<P xml:lang="EN-US">"…When systems process personal information, whether by collecting, analyzing, generating, disclosing, retaining, or otherwise using the information, they can impact privacy of individuals. System designers need to account for individuals as stakeholders in the overall development of the solution. …Designing for privacy must connect individuals' privacy desires with system requirements and controls in a way that effectively bridges the aspirations with development…."  </P>
 
 <P xml:lang="EN-US">THE NATIONAL PRIVACY RESEARCH STRATEGY </P>
 
@@ -1935,7 +1935,7 @@ M </DropCap>
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">• What security and privacy controls are needed to satisfy the organization’s security and privacy requirements and to adequately manage risk? </LBody>
+<LBody xml:lang="EN-US">• What security and privacy controls are needed to satisfy the organization's security and privacy requirements and to adequately manage risk? </LBody>
 </LI>
 
 <LI>
@@ -2105,7 +2105,7 @@ M </DropCap>
 
 <P xml:lang="EN-US">This publication establishes a set of controls with the breadth and depth to satisfy a diverse set of requirements, including security and privacy requirements,
 <Link>15</Link>
- that have been levied on information systems and organizations—and that are consistent with and complementary to other established national and international security and privacy standards. To develop a broadly applicable and technically sound set of controls for information systems and organizations, many sources were considered during the development of this publication. These sources included requirements and controls from the defense, financial, healthcare, intelligence, manufacturing, industrial control, and audit communities as well as national and international standards organizations. The security and privacy controls in this publication have been mapped to international security and privacy standards to help ensure maximum usability and applicability. In addition, the controls in this publication have been mapped to the requirements for federal information systems included in OMB Circular A-130, Managing Information as a Strategic Resource.
+ that have been levied on information systems and organizations-and that are consistent with and complementary to other established national and international security and privacy standards. To develop a broadly applicable and technically sound set of controls for information systems and organizations, many sources were considered during the development of this publication. These sources included requirements and controls from the defense, financial, healthcare, intelligence, manufacturing, industrial control, and audit communities as well as national and international standards organizations. The security and privacy controls in this publication have been mapped to international security and privacy standards to help ensure maximum usability and applicability. In addition, the controls in this publication have been mapped to the requirements for federal information systems included in OMB Circular A-130, Managing Information as a Strategic Resource.
 <Link>16</Link>
  </P>
 
@@ -2170,7 +2170,7 @@ M </DropCap>
  A requirement levied on an information system or an organization can be derived from different sources, including for example, laws, Executive Orders, directives, policies, regulations, and mission/business needs. Requirements address the capability the information system is designed to provide, for example, processing payroll transactions, simulating weather patterns, controlling industrial processes, or performing genome sequencing for advanced medical research. </P>
 
 <Footnote>
-<P xml:lang="EN-US">19 There is no single, prescribed, or mandatory relationship between requirements and controls. The relationship is completely dependent on the organization’s use of controls, which may be dynamic and evolving. </P>
+<P xml:lang="EN-US">19 There is no single, prescribed, or mandatory relationship between requirements and controls. The relationship is completely dependent on the organization's use of controls, which may be dynamic and evolving. </P>
 
 <P xml:lang="EN-US">20 See 
 <Link xml:lang="EN-US">ISO/IEC/IEEE 29148</Link>
@@ -2181,7 +2181,7 @@ M </DropCap>
 , security controls are the safeguards or countermeasures prescribed for an information system or an organization to protect the confidentiality, integrity, and availability of the system and its information. Privacy controls are the administrative, technical, and physical safeguards employed within an agency to ensure compliance with applicable privacy requirements and manage privacy risks. </P>
 </Footnote>
 
-<P xml:lang="EN-US">Security and privacy requirements are a subset of the requirements that can be levied on an information system or organization. Security requirements ensure the confidentiality, integrity, and availability of information being processed, stored, or transmitted by the information system. Privacy requirements advance individual privacy associated with an organizations’s creation, collection, use, processing, storage, maintenance, dissemination, disclosure, or disposal of personally identifiable information. Such requirements can be used in a variety of contexts from policy- and oversight-related activities to life cycle-related activities that involve information systems development and engineering disciplines. </P>
+<P xml:lang="EN-US">Security and privacy requirements are a subset of the requirements that can be levied on an information system or organization. Security requirements ensure the confidentiality, integrity, and availability of information being processed, stored, or transmitted by the information system. Privacy requirements advance individual privacy associated with an organizations's creation, collection, use, processing, storage, maintenance, dissemination, disclosure, or disposal of personally identifiable information. Such requirements can be used in a variety of contexts from policy- and oversight-related activities to life cycle-related activities that involve information systems development and engineering disciplines. </P>
 
 <P xml:lang="EN-US">Security and privacy controls for information systems and organizations help satisfy security and privacy requirements.  Controls can be used in a variety of contexts and can serve many purposes. When used in the security and privacy context, controls
 <Link>21</Link>
@@ -2761,7 +2761,7 @@ M </DropCap>
 
 <H2 id="LinkTarget_85939" xml:lang="EN-US">2.4   SECURITY AND PRIVACY CONTROL RELATIONSHIP </H2>
 
-<P xml:lang="EN-US">While security and privacy requirements are authoritatively sourced to different laws, regulations, or policies, there is also a strong relationship between the security and privacy domains. One of the Fair Information Practice Principles (FIPPs) is security—a key principle to help ensure the protection of personally identifiable information and individual privacy. Therefore, controls used to manage the confidentiality, integrity, and availability of information and information systems when selected and implemented for information systems that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of personally identifiable information, address security and privacy concerns. Nonetheless, individual privacy cannot be achieved solely through securing personally identifiable information. Consequently, this publication contains controls designed to meet privacy requirements and to manage the privacy risks associated with an organizations’s creation, collection, use, processing, storage, maintenance, dissemination, disclosure, or disposal of personally identifiable information separate from security concerns. Figure 1 illustrates the totality of security and privacy concerns, reflecting common areas of concern and those areas of concern that are unique. </P>
+<P xml:lang="EN-US">While security and privacy requirements are authoritatively sourced to different laws, regulations, or policies, there is also a strong relationship between the security and privacy domains. One of the Fair Information Practice Principles (FIPPs) is security-a key principle to help ensure the protection of personally identifiable information and individual privacy. Therefore, controls used to manage the confidentiality, integrity, and availability of information and information systems when selected and implemented for information systems that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of personally identifiable information, address security and privacy concerns. Nonetheless, individual privacy cannot be achieved solely through securing personally identifiable information. Consequently, this publication contains controls designed to meet privacy requirements and to manage the privacy risks associated with an organizations's creation, collection, use, processing, storage, maintenance, dissemination, disclosure, or disposal of personally identifiable information separate from security concerns. Figure 1 illustrates the totality of security and privacy concerns, reflecting common areas of concern and those areas of concern that are unique. </P>
 
 <P xml:lang="EN-US"> </P>
 
@@ -2815,7 +2815,7 @@ M </DropCap>
 
 <P xml:lang="EN-US">The security and privacy controls in this publication are incorporated into a consolidated control catalog in Chapter Three. 
 <Reference xml:lang="EN-US">Appendix F</Reference>
- provides a summary of the privacy controls and control enhancements predominantly for addressing unique privacy concerns. Appendix F is intended to help organizations identify the controls and control enhancements for which privacy programs have primary responsibility. For some controls and enhancements, the selection authority and oversight is shared with the security programs. These controls and controls enhancements are designated as joint controls—that is, the controls and control enhancements can address security and privacy requirements. In those situations, organizations may opt to do a joint implementation or alternatively, the privacy program and security program may implement the respective privacy and security aspects of the control or enhancement separately. </P>
+ provides a summary of the privacy controls and control enhancements predominantly for addressing unique privacy concerns. Appendix F is intended to help organizations identify the controls and control enhancements for which privacy programs have primary responsibility. For some controls and enhancements, the selection authority and oversight is shared with the security programs. These controls and controls enhancements are designated as joint controls-that is, the controls and control enhancements can address security and privacy requirements. In those situations, organizations may opt to do a joint implementation or alternatively, the privacy program and security program may implement the respective privacy and security aspects of the control or enhancement separately. </P>
 
 <P xml:lang="EN-US">For example, in joint control AT-2, the privacy program may develop and conduct separate privacy-focused training or it could choose to develop coordinated privacy and security training with the security program. For controls and control enhancements that are not considered joint, privacy programs have the sole authority to select and oversee the controls and enhancements. In addition to Appendix F, the security and privacy tables in 
 <Reference xml:lang="EN-US">Appendix E</Reference>
@@ -2829,7 +2829,7 @@ M </DropCap>
 
 <H2 xml:lang="EN-US">2.5   CONTROL BASELINES </H2>
 
-<P xml:lang="EN-US">A significant challenge for organizations is selecting a set of security and privacy controls which, if correctly implemented and determined to be effective, adequately responds to mission and business risk while complying with security and privacy requirements defined by applicable laws, Executive Orders, regulations, policies, and directives. There is no single set of controls that addresses all security and privacy concerns in every situation. However, choosing the most appropriate controls for a specific situation or system to adequately respond to risk requires a fundamental understanding of the organization’s missions and business priorities; the mission and business functions the systems will support; and the environments where the systems will operate. It also requires close collaboration with key organizational stakeholders. With that understanding, organizations can demonstrate how to effectively and cost-effectively assure the confidentiality, integrity, and availability of organizational information and systems as well as the privacy of individuals in the context of supporting the organization’s mission and business functions. </P>
+<P xml:lang="EN-US">A significant challenge for organizations is selecting a set of security and privacy controls which, if correctly implemented and determined to be effective, adequately responds to mission and business risk while complying with security and privacy requirements defined by applicable laws, Executive Orders, regulations, policies, and directives. There is no single set of controls that addresses all security and privacy concerns in every situation. However, choosing the most appropriate controls for a specific situation or system to adequately respond to risk requires a fundamental understanding of the organization's missions and business priorities; the mission and business functions the systems will support; and the environments where the systems will operate. It also requires close collaboration with key organizational stakeholders. With that understanding, organizations can demonstrate how to effectively and cost-effectively assure the confidentiality, integrity, and availability of organizational information and systems as well as the privacy of individuals in the context of supporting the organization's mission and business functions. </P>
 
 <P xml:lang="EN-US">To assist organizations in selecting the set of controls for their systems that is commensurate with risk, the concept of a control baseline is introduced. A control baseline is a collection of controls from 
 <Reference xml:lang="EN-US">Chapter Three</Reference>
@@ -2849,7 +2849,7 @@ for each organization, sector, or individual company based on specific operating
 
 <H2 id="LinkTarget_85918" xml:lang="EN-US">2.6   ASSURANCE AND TRUSTWORTHINESS </H2>
 
-<P xml:lang="EN-US">The trustworthiness of systems, system components, and system services is an important part of the risk management strategies developed by organizations. Whether systems are deployed to support the national air traffic control system, a major financial institution, a nuclear power plant, or the military services and warfighters, the systems must be reliable, trustworthy, and resilient in the face of increasingly sophisticated and pervasive threats—and also support the privacy of individuals. To understand how to achieve trustworthy systems and the role assurance plays, it is important to first define the term trustworthiness. Trustworthiness, in this context, means simply worthy of being trusted to fulfill whatever critical requirements may be needed for a particular component, subsystem, system, network, application, mission, business function, enterprise, or other entity.
+<P xml:lang="EN-US">The trustworthiness of systems, system components, and system services is an important part of the risk management strategies developed by organizations. Whether systems are deployed to support the national air traffic control system, a major financial institution, a nuclear power plant, or the military services and warfighters, the systems must be reliable, trustworthy, and resilient in the face of increasingly sophisticated and pervasive threats-and also support the privacy of individuals. To understand how to achieve trustworthy systems and the role assurance plays, it is important to first define the term trustworthiness. Trustworthiness, in this context, means simply worthy of being trusted to fulfill whatever critical requirements may be needed for a particular component, subsystem, system, network, application, mission, business function, enterprise, or other entity.
 <Link>31</Link>
  Trustworthiness requirements can include, for example, attributes of reliability, dependability, performance, resilience, safety, security, privacy, and survivability under a range of potential adversity in the form of disruptions, hazards, threats, and privacy risks. Effective measures of trustworthiness are meaningful only to the extent the requirements are sufficiently complete and well-defined, and can be accurately assessed.
 <Link>32</Link>
@@ -2865,7 +2865,7 @@ for each organization, sector, or individual company based on specific operating
  provides guidance on systems security engineering and the application of security design principles to achieve trustworthy systems. </P>
 </Footnote>
 
-<P xml:lang="EN-US">Two fundamental components affecting the trustworthiness of systems are functionality and assurance. Functionality is defined in terms of the security and privacy features, functions, mechanisms, services, procedures, and architectures implemented within organizational systems and programs and the environments in which those systems and programs operate. Assurance is the measure of confidence that the system functionality is implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security and privacy requirements for the system—thus possessing the capability to accurately mediate and enforce established security and privacy policies. Security and privacy controls address both functionality and assurance. Some controls focus primarily on functionality. Other controls focus primarily on assurance. Finally, certain controls can support functionality and assurance. Assurance-related controls are identified in the security and privacy control summary tables in 
+<P xml:lang="EN-US">Two fundamental components affecting the trustworthiness of systems are functionality and assurance. Functionality is defined in terms of the security and privacy features, functions, mechanisms, services, procedures, and architectures implemented within organizational systems and programs and the environments in which those systems and programs operate. Assurance is the measure of confidence that the system functionality is implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security and privacy requirements for the system-thus possessing the capability to accurately mediate and enforce established security and privacy policies. Security and privacy controls address both functionality and assurance. Some controls focus primarily on functionality. Other controls focus primarily on assurance. Finally, certain controls can support functionality and assurance. Assurance-related controls are identified in the security and privacy control summary tables in 
 <Reference xml:lang="EN-US">Appendix E</Reference>
 . </P>
 
@@ -2874,7 +2874,7 @@ for each organization, sector, or individual company based on specific operating
 <TextBox>
 <P xml:lang="EN-US">THE COMPELLING ARGUMENT FOR ASSURANCE </P>
 
-<P xml:lang="EN-US">Organizations specify assurance-related controls to define activities performed to generate relevant and credible evidence about the functionality and behavior of organizational systems and to trace the evidence to the elements that provide such functionality and behavior. This evidence is used to obtain a degree of confidence that the information systems satisfy stated security and privacy requirements—and do so while effectively supporting the organizational missions and business functions while being subjected to threats in the intended environments of operation. </P>
+<P xml:lang="EN-US">Organizations specify assurance-related controls to define activities performed to generate relevant and credible evidence about the functionality and behavior of organizational systems and to trace the evidence to the elements that provide such functionality and behavior. This evidence is used to obtain a degree of confidence that the information systems satisfy stated security and privacy requirements-and do so while effectively supporting the organizational missions and business functions while being subjected to threats in the intended environments of operation. </P>
 
 <P xml:lang="EN-US"> </P>
 <Figure>
@@ -3461,7 +3461,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 
 <LI>
-<LBody xml:lang="EN-US">(c) Change security attributes on subjects, objects, the system, or the system’s components; </LBody>
+<LBody xml:lang="EN-US">(c) Change security attributes on subjects, objects, the system, or the system's components; </LBody>
 </LI>
 
 <LI>
@@ -3553,7 +3553,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Employ an audited override of automated access control mechanisms under [Assignment: organization-defined conditions] by [Assignment: organization-defined roles]. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  In certain situations, for example, where there is a threat to human life or an event that threatens the organization’s ability carry out critical missions or business functions, an override capability for access control mechanisms may be needed. Such override conditions are defined by organizations and are used only in those limited circumstances. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  In certain situations, for example, where there is a threat to human life or an event that threatens the organization's ability carry out critical missions or business functions, an override capability for access control mechanisms may be needed. Such override conditions are defined by organizations and are used only in those limited circumstances. </P>
 
 <P xml:lang="EN-US">Related Controls:  AU-2, AU-6, AU-10, AU-12, AU-14. </P>
 
@@ -3755,7 +3755,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Provide the capability for privileged administrators to configure [Assignment: organization-defined security policy filters] to support different security policies. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  For example, to reflect changes in security policies, administrators can change the list of “dirty words” that security policy mechanisms check in accordance with the definitions provided by organizations. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  For example, to reflect changes in security policies, administrators can change the list of "dirty words" that security policy mechanisms check in accordance with the definitions provided by organizations. </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -4219,7 +4219,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Notify the user, upon successful logon/access, of changes to [Assignment: organization-defined security-related characteristics/parameters of the user’s account] during [Assignment: organization-defined time-period]. </P>
+<P xml:lang="EN-US">Notify the user, upon successful logon/access, of changes to [Assignment: organization-defined security-related characteristics/parameters of the user's account] during [Assignment: organization-defined time-period]. </P>
 
 <P xml:lang="EN-US">Supplemental Guidance:  None. </P>
 
@@ -4301,7 +4301,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Control:  Automatically terminate a user session after [Assignment: organization-defined conditions or trigger events requiring session disconnect].  </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  This control addresses the termination of user-initiated logical sessions in contrast to SC-10 which addresses the termination of network connections that are associated with communications sessions (i.e., network disconnect). A logical session (for local, network, and remote access) is initiated whenever a user (or process acting on behalf of a user) accesses an organizational system. Such user sessions can be terminated without terminating network sessions. Session termination terminates all processes associated with a user’s logical session except those processes that are specifically created by the user (i.e., session owner) to continue after the session is terminated. Conditions or trigger events requiring automatic session termination can include, for example, organization-defined periods of user inactivity, targeted responses to certain types of incidents, time-of-day restrictions on system use. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  This control addresses the termination of user-initiated logical sessions in contrast to SC-10 which addresses the termination of network connections that are associated with communications sessions (i.e., network disconnect). A logical session (for local, network, and remote access) is initiated whenever a user (or process acting on behalf of a user) accesses an organizational system. Such user sessions can be terminated without terminating network sessions. Session termination terminates all processes associated with a user's logical session except those processes that are specifically created by the user (i.e., session owner) to continue after the session is terminated. Conditions or trigger events requiring automatic session termination can include, for example, organization-defined periods of user inactivity, targeted responses to certain types of incidents, time-of-day restrictions on system use. </P>
 
 <P xml:lang="EN-US">Related Controls:  MA-4, SC-10, SC-23. </P>
 
@@ -4345,7 +4345,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">References:  None. </P>
 
-<H1 id="LinkTarget_85155" xml:lang="EN-US">AC-13 SUPERVISION AND REVIEW — ACCESS CONTROL </H1>
+<H1 id="LinkTarget_85155" xml:lang="EN-US">AC-13 SUPERVISION AND REVIEW - ACCESS CONTROL </H1>
 
 <P xml:lang="EN-US">[Withdrawn: Incorporated into AC-2 and AU-6]. </P>
 
@@ -4936,7 +4936,7 @@ for each organization, sector, or individual company based on specific operating
 <L>
 <L>
 <LI>
-<LBody xml:lang="EN-US">(a) Verification of the implementation of required security and privacy controls on the external system as specified in the organization’s security and privacy policies and security and privacy plans; or </LBody>
+<LBody xml:lang="EN-US">(a) Verification of the implementation of required security and privacy controls on the external system as specified in the organization's security and privacy policies and security and privacy plans; or </LBody>
 </LI>
 
 <LI>
@@ -5125,7 +5125,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US"> Control:  Implement a reference monitor for [Assignment: organization-defined access control policies] that is tamperproof, always invoked, and small enough to be subject to analysis and testing, the completeness of which can be assured. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Information is represented internally within systems using abstractions known as data structures. Internal data structures can represent different types of entities, both active and passive. Active entities, also known as subjects, are associated with individuals, devices, or processes acting on behalf of individuals. Passive entities, also known as objects, are typically associated with data structures such as records, buffers, tables, files, inter-process pipes, and communications ports. Reference monitors enforce mandatory access control policies, a type of access control that restricts access to objects based on the identity of subjects or groups to which the subjects belong. The access controls are mandatory because subjects with certain privileges (i.e., access permissions) are restricted from passing those privileges on to any other subjects, either directly or indirectly—that is, the system strictly enforces the access control policy based on the rule set established by the policy. The tamperproof property of the reference monitor prevents adversaries from compromising the functioning of the mechanism. The always invoked property prevents adversaries from bypassing the mechanism and hence violating the security policy. The smallness property helps to ensure the completeness in the analysis and testing of the mechanism to detect weaknesses or deficiencies (i.e., latent flaws) that would prevent the enforcement of the security policy. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Information is represented internally within systems using abstractions known as data structures. Internal data structures can represent different types of entities, both active and passive. Active entities, also known as subjects, are associated with individuals, devices, or processes acting on behalf of individuals. Passive entities, also known as objects, are typically associated with data structures such as records, buffers, tables, files, inter-process pipes, and communications ports. Reference monitors enforce mandatory access control policies, a type of access control that restricts access to objects based on the identity of subjects or groups to which the subjects belong. The access controls are mandatory because subjects with certain privileges (i.e., access permissions) are restricted from passing those privileges on to any other subjects, either directly or indirectly-that is, the system strictly enforces the access control policy based on the rule set established by the policy. The tamperproof property of the reference monitor prevents adversaries from compromising the functioning of the mechanism. The always invoked property prevents adversaries from bypassing the mechanism and hence violating the security policy. The smallness property helps to ensure the completeness in the analysis and testing of the mechanism to detect weaknesses or deficiencies (i.e., latent flaws) that would prevent the enforcement of the security policy. </P>
 
 <P xml:lang="EN-US">Related Controls:  AC-3, AC-16, SC-3, SC-11, SC-39, SI-13. </P>
 
@@ -5791,7 +5791,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Correlate information from audit records with information obtained from monitoring physical access to further enhance the ability to identify suspicious, inappropriate, unusual, or malevolent activity. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  The correlation of physical audit information and audit logs from systems may assist organizations in identifying examples of suspicious behavior or supporting evidence of such behavior. For example, the correlation of an individual’s identity for logical access to certain systems with the additional physical security information that the individual was present at the facility when the logical access occurred, may be useful in investigations. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  The correlation of physical audit information and audit logs from systems may assist organizations in identifying examples of suspicious behavior or supporting evidence of such behavior. For example, the correlation of an individual's identity for logical access to certain systems with the additional physical security information that the individual was present at the facility when the logical access occurred, may be useful in investigations. </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -7979,7 +7979,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  If provided the necessary privileges, users have the ability to install software in organizational systems. To maintain control over the types of software installed, organizations identify permitted and prohibited actions regarding software installation. Permitted software installations may include, for example, updates and security patches to existing software and downloading applications from organization-approved “app stores.” Prohibited software installations may include, for example, software with unknown or suspect pedigrees or software that organizations consider potentially malicious. The policies organizations select governing user-installed software may be organization-developed or provided by some external entity. Policy enforcement methods include procedural methods, automated methods, or both. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  If provided the necessary privileges, users have the ability to install software in organizational systems. To maintain control over the types of software installed, organizations identify permitted and prohibited actions regarding software installation. Permitted software installations may include, for example, updates and security patches to existing software and downloading applications from organization-approved "app stores." Prohibited software installations may include, for example, software with unknown or suspect pedigrees or software that organizations consider potentially malicious. The policies organizations select governing user-installed software may be organization-developed or provided by some external entity. Policy enforcement methods include procedural methods, automated methods, or both. </P>
 
 <P xml:lang="EN-US">Related Controls:  AC-3, AU-6, CM-2, CM-3, CM-5, CM-6, CM-7, CM-8, PL-4, SI-7. </P>
 
@@ -9919,7 +9919,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Identity proofing is the process of collecting, validating, and verifying user’s identity information for the purposes of issuing credentials for accessing a system. This control is intended to mitigate threats to the registration of users and the establishment of their accounts. Standards and guidelines specifying identity assurance levels for identity proofing include NIST Special Publications 800-63 and 800-63A. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Identity proofing is the process of collecting, validating, and verifying user's identity information for the purposes of issuing credentials for accessing a system. This control is intended to mitigate threats to the registration of users and the establishment of their accounts. Standards and guidelines specifying identity assurance levels for identity proofing include NIST Special Publications 800-63 and 800-63A. </P>
 
 <P xml:lang="EN-US">Related Controls:  IA-1, IA-2, IA-3, IA-4, IA-5, IA-6, IA-8. </P>
 
@@ -9944,7 +9944,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Require evidence of individual identification be presented to the registration authority. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Requiring identity evidence, such as documentary evidence or a combination of documents and biometrics, reduces the likelihood of individuals using fraudulent identification to establish an identity, or at least increases the work factor of potential adversaries. Acceptable forms of evidence are consistent with the risk to the systems, roles, and privileges associated with the user’s account.  </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Requiring identity evidence, such as documentary evidence or a combination of documents and biometrics, reduces the likelihood of individuals using fraudulent identification to establish an identity, or at least increases the work factor of potential adversaries. Acceptable forms of evidence are consistent with the risk to the systems, roles, and privileges associated with the user's account.  </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -10120,7 +10120,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Present authorizations to process personally identifiable information in conjunction with the data action or [Assignment: organization-defined frequency]. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  If the circumstances under which an individual gave consent have changed or a significant amount of time has passed since an individual gave consent for the processing of his or her personally identifiable information, the data subject’s assumption about how the information is being processed might no longer be accurate or reliable. Just-in-time notice can help maintain individual satisfaction with how the personally identifiable information is being processed. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  If the circumstances under which an individual gave consent have changed or a significant amount of time has passed since an individual gave consent for the processing of his or her personally identifiable information, the data subject's assumption about how the information is being processed might no longer be accurate or reliable. Just-in-time notice can help maintain individual satisfaction with how the personally identifiable information is being processed. </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -10206,7 +10206,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Present authorizations to process personally identifiable information in conjunction with the data action, or [Assignment: organization-defined frequency]. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  If the circumstances under which an individual gave consent have changed or a significant amount of time has passed since an individual gave consent for the processing of his or her personally identifiable information, the data subject’s assumption about how the information is being processed might no longer be accurate or reliable. Just-in-time notice can help maintain individual satisfaction with or ability to participate in how the personally identifiable information is being processed. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  If the circumstances under which an individual gave consent have changed or a significant amount of time has passed since an individual gave consent for the processing of his or her personally identifiable information, the data subject's assumption about how the information is being processed might no longer be accurate or reliable. Just-in-time notice can help maintain individual satisfaction with or ability to participate in how the personally identifiable information is being processed. </P>
 
 <P xml:lang="EN-US">Related Controls:  IP-2, IP-3, IP-5, PA-3, PA-4, PM-22. </P>
 
@@ -10568,7 +10568,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Coordinate with [Assignment: organization-defined external organizations] to correlate and share [Assignment: organization-defined incident information] to achieve a cross-organization perspective on incident awareness and more effective incident responses. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  The coordination of incident information with external organizations including, for example, mission/business partners, military/coalition partners, customers, and multi-tiered developers, can provide significant benefits. Cross-organizational coordination with respect to incident handling can serve as an important risk management capability. This capability allows organizations to leverage critical information from a variety of sources to effectively respond to information security-related incidents potentially affecting the organization’s operations, assets, and individuals. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  The coordination of incident information with external organizations including, for example, mission/business partners, military/coalition partners, customers, and multi-tiered developers, can provide significant benefits. Cross-organizational coordination with respect to incident handling can serve as an important risk management capability. This capability allows organizations to leverage critical information from a variety of sources to effectively respond to information security-related incidents potentially affecting the organization's operations, assets, and individuals. </P>
 
 <P xml:lang="EN-US">Related Controls:  AU-16, PM-16. </P>
 
@@ -11094,7 +11094,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  This control addresses security-related issues associated with maintenance tools that are not within organizational system boundaries but are used specifically for diagnostic and repair actions on organizational systems. Organizations have flexibility in determining roles for approval of maintenance tools and how that approval is documented. Periodic review of system maintenance tools facilitates withdrawal of the approval for outdated, unsupported, irrelevant, or no-longer-used tools. Maintenance tools can include hardware, software, and firmware items. Maintenance tools are potential vehicles for transporting malicious code, intentionally or unintentionally, into a facility and subsequently into systems. Maintenance tools can include, for example, hardware/software diagnostic test equipment and hardware and software packet sniffers. This control does not cover hardware or software components that support system maintenance and are a part of the system, for example, the software implementing “ping,” “ls,” “ipconfig,” or the hardware and software implementing the monitoring port of an Ethernet switch. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  This control addresses security-related issues associated with maintenance tools that are not within organizational system boundaries but are used specifically for diagnostic and repair actions on organizational systems. Organizations have flexibility in determining roles for approval of maintenance tools and how that approval is documented. Periodic review of system maintenance tools facilitates withdrawal of the approval for outdated, unsupported, irrelevant, or no-longer-used tools. Maintenance tools can include hardware, software, and firmware items. Maintenance tools are potential vehicles for transporting malicious code, intentionally or unintentionally, into a facility and subsequently into systems. Maintenance tools can include, for example, hardware/software diagnostic test equipment and hardware and software packet sniffers. This control does not cover hardware or software components that support system maintenance and are a part of the system, for example, the software implementing "ping," "ls," "ipconfig," or the hardware and software implementing the monitoring port of an Ethernet switch. </P>
 
 <P xml:lang="EN-US">Related Controls:  MA-2, PE-16. </P>
 
@@ -12150,7 +12150,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Employ automated mechanisms to support records management of authorizing policies and procedures for personally identifiable information. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Automated mechanisms may be used to support records management of authorizing policies and procedures for personally identifiable information. Automated mechanisms augment verification that organizational policies and procedures are enforced for the management and tracking of personally identifiable information within an organization’s systems. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Automated mechanisms may be used to support records management of authorizing policies and procedures for personally identifiable information. Automated mechanisms augment verification that organizational policies and procedures are enforced for the management and tracking of personally identifiable information within an organization's systems. </P>
 
 <P xml:lang="EN-US">Related Controls:  CA-6, CM-12, IP-5, PM-29, PM-23, SC-16, SC-43, SI-12, SI-10, SI-15, SI-20, SI-19. </P>
 
@@ -12332,7 +12332,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Require two forms of identification from [Assignment: organization-defined list of acceptable forms of identification] for visitor access to the facility where the system resides. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Acceptable forms of identification include, for example, passports, Personal Identity Verification (PIV) cards, and drivers’ licenses. For gaining access to facilities using automated mechanisms, organizations may use PIV cards, key cards, PINs, and biometrics. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Acceptable forms of identification include, for example, passports, Personal Identity Verification (PIV) cards, and drivers' licenses. For gaining access to facilities using automated mechanisms, organizations may use PIV cards, key cards, PINs, and biometrics. </P>
 
 <P xml:lang="EN-US">Related Controls:  IA-2, IA-4, IA-5. </P>
 
@@ -13172,7 +13172,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 
 <LI>
-<LBody xml:lang="EN-US">1. Are consistent with the organization’s enterprise architecture; </LBody>
+<LBody xml:lang="EN-US">1. Are consistent with the organization's enterprise architecture; </LBody>
 </LI>
 
 <LI>
@@ -13380,7 +13380,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Supplemental Guidance:  This control addresses actions taken by organizations in the design and development of systems. The security and privacy architectures at the system level are consistent with and complement the organization-wide security and privacy architectures described in PM-7 that are integral to and developed as part of the enterprise architecture. The security and privacy architectures include an architectural description, the placement and allocation of security and privacy functionality (including security and privacy controls), security- and privacy-related information for external interfaces, information being exchanged across the interfaces, and the protection mechanisms associated with each interface. In addition, the security and privacy architectures can include other information, for example, user roles and the access privileges assigned to each role, unique security and privacy requirements, types of information processed, stored, and transmitted by the system, restoration priorities of information and system services, and any other specific protection needs. </P>
 
-<P xml:lang="EN-US">In today’s modern computing architectures, it is becoming less common for organizations to control all information resources. There may be key dependencies on external information services and service providers. Describing such dependencies in the security and privacy architectures is important to developing a comprehensive mission and business protection strategy. Establishing, developing, documenting, and maintaining under configuration control, a baseline configuration for organizational systems is critical to implementing and maintaining effective security and privacy architectures. The development of the security and privacy architectures is coordinated with the Senior Agency Information Security Officer and the Senior Agency Official for Privacy to ensure that security and privacy controls needed to support security and privacy requirements are identified and effectively implemented. PL-8 is primarily directed at organizations to ensure that they develop security and privacy architectures for the system, and that the architectures are integrated with or tightly coupled to the enterprise architecture through the organization-wide security and privacy architectures. In contrast, SA-17 is primarily directed at external information technology product and system developers and integrators. SA-17, which is complementary to PL-8, is selected when organizations outsource the development of systems or system components to external entities, and there is a need to demonstrate consistency with the organization’s enterprise architecture and security and privacy architectures. </P>
+<P xml:lang="EN-US">In today's modern computing architectures, it is becoming less common for organizations to control all information resources. There may be key dependencies on external information services and service providers. Describing such dependencies in the security and privacy architectures is important to developing a comprehensive mission and business protection strategy. Establishing, developing, documenting, and maintaining under configuration control, a baseline configuration for organizational systems is critical to implementing and maintaining effective security and privacy architectures. The development of the security and privacy architectures is coordinated with the Senior Agency Information Security Officer and the Senior Agency Official for Privacy to ensure that security and privacy controls needed to support security and privacy requirements are identified and effectively implemented. PL-8 is primarily directed at organizations to ensure that they develop security and privacy architectures for the system, and that the architectures are integrated with or tightly coupled to the enterprise architecture through the organization-wide security and privacy architectures. In contrast, SA-17 is primarily directed at external information technology product and system developers and integrators. SA-17, which is complementary to PL-8, is selected when organizations outsource the development of systems or system components to external entities, and there is a need to demonstrate consistency with the organization's enterprise architecture and security and privacy architectures. </P>
 
 <P xml:lang="EN-US">Related Controls:  CM-2, CM-6, PL-2, PL-7, PL-9, PM-7, PM-29, RA-9, SA-3, SA-5, SA-8, SA-17. </P>
 
@@ -13442,7 +13442,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US"> Control:  Select a control baseline for the system. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  The selection of an appropriate control baseline is determined by the needs of organizational stakeholders. Stakeholder needs and concerns consider mission and business requirements and mandates imposed by applicable laws, Executive Orders, directives, policies, regulations, standards, and guidelines. For example, the three control baselines in Appendix D are based on the requirements from the Federal Information Security Modernization Act (FISMA) and the Privacy Act. These requirements, along with the NIST standards and guidelines implementing the legislation, require organizations to select one of the control baselines after the reviewing the information types and the information that is processed, stored, and transmitted on organizational systems; analyzing the potential adverse impact or consequences of the loss or compromise of the system or information on the organization’s operations and assets, individuals, other organizations or the Nation; and considering the results from organizational and system assessments of risk. Nonfederal organizations that are part of other communities of interest including the U.S. critical infrastructure sectors, can develop similar control baselines (using the controls in Chapter Three) that represent the needs and concerns of those entities.  </P>
+<P xml:lang="EN-US">Supplemental Guidance:  The selection of an appropriate control baseline is determined by the needs of organizational stakeholders. Stakeholder needs and concerns consider mission and business requirements and mandates imposed by applicable laws, Executive Orders, directives, policies, regulations, standards, and guidelines. For example, the three control baselines in Appendix D are based on the requirements from the Federal Information Security Modernization Act (FISMA) and the Privacy Act. These requirements, along with the NIST standards and guidelines implementing the legislation, require organizations to select one of the control baselines after the reviewing the information types and the information that is processed, stored, and transmitted on organizational systems; analyzing the potential adverse impact or consequences of the loss or compromise of the system or information on the organization's operations and assets, individuals, other organizations or the Nation; and considering the results from organizational and system assessments of risk. Nonfederal organizations that are part of other communities of interest including the U.S. critical infrastructure sectors, can develop similar control baselines (using the controls in Chapter Three) that represent the needs and concerns of those entities.  </P>
 
 <P xml:lang="EN-US">Related Controls:  PL-11, RA-2, RA-3, SA-8. </P>
 
@@ -13538,7 +13538,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Information security program plans can be represented in single documents or compilations of documents at the discretion of organizations. The plans document the program management controls and organization-defined common controls. Information security program plans provide sufficient information about the program management controls/common controls (including specification of parameters for any assignment and selection statements either explicitly or by reference) to enable implementations that are unambiguously compliant with the intent of the plans and a determination of the risk to be incurred if the plans are implemented as intended. Security plans for individual systems and the organization-wide information security program plan, provide complete coverage for all security controls employed within the organization. Common controls are documented in an appendix to the organization’s information security program plan unless the controls are included in a separate security plan for a system. The organization-wide information security program plan will indicate which separate security plans contain descriptions of common controls.  </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Information security program plans can be represented in single documents or compilations of documents at the discretion of organizations. The plans document the program management controls and organization-defined common controls. Information security program plans provide sufficient information about the program management controls/common controls (including specification of parameters for any assignment and selection statements either explicitly or by reference) to enable implementations that are unambiguously compliant with the intent of the plans and a determination of the risk to be incurred if the plans are implemented as intended. Security plans for individual systems and the organization-wide information security program plan, provide complete coverage for all security controls employed within the organization. Common controls are documented in an appendix to the organization's information security program plan unless the controls are included in a separate security plan for a system. The organization-wide information security program plan will indicate which separate security plans contain descriptions of common controls.  </P>
 
 <P xml:lang="EN-US">Organizations have the flexibility to describe common controls in a single document or in multiple documents. For multiple documents, the documents describing common controls are included as attachments to the information security program plan. If the information security program plan contains multiple documents, the organization specifies in each document the organizational official or officials responsible for the development, implementation, assessment, authorization, and monitoring of the respective common controls. For example, the Facilities Management Office may develop, implement, assess, authorize, and continuously monitor common physical and environmental protection controls from the PE family when such controls are not associated with a particular system but instead, support multiple systems. </P>
 
@@ -13678,7 +13678,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Control:  Develop an enterprise architecture with consideration for information security, privacy, and the resulting risk to organizational operations and assets, individuals, other organizations, and the Nation.  </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  The integration of security and privacy requirements and controls into the enterprise architecture ensures that security and privacy considerations are addressed early in the system development life cycle and are directly and explicitly related to the organization’s mission and business processes. The process of security and privacy requirements integration also embeds into the enterprise architecture, the organization’s security and privacy architectures consistent with the organizational risk management and information security and privacy strategies. For PM-7, the security and privacy architectures are developed at a system-of-systems level, representing all organizational systems. For PL-8, the security and privacy architectures are developed at a level representing an individual system. The system-level architectures are consistent with the security and privacy architectures defined for the organization. Security and privacy requirements and control integration are most effectively accomplished through the rigorous application of the Risk Management Framework and supporting security standards and guidelines. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  The integration of security and privacy requirements and controls into the enterprise architecture ensures that security and privacy considerations are addressed early in the system development life cycle and are directly and explicitly related to the organization's mission and business processes. The process of security and privacy requirements integration also embeds into the enterprise architecture, the organization's security and privacy architectures consistent with the organizational risk management and information security and privacy strategies. For PM-7, the security and privacy architectures are developed at a system-of-systems level, representing all organizational systems. For PL-8, the security and privacy architectures are developed at a level representing an individual system. The system-level architectures are consistent with the security and privacy architectures defined for the organization. Security and privacy requirements and control integration are most effectively accomplished through the rigorous application of the Risk Management Framework and supporting security standards and guidelines. </P>
 
 <P xml:lang="EN-US">Related Controls:  AU-6, PL-2, PL-8, PM-11, RA-2, SA-3, SA-8, SA-17. </P>
 
@@ -13730,7 +13730,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  An organization-wide risk management strategy includes, for example, an expression of the security, privacy, and supply chain risk tolerance for the organization; acceptable risk assessment methodologies; security, privacy, and supply chain risk mitigation strategies; a process for consistently evaluating security, privacy, and supply chain risk across the organization with respect to the organization’s risk tolerance; and approaches for monitoring risk over time. The senior accountable official for risk management (agency head or designated official) aligns information security management proceeses with strategic, operational, and budgetary planning procceses. The use of a risk executive function, led by the senior accountable official for risk management, can facilitate consistent application of the risk management strategy organization-wide. The organization-wide risk management strategy can be informed by security, privacy, and supply chain risk-related inputs from other sources, internal and external to the organization, to ensure the strategy is both broad-based and comprehensive. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  An organization-wide risk management strategy includes, for example, an expression of the security, privacy, and supply chain risk tolerance for the organization; acceptable risk assessment methodologies; security, privacy, and supply chain risk mitigation strategies; a process for consistently evaluating security, privacy, and supply chain risk across the organization with respect to the organization's risk tolerance; and approaches for monitoring risk over time. The senior accountable official for risk management (agency head or designated official) aligns information security management proceeses with strategic, operational, and budgetary planning procceses. The use of a risk executive function, led by the senior accountable official for risk management, can facilitate consistent application of the risk management strategy organization-wide. The organization-wide risk management strategy can be informed by security, privacy, and supply chain risk-related inputs from other sources, internal and external to the organization, to ensure the strategy is both broad-based and comprehensive. </P>
 
 <P xml:lang="EN-US">Related Controls:  All XX-1 Controls, CA-2, CA-5, CA-6, CA-7, IP-1, PA-1, PA-2, PA-3, PL-2, PM-8, PM-18, PM-31, PM-32, RA-3, RA-9, SA-4, SA-12, SC-38, SI-12. </P>
 
@@ -13958,7 +13958,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">a. Develop and disseminate an organization-wide privacy program plan that provides an overview of the agency’s privacy program, and: </LBody>
+<LBody xml:lang="EN-US">a. Develop and disseminate an organization-wide privacy program plan that provides an overview of the agency's privacy program, and: </LBody>
 </LI>
 </L>
 
@@ -13994,11 +13994,11 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  A Privacy program plan is a formal document that provides an overview of an organization’s privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the Senior Agency Official for Privacy and other privacy officials and staff, the strategic goals and objectives of the privacy program, and the program management and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  A Privacy program plan is a formal document that provides an overview of an organization's privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the Senior Agency Official for Privacy and other privacy officials and staff, the strategic goals and objectives of the privacy program, and the program management and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks. </P>
 
 <P xml:lang="EN-US">Privacy program plans can be integrated with information security plans or can be represented independently, either in a single document or in compilations of documents at the discretion of organizations. The plans document the program management controls and organization-defined common controls. Privacy program plans provide sufficient information about the program management and common controls (including specification of parameters and assignment and selection statements either explicitly or by reference) to enable control implementations that are unambiguously compliant with the intent of the plans and a determination of the risk incurred if the plans are implemented as intended. </P>
 
-<P xml:lang="EN-US">The privacy plans for individual systems and the organization-wide privacy program plan together provide complete coverage for all privacy controls employed within the organization. Common controls are documented in an appendix to the organization’s privacy program plan unless the controls are included in a separate privacy plan for a system. The organization-wide privacy program plan indicates which separate privacy plans contain descriptions of privacy controls. </P>
+<P xml:lang="EN-US">The privacy plans for individual systems and the organization-wide privacy program plan together provide complete coverage for all privacy controls employed within the organization. Common controls are documented in an appendix to the organization's privacy program plan unless the controls are included in a separate privacy plan for a system. The organization-wide privacy program plan indicates which separate privacy plans contain descriptions of privacy controls. </P>
 
 <P xml:lang="EN-US">Organizations have the flexibility to describe common controls in a single document or in multiple documents. In the case of multiple documents, the documents describing common controls are included as attachments to the privacy program plan. If the privacy program plan contains multiple documents, the organization specifies in each document, the organizational official or officials responsible for the development, implementation, assessment, authorization, and monitoring of the respective common controls. </P>
 
@@ -14268,7 +14268,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Access affords individuals the ability to review personally identifiable information about them held within organizational systems of records. Access includes timely, simplified, and inexpensive access to data. Organizational processes for allowing access to records may differ based on resources, legal requirements, or other factors. The Senior Agency Official for Privacy is responsible for the content of Privacy Act regulations and record request processing, in consultation with the organization’s legal counsel. Access to certain types of records may not be appropriate, however, and heads of agencies may promulgate rules exempting particular systems from the access provision of the Privacy Act. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Access affords individuals the ability to review personally identifiable information about them held within organizational systems of records. Access includes timely, simplified, and inexpensive access to data. Organizational processes for allowing access to records may differ based on resources, legal requirements, or other factors. The Senior Agency Official for Privacy is responsible for the content of Privacy Act regulations and record request processing, in consultation with the organization's legal counsel. Access to certain types of records may not be appropriate, however, and heads of agencies may promulgate rules exempting particular systems from the access provision of the Privacy Act. </P>
 
 <P xml:lang="EN-US">Related Controls:  IP-6. </P>
 
@@ -14394,7 +14394,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  An organization-wide supply chain risk management plan includes, for example, an unambiguous expression of the supply chain risk tolerance for the organization, acceptable supply chain risk mitigation strategies or controls, a process for consistently evaluating and monitoring supply chain risk, approaches for implementing and communicating the supply chain risk management plan, and associated roles and responsibilities. The organization-wide supply chain risk management plan can be incorporated into the organization’s risk management strategy and be used to inform the system-level supply chain risk management plan. The use of a risk executive function can facilitate consistent, organization-wide application of the supply chain risk management plan. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  An organization-wide supply chain risk management plan includes, for example, an unambiguous expression of the supply chain risk tolerance for the organization, acceptable supply chain risk mitigation strategies or controls, a process for consistently evaluating and monitoring supply chain risk, approaches for implementing and communicating the supply chain risk management plan, and associated roles and responsibilities. The organization-wide supply chain risk management plan can be incorporated into the organization's risk management strategy and be used to inform the system-level supply chain risk management plan. The use of a risk executive function can facilitate consistent, organization-wide application of the supply chain risk management plan. </P>
 
 <P xml:lang="EN-US">Related Controls:  PM-9, SA-12. </P>
 
@@ -14696,7 +14696,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Employ automated mechanisms to notify [Assignment: organization-defined personnel or roles] upon termination of an individual. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  In organizations with many employees, not all personnel who need to know about termination actions receive the appropriate notifications—or, if such notifications are received, they may not occur in a timely manner. Automated mechanisms can be used to send automatic alerts or notifications to specific organizational personnel or roles when individuals are terminated. Such automatic alerts or notifications can be conveyed in a variety of ways, including, for example, telephonically, via electronic mail, via text message, or via websites. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  In organizations with many employees, not all personnel who need to know about termination actions receive the appropriate notifications-or, if such notifications are received, they may not occur in a timely manner. Automated mechanisms can be used to send automatic alerts or notifications to specific organizational personnel or roles when individuals are terminated. Such automatic alerts or notifications can be conveyed in a variety of ways, including, for example, telephonically, via electronic mail, via text message, or via websites. </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -14986,7 +14986,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Conduct a second-level categorization of organizational systems to obtain additional granularity on system impact levels. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Organizations apply the “high water mark” concept to each of their systems categorized in accordance with FIPS Publication 199. This process results in systems designated as low impact, moderate impact, or high impact. Organizations desiring additional granularity in the system impact designations for risk-based decision making, can further partition the systems into sub-categories of the initial, first-level system categorization. For example, a second-level categorization on a moderate-impact system can produce three new sub-categories: low-moderate systems, moderate-moderate systems, and high-moderate systems. This secondary categorization and the resulting sub-categories of the system give organizations an opportunity to further prioritize their investments related to security control selection and the tailoring of control baselines in responding to identified risks. Second-level categorization can also be used to determine those systems that are exceptionally critical to organizational missions and business operations. These systems are sometimes described as high-value assets and thus, organizations may be more focused on complexity, aggregation, and interconnections. Such systems can be identified by partitioning high-impact systems into low-high systems, moderate-high systems, and high-high systems. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Organizations apply the "high water mark" concept to each of their systems categorized in accordance with FIPS Publication 199. This process results in systems designated as low impact, moderate impact, or high impact. Organizations desiring additional granularity in the system impact designations for risk-based decision making, can further partition the systems into sub-categories of the initial, first-level system categorization. For example, a second-level categorization on a moderate-impact system can produce three new sub-categories: low-moderate systems, moderate-moderate systems, and high-moderate systems. This secondary categorization and the resulting sub-categories of the system give organizations an opportunity to further prioritize their investments related to security control selection and the tailoring of control baselines in responding to identified risks. Second-level categorization can also be used to determine those systems that are exceptionally critical to organizational missions and business operations. These systems are sometimes described as high-value assets and thus, organizations may be more focused on complexity, aggregation, and interconnections. Such systems can be identified by partitioning high-impact systems into low-high systems, moderate-high systems, and high-high systems. </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -16214,7 +16214,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Require the developer of the system, system component, or system service to perform a manual code review of [Assignment: organization-defined specific code] using [Assignment: organization-defined processes, procedures, and/or techniques]. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Manual code reviews are usually reserved for the critical software and firmware components of systems. Such code reviews are effective in identifying weaknesses that require knowledge of the application’s requirements or context which in most cases, are unavailable to automated analytic tools and techniques including static and dynamic analysis. Components benefiting from manual review include, for example, verifying access control matrices against application controls and reviewing more detailed aspects of cryptographic implementations and controls. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Manual code reviews are usually reserved for the critical software and firmware components of systems. Such code reviews are effective in identifying weaknesses that require knowledge of the application's requirements or context which in most cases, are unavailable to automated analytic tools and techniques including static and dynamic analysis. Components benefiting from manual review include, for example, verifying access control matrices against application controls and reviewing more detailed aspects of cryptographic implementations and controls. </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -16458,7 +16458,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Establish a process or processes to address weaknesses or deficiencies in supply chain elements in coordination with [Assignment: organization-defined supply chain personnel]. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Supply chain elements are system or system components that contain programmable logic and that are critically important to system functions. Supply chain processes include, for example, hardware, software, and firmware development processes; shipping and handling procedures; personnel and physical security programs; configuration management tools, techniques, and measures to maintain provenance; or other programs, processes, or procedures associated with the production and distribution of supply chain elements. Supply chain personnel are individuals with specific roles and responsibilities in the supply chain. The evidence generated during the independent or organizational assessments of designated supply chain elements may be used to improve the supply chain processes and inform the organization’s supply chain risk management process. The evidence can also be leveraged in follow-on assessments. Evidence and other related documentation may be shared in accordance with organizational agreements. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Supply chain elements are system or system components that contain programmable logic and that are critically important to system functions. Supply chain processes include, for example, hardware, software, and firmware development processes; shipping and handling procedures; personnel and physical security programs; configuration management tools, techniques, and measures to maintain provenance; or other programs, processes, or procedures associated with the production and distribution of supply chain elements. Supply chain personnel are individuals with specific roles and responsibilities in the supply chain. The evidence generated during the independent or organizational assessments of designated supply chain elements may be used to improve the supply chain processes and inform the organization's supply chain risk management process. The evidence can also be leveraged in follow-on assessments. Evidence and other related documentation may be shared in accordance with organizational agreements. </P>
 
 <P xml:lang="EN-US">Related Controls:  None.  </P>
 
@@ -16706,7 +16706,7 @@ for each organization, sector, or individual company based on specific operating
 
 <L>
 <LI>
-<LBody xml:lang="EN-US">a. Is consistent with and supportive of the organization’s security architecture which is established within and is an integrated part of the organization’s enterprise architecture; </LBody>
+<LBody xml:lang="EN-US">a. Is consistent with and supportive of the organization's security architecture which is established within and is an integrated part of the organization's enterprise architecture; </LBody>
 </LI>
 
 <LI>
@@ -17688,7 +17688,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Managing the transmission of personally identifiable information and how such information is used is an important aspect of safeguarding an individual’s privacy. Processing rules that determine how or when personally identifiable information may be used or transmitted ensures that such information is used or transmitted only in accordance with established privacy requirements. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Managing the transmission of personally identifiable information and how such information is used is an important aspect of safeguarding an individual's privacy. Processing rules that determine how or when personally identifiable information may be used or transmitted ensures that such information is used or transmitted only in accordance with established privacy requirements. </P>
 
 <P xml:lang="EN-US">Related Controls:  SI-15. </P>
 
@@ -17872,7 +17872,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Produce, control, and distribute asymmetric cryptographic keys using [Selection: NSA-approved key management technology and processes; approved DoD PKI Class 3 certificates; prepositioned keying material; approved DoD PKI Class 3 or Class 4 certificates and hardware security tokens that protect the user’s private key; certificates issued in accordance with organization-defined requirements]. </P>
+<P xml:lang="EN-US">Produce, control, and distribute asymmetric cryptographic keys using [Selection: NSA-approved key management technology and processes; approved DoD PKI Class 3 certificates; prepositioned keying material; approved DoD PKI Class 3 or Class 4 certificates and hardware security tokens that protect the user's private key; certificates issued in accordance with organization-defined requirements]. </P>
 
 <P xml:lang="EN-US">Supplemental Guidance:  None. </P>
 
@@ -18952,7 +18952,7 @@ for each organization, sector, or individual company based on specific operating
 </LI>
 </L>
 
-<P xml:lang="EN-US">Employ the following measures to facilitate an individual’s awareness that personally identifiable information is being collected by [Assignment: organization-defined sensors]: [Assignment: organization-defined measures]. </P>
+<P xml:lang="EN-US">Employ the following measures to facilitate an individual's awareness that personally identifiable information is being collected by [Assignment: organization-defined sensors]: [Assignment: organization-defined measures]. </P>
 
 <P xml:lang="EN-US">Supplemental Guidance:  Awareness that organizational sensors are collecting data enable individuals to more effectively engage in managing their privacy. Measures can include, for example, conventional written notices and sensor configurations that make individuals aware directly or indirectly through other devices that the sensor is collecting information. Usability and efficacy of the notice are important considerations. </P>
 
@@ -20330,7 +20330,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Use [Assignment: organization-defined techniques] to minimize the use of personally identifiable information for research, testing, or training, in accordance with the privacy risk assessment. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Organizations can minimize the risk to an individual’s privacy by using techniques such as de-identification or synthetic data. Limiting the use of personally identifiable information throughout the information life cycle when such information is not needed for research, testing, or training helps reduce the level of privacy risk created by a system. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Organizations can minimize the risk to an individual's privacy by using techniques such as de-identification or synthetic data. Limiting the use of personally identifiable information throughout the information life cycle when such information is not needed for research, testing, or training helps reduce the level of privacy risk created by a system. </P>
 
 <P xml:lang="EN-US">Related Controls:  PM-23. </P>
 
@@ -20590,7 +20590,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Control:  Remove personally identifiable information from datasets. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  Many datasets contain information about individuals that can be used to distinguish or trace an individual’s identity, such as name, social security number, date and place of birth, mother’s maiden name, or biometric records. Datasets may also contain other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information. Personally identifiable information is removed from datasets by trained individuals when such information is not (or no longer) necessary to satisfy the requirements envisioned for the data. For example, if the dataset is only used to produce aggregate statistics, the identifiers that are not needed for producing those statistics are removed. Removing identifiers improves privacy protection, since information that is removed cannot be inadvertently disclosed or improperly used. </P>
+<P xml:lang="EN-US">Supplemental Guidance:  Many datasets contain information about individuals that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or biometric records. Datasets may also contain other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information. Personally identifiable information is removed from datasets by trained individuals when such information is not (or no longer) necessary to satisfy the requirements envisioned for the data. For example, if the dataset is only used to produce aggregate statistics, the identifiers that are not needed for producing those statistics are removed. Removing identifiers improves privacy protection, since information that is removed cannot be inadvertently disclosed or improperly used. </P>
 
 <P xml:lang="EN-US">Related Controls:  PM-23, PM-24, PM-25, SI-18, SI-19. </P>
 
@@ -20640,7 +20640,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Remove, mask, encrypt, hash, or replace direct identifiers in a dataset. </P>
 
-<P xml:lang="EN-US">Supplemental Guidance:  There are many possible processes for removing direct identifiers from a dataset. Columns in a dataset that contain a direct identifier can be removed. In masking, the direct identifier is transformed into a repeating character, for example, XXXXXX or 999999.  Identifiers can be encrypted or hashed, so that the linked records remain linked. In the case of encryption or hashing, algorithms are employed that require the use of a key, including, for example, the Advanced Encryption Standard or a Hash-based Message Authentication Code. Implementations may use the same key for all identifiers or a different key for each identifier. Using a different key for each identifier provides for a higher degree of security and privacy. Identifiers can alternatively be replaced with a keyword, including for example, transforming “George Washington” to “PATIENT,” or replaced with a realistic surrogate value, including for example, transforming “George Washington” to “Abraham Polk.” </P>
+<P xml:lang="EN-US">Supplemental Guidance:  There are many possible processes for removing direct identifiers from a dataset. Columns in a dataset that contain a direct identifier can be removed. In masking, the direct identifier is transformed into a repeating character, for example, XXXXXX or 999999.  Identifiers can be encrypted or hashed, so that the linked records remain linked. In the case of encryption or hashing, algorithms are employed that require the use of a key, including, for example, the Advanced Encryption Standard or a Hash-based Message Authentication Code. Implementations may use the same key for all identifiers or a different key for each identifier. Using a different key for each identifier provides for a higher degree of security and privacy. Identifiers can alternatively be replaced with a keyword, including for example, transforming "George Washington" to "PATIENT," or replaced with a realistic surrogate value, including for example, transforming "George Washington" to "Abraham Polk." </P>
 
 <P xml:lang="EN-US">Related Controls:  None. </P>
 
@@ -21067,7 +21067,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">An adversary that possesses sophisticated levels of expertise and significant resources which allow it to create opportunities to achieve its objectives by using multiple attack vectors including, for example, cyber, physical, and deception. These objectives typically include establishing and extending footholds within the IT infrastructure of the targeted organizations for purposes of exfiltrating information, undermining or impeding critical aspects of a mission, program, or organization; or positioning itself to carry out these objectives in the future. The advanced persistent threat pursues its objectives repeatedly over an extended period; adapts to defenders’ efforts to resist it; and is determined to maintain the level of interaction needed to execute its objectives. </P>
+<P xml:lang="EN-US">An adversary that possesses sophisticated levels of expertise and significant resources which allow it to create opportunities to achieve its objectives by using multiple attack vectors including, for example, cyber, physical, and deception. These objectives typically include establishing and extending footholds within the IT infrastructure of the targeted organizations for purposes of exfiltrating information, undermining or impeding critical aspects of a mission, program, or organization; or positioning itself to carry out these objectives in the future. The advanced persistent threat pursues its objectives repeatedly over an extended period; adapts to defenders' efforts to resist it; and is determined to maintain the level of interaction needed to execute its objectives. </P>
 </TD>
 </TR>
 
@@ -21207,7 +21207,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">Something that the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity. This was previously referred to as a token. </P>
+<P xml:lang="EN-US">Something that the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant's identity. This was previously referred to as a token. </P>
 </TD>
 </TR>
 
@@ -21361,7 +21361,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">The senior official that provides advice and other assistance to the head of the organization and other senior management personnel of the organization to ensure that IT is acquired and information resources are managed for the organization in a manner that achieves the organization’s strategic goals and information resources management goals; and is responsible for ensuring agency compliance with, and prompt, efficient, and effective implementation of, the information policies and information resources management responsibilities, including the reduction of information collection burdens on the public. </P>
+<P xml:lang="EN-US">The senior official that provides advice and other assistance to the head of the organization and other senior management personnel of the organization to ensure that IT is acquired and information resources are managed for the organization in a manner that achieves the organization's strategic goals and information resources management goals; and is responsible for ensuring agency compliance with, and prompt, efficient, and effective implementation of, the information policies and information resources management responsibilities, including the reduction of information collection burdens on the public. </P>
 </TD>
 </TR>
 
@@ -22043,7 +22043,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">Unique data used to represent a person’s identity and associated attributes. A name or a card number are examples of identifiers.  </P>
+<P xml:lang="EN-US">Unique data used to represent a person's identity and associated attributes. A name or a card number are examples of identifiers.  </P>
 
 <P xml:lang="EN-US">A unique label used by a system to indicate a specific entity, object, or group.  </P>
 </TD>
@@ -22171,7 +22171,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">An embedded, integral part of the enterprise architecture that describes the structure and behavior of the enterprise security processes, security systems, personnel and organizational subunits, showing their alignment with the enterprise’s mission and strategic plans. </P>
+<P xml:lang="EN-US">An embedded, integral part of the enterprise architecture that describes the structure and behavior of the enterprise security processes, security systems, personnel and organizational subunits, showing their alignment with the enterprise's mission and strategic plans. </P>
 </TD>
 </TR>
 
@@ -22391,7 +22391,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">An automated system that controls an individual’s ability to access one or more computer system resources such as a workstation, network, application, or database. A logical access control system requires validation of an individual’s identity through some mechanism such as a PIN, card, biometric, or other token. It has the capability to assign different access privileges to different persons depending on their roles and responsibilities in an organization. </P>
+<P xml:lang="EN-US">An automated system that controls an individual's ability to access one or more computer system resources such as a workstation, network, application, or database. A logical access control system requires validation of an individual's identity through some mechanism such as a PIN, card, biometric, or other token. It has the capability to assign different access privileges to different persons depending on their roles and responsibilities in an organization. </P>
 </TD>
 </TR>
 
@@ -22571,7 +22571,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">Any system (including any telecommunications system) used or operated by an agency or by a contractor of an agency, or other organization on behalf of an agency—(i) the function, operation, or use of which involves intelligence activities; involves cryptologic activities related to national security; involves command and control of military forces; involves equipment that is an integral part of a weapon or weapons system; or is critical to the direct fulfillment of military or intelligence missions (excluding a system that is to be used for routine administrative and business applications, for example, payroll, finance, logistics, and personnel management applications); or (ii) is protected at all times by procedures established for information that have been specifically authorized under criteria established by an Executive Order or an Act of Congress to be kept classified in the interest of national defense or foreign policy. </P>
+<P xml:lang="EN-US">Any system (including any telecommunications system) used or operated by an agency or by a contractor of an agency, or other organization on behalf of an agency-(i) the function, operation, or use of which involves intelligence activities; involves cryptologic activities related to national security; involves command and control of military forces; involves equipment that is an integral part of a weapon or weapons system; or is critical to the direct fulfillment of military or intelligence missions (excluding a system that is to be used for routine administrative and business applications, for example, payroll, finance, logistics, and personnel management applications); or (ii) is protected at all times by procedures established for information that have been specifically authorized under criteria established by an Executive Order or an Act of Congress to be kept classified in the interest of national defense or foreign policy. </P>
 </TD>
 </TR>
 
@@ -22755,7 +22755,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">Information that can be used to distinguish or trace an individual’s identity, either alone or when combined with other information that is linked or linkable to a specific individual. </P>
+<P xml:lang="EN-US">Information that can be used to distinguish or trace an individual's identity, either alone or when combined with other information that is linked or linkable to a specific individual. </P>
 </TD>
 </TR>
 
@@ -22851,7 +22851,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">A formal document that provides an overview of an agency’s privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the Senior Agency Official for Privacy and other privacy officials and staff, the strategic goals and objectives of the privacy program, and the program management controls and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks. </P>
+<P xml:lang="EN-US">A formal document that provides an overview of an agency's privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the Senior Agency Official for Privacy and other privacy officials and staff, the strategic goals and objectives of the privacy program, and the program management controls and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks. </P>
 </TD>
 </TR>
 
@@ -22929,7 +22929,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">Agreement among participating organizations to accept each other’s security assessments to reuse system resources and/or to accept each other’s assessed security posture to share information. </P>
+<P xml:lang="EN-US">Agreement among participating organizations to accept each other's security assessments to reuse system resources and/or to accept each other's assessed security posture to share information. </P>
 </TD>
 </TR>
 
@@ -23137,7 +23137,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">A condition that results from the establishment and maintenance of protective measures that enable an organization to perform its mission or critical functions despite risks posed by threats to its use of systems. Protective measures may involve a combination of deterrence, avoidance, prevention, detection, recovery, and correction that should form part of the organization’s risk management approach. </P>
+<P xml:lang="EN-US">A condition that results from the establishment and maintenance of protective measures that enable an organization to perform its mission or critical functions despite risks posed by threats to its use of systems. Protective measures may involve a combination of deterrence, avoidance, prevention, detection, recovery, and correction that should form part of the organization's risk management approach. </P>
 </TD>
 </TR>
 
@@ -23371,7 +23371,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">Official responsible for carrying out the Chief Information Officer responsibilities under FISMA and serving as the Chief Information Officer’s primary liaison to the agency’s authorizing officials, information system owners, and information system security officers. </P>
+<P xml:lang="EN-US">Official responsible for carrying out the Chief Information Officer responsibilities under FISMA and serving as the Chief Information Officer's primary liaison to the agency's authorizing officials, information system owners, and information system security officers. </P>
 
 <P xml:lang="EN-US">Note: Organizations subordinate to federal agencies may use the term senior information security officer or chief information security officer to denote individuals filling positions with similar responsibilities to Senior Agency Information Security Officers. </P>
 </TD>
@@ -23385,7 +23385,7 @@ for each organization, sector, or individual company based on specific operating
 </TD>
 
 <TD>
-<P xml:lang="EN-US">The senior official, designated by the head of each agency, who has agency-wide responsibility for privacy, including implementation of privacy protections; compliance with Federal laws, regulations, and policies relating to privacy; management of privacy risks at the agency; and a central policy-making role in the agency’s development and evaluation of legislative, regulatory, and other policy proposals. </P>
+<P xml:lang="EN-US">The senior official, designated by the head of each agency, who has agency-wide responsibility for privacy, including implementation of privacy protections; compliance with Federal laws, regulations, and policies relating to privacy; management of privacy risks at the agency; and a central policy-making role in the agency's development and evaluation of legislative, regulatory, and other policy proposals. </P>
 </TD>
 </TR>
 
@@ -24624,7 +24624,7 @@ for each organization, sector, or individual company based on specific operating
 <Link>37</Link>
  The baselines are hierarchical with respect to the controls allocated to those baselines.
 <Link>38</Link>
- If a control is allocated to a baseline, the family identifier and control number are listed in the appropriate column. If a control is not allocated to a baseline, the entry is marked with a dash. Control enhancements are indicated by the enhancement number. For example, the AC-11(1) entry in the high baseline indicates that the eleventh control from the Access Control family has been selected along with control enhancement 1. Controls and control enhancements that are not allocated to any baseline can be selected on an optional basis. This can occur, for example, when the results of a risk assessment indicate the need for additional controls or control enhancements to be able to respond to the identified risks. Privacy-related controls are indicated by an “P” in the privacy-related column.
+ If a control is allocated to a baseline, the family identifier and control number are listed in the appropriate column. If a control is not allocated to a baseline, the entry is marked with a dash. Control enhancements are indicated by the enhancement number. For example, the AC-11(1) entry in the high baseline indicates that the eleventh control from the Access Control family has been selected along with control enhancement 1. Controls and control enhancements that are not allocated to any baseline can be selected on an optional basis. This can occur, for example, when the results of a risk assessment indicate the need for additional controls or control enhancements to be able to respond to the identified risks. Privacy-related controls are indicated by an "P" in the privacy-related column.
 <Link>39</Link>
  Control baselines in </P>
 
@@ -24871,7 +24871,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -24913,7 +24913,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">—  </P>
+<P xml:lang="EN-US">-  </P>
 </TD>
 
 <TD>
@@ -25081,19 +25081,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -25123,13 +25123,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -25165,7 +25165,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">—  </P>
+<P xml:lang="EN-US">-  </P>
 </TD>
 
 <TD>
@@ -25207,7 +25207,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -25335,19 +25335,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -25545,7 +25545,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -25629,19 +25629,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -25671,19 +25671,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -25713,19 +25713,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -27179,7 +27179,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -27481,7 +27481,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -27733,19 +27733,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -27775,13 +27775,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -27913,7 +27913,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -28039,7 +28039,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -28177,7 +28177,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -28219,7 +28219,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -28261,7 +28261,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -28387,19 +28387,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -29001,19 +29001,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -29085,19 +29085,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -29127,7 +29127,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -29519,7 +29519,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -29561,7 +29561,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -29603,7 +29603,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -29753,7 +29753,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -29879,7 +29879,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -30123,7 +30123,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -30165,7 +30165,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -30207,7 +30207,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -30333,19 +30333,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -30375,19 +30375,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -30417,19 +30417,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -30555,7 +30555,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">—  </P>
+<P xml:lang="EN-US">-  </P>
 </TD>
 
 <TD>
@@ -30807,19 +30807,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -30849,19 +30849,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -30955,7 +30955,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -30997,13 +30997,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31039,13 +31039,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31081,19 +31081,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -31123,19 +31123,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -31165,19 +31165,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -31207,13 +31207,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31345,7 +31345,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31387,13 +31387,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31429,7 +31429,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31513,19 +31513,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">—  </P>
+<P xml:lang="EN-US">-  </P>
 </TD>
 </TR>
 
@@ -31597,7 +31597,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31661,7 +31661,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31703,19 +31703,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -31893,19 +31893,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -31935,7 +31935,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -31977,7 +31977,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -32019,7 +32019,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -32421,7 +32421,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -32463,7 +32463,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -32611,7 +32611,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -32653,7 +32653,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">—  </P>
+<P xml:lang="EN-US">-  </P>
 </TD>
 
 <TD>
@@ -32695,7 +32695,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">—  </P>
+<P xml:lang="EN-US">-  </P>
 </TD>
 
 <TD>
@@ -32947,7 +32947,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -32989,13 +32989,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -33031,19 +33031,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33073,19 +33073,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33115,19 +33115,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33157,19 +33157,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33403,19 +33403,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33445,7 +33445,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -33487,19 +33487,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33593,7 +33593,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -33635,13 +33635,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -33677,19 +33677,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33719,19 +33719,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33761,19 +33761,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33803,7 +33803,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -33845,19 +33845,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33887,19 +33887,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33929,19 +33929,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -33971,19 +33971,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34035,19 +34035,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34077,19 +34077,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34119,19 +34119,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34161,19 +34161,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34203,19 +34203,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34287,19 +34287,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34329,19 +34329,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34371,19 +34371,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34413,19 +34413,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34455,19 +34455,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -34719,13 +34719,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -34761,7 +34761,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -34803,7 +34803,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -34867,7 +34867,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -34909,7 +34909,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -34993,19 +34993,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -35321,7 +35321,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">—  </P>
+<P xml:lang="EN-US">-  </P>
 </TD>
 
 <TD>
@@ -35447,13 +35447,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -35573,19 +35573,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -35615,19 +35615,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -35657,19 +35657,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -35699,19 +35699,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -36027,13 +36027,13 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -36207,7 +36207,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -36439,19 +36439,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -36481,19 +36481,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -36523,7 +36523,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
@@ -36565,19 +36565,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -36607,19 +36607,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -36649,19 +36649,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -36691,19 +36691,19 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">— </P>
+<P xml:lang="EN-US">- </P>
 </TD>
 </TR>
 
@@ -36744,15 +36744,15 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">ables E-1 through E-20 provide a summary of the security and privacy controls and control enhancements in 
 <Reference xml:lang="EN-US">Chapter Three</Reference>
-. Each table in this appendix focuses on a different control family. A control or control enhancement that has been allocated to a control baseline is indicated by an “X” in the column for that baseline. A control or control enhancement that has not been allocated to a control baseline is indicated by a blank cell. With respect to privacy controls, these control baselines can be used to address the confidentiality, integrity and availability of personally identifiable information. Criteria that support federal agency selection of privacy controls to manage the full life cycle processing of personally identifiable information are listed in 
+. Each table in this appendix focuses on a different control family. A control or control enhancement that has been allocated to a control baseline is indicated by an "X" in the column for that baseline. A control or control enhancement that has not been allocated to a control baseline is indicated by a blank cell. With respect to privacy controls, these control baselines can be used to address the confidentiality, integrity and availability of personally identifiable information. Criteria that support federal agency selection of privacy controls to manage the full life cycle processing of personally identifiable information are listed in 
 <Reference xml:lang="EN-US">Appendix F</Reference>
-. A control or control enhancement that has been withdrawn from the control catalog is indicated by an “W” in the withdrawn column. Privacy-related controls and control enhancements are indicated by an “P” in the privacy-related column.
+. A control or control enhancement that has been withdrawn from the control catalog is indicated by an "W" in the withdrawn column. Privacy-related controls and control enhancements are indicated by an "P" in the privacy-related column.
 <Reference xml:lang="EN-US">Chapter Three</Reference>
 . 
 <Link>40</Link>
- Assurance-related controls and control enhancements are indicated by an “A” in the assurance column. Finally, a control or control enhancement that is typically implemented by an organizational system through technical means is indicated by an “S” in the implemented by column. A control or control enhancement that is typically implemented by an organization (i.e., by a human through nontechnical means) is indicated by an “O” in the implemented by column.
+ Assurance-related controls and control enhancements are indicated by an "A" in the assurance column. Finally, a control or control enhancement that is typically implemented by an organizational system through technical means is indicated by an "S" in the implemented by column. A control or control enhancement that is typically implemented by an organization (i.e., by a human through nontechnical means) is indicated by an "O" in the implemented by column.
 <Link>41</Link>
- A control or control enhancement that can be implemented by an organization or a system or a combination of the two, is indicated by an “O/S”. Each control and control enhancement in the following tables is hyperlinked to the text for that control and control enhancement in </P>
+ A control or control enhancement that can be implemented by an organization or a system or a combination of the two, is indicated by an "O/S". Each control and control enhancement in the following tables is hyperlinked to the text for that control and control enhancement in </P>
 
 <Footnote>
 <P xml:lang="EN-US">40 Privacy-related controls and control enhancements are not allocated to baselines in 
@@ -41997,7 +41997,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Supervision and Review — Access Control </P>
+<P xml:lang="EN-US">Supervision and Review - Access Control </P>
 </TD>
 
 <TD>
@@ -50667,7 +50667,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">JOINT AUTHORIZATION — SAME ORGANIZATION </P>
+<P xml:lang="EN-US">JOINT AUTHORIZATION - SAME ORGANIZATION </P>
 </TD>
 
 <TD>
@@ -50727,7 +50727,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">JOINT AUTHORIZATION — DIFFERENT ORGANIZATIONS </P>
+<P xml:lang="EN-US">JOINT AUTHORIZATION - DIFFERENT ORGANIZATIONS </P>
 </TD>
 
 <TD>
@@ -53491,7 +53491,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">UNAUTHORIZED SOFTWARE — BLACKLISTING </P>
+<P xml:lang="EN-US">UNAUTHORIZED SOFTWARE - BLACKLISTING </P>
 </TD>
 
 <TD>
@@ -53551,7 +53551,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">AUTHORIZED SOFTWARE — WHITELISTING </P>
+<P xml:lang="EN-US">AUTHORIZED SOFTWARE - WHITELISTING </P>
 </TD>
 
 <TD>
@@ -58605,7 +58605,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">NETWORK ACCESS TO PRIVILEGED ACCOUNTS — SEPARATE DEVICE </P>
+<P xml:lang="EN-US">NETWORK ACCESS TO PRIVILEGED ACCOUNTS - SEPARATE DEVICE </P>
 </TD>
 
 <TD>
@@ -58633,7 +58633,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS — SEPARATE DEVICE </P>
+<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - SEPARATE DEVICE </P>
 </TD>
 
 <TD>
@@ -58663,7 +58663,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">ACCESS TO ACCOUNTS — REPLAY RESISTANT </P>
+<P xml:lang="EN-US">ACCESS TO ACCOUNTS - REPLAY RESISTANT </P>
 </TD>
 
 <TD>
@@ -58721,7 +58721,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS — REPLAY RESISTANT </P>
+<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - REPLAY RESISTANT </P>
 </TD>
 
 <TD>
@@ -58809,7 +58809,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">REMOTE ACCESS — SEPARATE DEVICE </P>
+<P xml:lang="EN-US">REMOTE ACCESS - SEPARATE DEVICE </P>
 </TD>
 
 <TD>
@@ -63635,7 +63635,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">INSIDER THREATS — SPECIFIC CAPABILITIES </P>
+<P xml:lang="EN-US">INSIDER THREATS - SPECIFIC CAPABILITIES </P>
 </TD>
 
 <TD>
@@ -63695,7 +63695,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">INSIDER THREATS — INTRA-ORGANIZATION COORDINATION </P>
+<P xml:lang="EN-US">INSIDER THREATS - INTRA-ORGANIZATION COORDINATION </P>
 </TD>
 
 <TD>
@@ -70747,7 +70747,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY — MINIMAL OPERATIONAL CAPABILITY </P>
+<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY - MINIMAL OPERATIONAL CAPABILITY </P>
 </TD>
 
 <TD>
@@ -70807,7 +70807,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY — SELF-CONTAINED </P>
+<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY - SELF-CONTAINED </P>
 </TD>
 
 <TD>
@@ -72187,7 +72187,7 @@ for each organization, sector, or individual company based on specific operating
 <P xml:lang="EN-US">  </P>
 
 <P xml:lang="EN-US">
-<Reference xml:lang="EN-US">TABLE E-14:  SUMMARY — PLANNING FAMILY</Reference>
+<Reference xml:lang="EN-US">TABLE E-14:  SUMMARY - PLANNING FAMILY</Reference>
  </P>
 
 <Table>
@@ -84541,7 +84541,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">DENY BY DEFAULT — ALLOW BY EXCEPTION </P>
+<P xml:lang="EN-US">DENY BY DEFAULT - ALLOW BY EXCEPTION </P>
 </TD>
 
 <TD>
@@ -102977,7 +102977,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Agencies shall develop and maintain a privacy program plan that provides an overview of the agency’s privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the SAOP and other privacy officials and staff, the strategic goals and objectives of the privacy program, the program management controls and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks, and any other information determined necessary by the agency’s privacy program. </P>
+<P xml:lang="EN-US">Agencies shall develop and maintain a privacy program plan that provides an overview of the agency's privacy program, including a description of the structure of the privacy program, the resources dedicated to the privacy program, the role of the SAOP and other privacy officials and staff, the strategic goals and objectives of the privacy program, the program management controls and common controls in place or planned for meeting applicable privacy requirements and managing privacy risks, and any other information determined necessary by the agency's privacy program. </P>
 </TD>
 
 <TD>
@@ -103033,7 +103033,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Agencies shall ensure that the SAOP and the agency’s privacy personnel closely coordinate with the agency CIO, senior agency information security officer, and other agency offices and officials, as appropriate. </P>
+<P xml:lang="EN-US">Agencies shall ensure that the SAOP and the agency's privacy personnel closely coordinate with the agency CIO, senior agency information security officer, and other agency offices and officials, as appropriate. </P>
 </TD>
 
 <TD>
@@ -103117,7 +103117,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Agencies shall incorporate Federal privacy requirements into the agency’s enterprise architecture to ensure that risk is addressed and information systems achieve the necessary levels of trustworthiness, protection, and resilience. </P>
+<P xml:lang="EN-US">Agencies shall incorporate Federal privacy requirements into the agency's enterprise architecture to ensure that risk is addressed and information systems achieve the necessary levels of trustworthiness, protection, and resilience. </P>
 </TD>
 
 <TD>
@@ -103357,7 +103357,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Agencies shall maintain an inventory of the agency’s information systems that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of PII to allow the agency to regularly review its PII and ensure, to the extent reasonably practicable, that such PII is accurate, relevant, timely, and complete; and to allow the agency to reduce its PII to the minimum necessary for the proper performance of authorized agency functions. </P>
+<P xml:lang="EN-US">Agencies shall maintain an inventory of the agency's information systems that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of PII to allow the agency to regularly review its PII and ensure, to the extent reasonably practicable, that such PII is accurate, relevant, timely, and complete; and to allow the agency to reduce its PII to the minimum necessary for the proper performance of authorized agency functions. </P>
 </TD>
 
 <TD>
@@ -103867,7 +103867,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Agencies shall, consistent with the agency’s authority, ensure that the requirements of the Privacy Act apply to a Privacy Act system of records when a contractor operates the system of records on behalf of the agency to accomplish an agency function. </P>
+<P xml:lang="EN-US">Agencies shall, consistent with the agency's authority, ensure that the requirements of the Privacy Act apply to a Privacy Act system of records when a contractor operates the system of records on behalf of the agency to accomplish an agency function. </P>
 </TD>
 
 <TD>
@@ -103979,7 +103979,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Agencies shall ensure that information systems used or operated by contractors or other entities on behalf of the agency are included in the agency’s inventory of information systems. </P>
+<P xml:lang="EN-US">Agencies shall ensure that information systems used or operated by contractors or other entities on behalf of the agency are included in the agency's inventory of information systems. </P>
 </TD>
 
 <TD>
@@ -105065,7 +105065,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">The SAOP shall establish and maintain an agency-wide privacy continuous monitoring program that implements the agency’s privacy continuous monitoring strategy and maintains ongoing awareness of threats and vulnerabilities that may pose privacy risks; monitors changes to information systems and environments of operation that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of PII; and conducts privacy control assessments to verify the continued effectiveness of all privacy controls selected and implemented at the agency across the agency risk management tiers to ensure continued compliance with applicable privacy requirements and manage privacy risks. Agencies shall ensure that a robust privacy continuous monitoring program is in place before agency information systems are eligible for ongoing authorization. </P>
+<P xml:lang="EN-US">The SAOP shall establish and maintain an agency-wide privacy continuous monitoring program that implements the agency's privacy continuous monitoring strategy and maintains ongoing awareness of threats and vulnerabilities that may pose privacy risks; monitors changes to information systems and environments of operation that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of PII; and conducts privacy control assessments to verify the continued effectiveness of all privacy controls selected and implemented at the agency across the agency risk management tiers to ensure continued compliance with applicable privacy requirements and manage privacy risks. Agencies shall ensure that a robust privacy continuous monitoring program is in place before agency information systems are eligible for ongoing authorization. </P>
 </TD>
 
 <TD>
@@ -105232,14 +105232,14 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">fter selecting an appropriate control baseline, organizations initiate a tailoring process to align the controls more closely with the specific protection needs and concerns of their stakeholders.
 <Link>44</Link>
- The tailoring process is part of a comprehensive organization-wide risk management process—framing, assessing, responding to, and monitoring information security and privacy risks. Organizational tailoring decisions are not carried out in a vacuum. While such decisions are focused on security and privacy considerations, it is important that the decisions be aligned with other risk factors that organizations must routinely address. Risk factors such as cost, schedule, and performance are considered in the determination of which controls to employ in organizational systems and environments of operation.
+ The tailoring process is part of a comprehensive organization-wide risk management process-framing, assessing, responding to, and monitoring information security and privacy risks. Organizational tailoring decisions are not carried out in a vacuum. While such decisions are focused on security and privacy considerations, it is important that the decisions be aligned with other risk factors that organizations must routinely address. Risk factors such as cost, schedule, and performance are considered in the determination of which controls to employ in organizational systems and environments of operation.
 <Link>45</Link>
  The tailoring process can include, but is not limited to, the following activities:
 <Link>46</Link>
  </P>
 
 <Footnote>
-<P xml:lang="EN-US">44 It should be noted that some organizations may employ the security and privacy controls in this publication without the use of control baselines. This may occur, for example, when organizations apply the controls as part of a life cycle-based, systems engineering process during the development of systems, system components, system services. In such situations, the security and privacy controls may be selected as part of a well-defined requirements engineering process that is intended to provide a “system capability” provided through technical and non-technical means. See 
+<P xml:lang="EN-US">44 It should be noted that some organizations may employ the security and privacy controls in this publication without the use of control baselines. This may occur, for example, when organizations apply the controls as part of a life cycle-based, systems engineering process during the development of systems, system components, system services. In such situations, the security and privacy controls may be selected as part of a well-defined requirements engineering process that is intended to provide a "system capability" provided through technical and non-technical means. See 
 <Reference xml:lang="EN-US">Section 2.1</Reference>
 .  </P>
 
@@ -105288,7 +105288,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Identifying and Designating Common Controls </P>
 
-<P xml:lang="EN-US">Common controls are controls that may be inherited by one or more organizational systems. If a system inherits a common control, there is no need to implement the control within that system. The security or privacy function or capability is being provided by another entity. Organizational decisions on which controls are designated as common controls may affect the responsibilities of individual system owners regarding the implementation of the controls in a baseline. Common control selection can also affect the resource expenditures by organizations—that is, in general, the greater the number of common controls implemented, the greater potential cost savings as the protective measures are amortized over many systems. </P>
+<P xml:lang="EN-US">Common controls are controls that may be inherited by one or more organizational systems. If a system inherits a common control, there is no need to implement the control within that system. The security or privacy function or capability is being provided by another entity. Organizational decisions on which controls are designated as common controls may affect the responsibilities of individual system owners regarding the implementation of the controls in a baseline. Common control selection can also affect the resource expenditures by organizations-that is, in general, the greater the number of common controls implemented, the greater potential cost savings as the protective measures are amortized over many systems. </P>
 
 <P xml:lang="EN-US">Applying Scoping Considerations </P>
 
@@ -105404,7 +105404,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Creating Overlays </P>
 
-<P xml:lang="EN-US">The previous sections described tailoring control baselines to achieve needed security or privacy functions or capabilities. In certain situations, it may be beneficial for organizations to apply the tailoring guidance to the control baselines to develop a set of controls for particular communities of interest or to address specialized requirements, technologies, or unique missions/environments of operation. An organization may decide to establish a set of controls for specific applications or use cases, for example, cloud-based systems that could be uniformly applied to organizations procuring or implementing such services; industrial control systems generating and transmitting electric power or controlling environmental systems in facilities; systems processing, storing, or transmitting classified information; or systems controlling the safety of transportation systems. In each of the above examples, overlays can be developed for each sector or technology area or for unique circumstances or environments and promulgated to large communities of interest—thus achieving standardized security and privacy capabilities, consistency of implementation, and cost-effective security and privacy solutions. </P>
+<P xml:lang="EN-US">The previous sections described tailoring control baselines to achieve needed security or privacy functions or capabilities. In certain situations, it may be beneficial for organizations to apply the tailoring guidance to the control baselines to develop a set of controls for particular communities of interest or to address specialized requirements, technologies, or unique missions/environments of operation. An organization may decide to establish a set of controls for specific applications or use cases, for example, cloud-based systems that could be uniformly applied to organizations procuring or implementing such services; industrial control systems generating and transmitting electric power or controlling environmental systems in facilities; systems processing, storing, or transmitting classified information; or systems controlling the safety of transportation systems. In each of the above examples, overlays can be developed for each sector or technology area or for unique circumstances or environments and promulgated to large communities of interest-thus achieving standardized security and privacy capabilities, consistency of implementation, and cost-effective security and privacy solutions. </P>
 
 <P xml:lang="EN-US">To address the need for specialized sets of controls for communities of interest, systems, and organizations, the concept of overlay is introduced. An overlay is a fully specified set of controls, control enhancements, and supplemental guidance derived from the application of tailoring guidance to control baselines.
 <Link>54</Link>
@@ -107663,7 +107663,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">Supervision and Review — Access Control </P>
+<P xml:lang="EN-US">Supervision and Review - Access Control </P>
 </TD>
 
 <TD>
@@ -111445,7 +111445,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">JOINT AUTHORIZATION — SAME ORGANIZATION </P>
+<P xml:lang="EN-US">JOINT AUTHORIZATION - SAME ORGANIZATION </P>
 </TD>
 
 <TD>
@@ -111469,7 +111469,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">JOINT AUTHORIZATION — DIFFERENT ORGANIZATIONS </P>
+<P xml:lang="EN-US">JOINT AUTHORIZATION - DIFFERENT ORGANIZATIONS </P>
 </TD>
 
 <TD>
@@ -112685,7 +112685,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">UNAUTHORIZED SOFTWARE — BLACKLISTING </P>
+<P xml:lang="EN-US">UNAUTHORIZED SOFTWARE - BLACKLISTING </P>
 </TD>
 
 <TD>
@@ -112709,7 +112709,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">AUTHORIZED SOFTWARE — WHITELISTING </P>
+<P xml:lang="EN-US">AUTHORIZED SOFTWARE - WHITELISTING </P>
 </TD>
 
 <TD>
@@ -114861,7 +114861,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">NETWORK ACCESS TO PRIVILEGED ACCOUNTS — SEPARATE DEVICE </P>
+<P xml:lang="EN-US">NETWORK ACCESS TO PRIVILEGED ACCOUNTS - SEPARATE DEVICE </P>
 </TD>
 
 <TD>
@@ -114883,7 +114883,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS — SEPARATE DEVICE </P>
+<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - SEPARATE DEVICE </P>
 </TD>
 
 <TD>
@@ -114907,7 +114907,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">ACCESS TO ACCOUNTS — REPLAY RESISTANT </P>
+<P xml:lang="EN-US">ACCESS TO ACCOUNTS - REPLAY RESISTANT </P>
 </TD>
 
 <TD>
@@ -114929,7 +114929,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS — REPLAY RESISTANT </P>
+<P xml:lang="EN-US">NETWORK ACCESS TO NON-PRIVILEGED ACCOUNTS - REPLAY RESISTANT </P>
 </TD>
 
 <TD>
@@ -114975,7 +114975,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">REMOTE ACCESS — SEPARATE DEVICE </P>
+<P xml:lang="EN-US">REMOTE ACCESS - SEPARATE DEVICE </P>
 </TD>
 
 <TD>
@@ -117051,7 +117051,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">INSIDER THREATS — SPECIFIC CAPABILITIES </P>
+<P xml:lang="EN-US">INSIDER THREATS - SPECIFIC CAPABILITIES </P>
 </TD>
 
 <TD>
@@ -117075,7 +117075,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">INSIDER THREATS — INTRA-ORGANIZATION COORDINATION </P>
+<P xml:lang="EN-US">INSIDER THREATS - INTRA-ORGANIZATION COORDINATION </P>
 </TD>
 
 <TD>
@@ -120199,7 +120199,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY — MINIMAL OPERATIONAL CAPABILITY </P>
+<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY - MINIMAL OPERATIONAL CAPABILITY </P>
 </TD>
 
 <TD>
@@ -120223,7 +120223,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY — SELF-CONTAINED </P>
+<P xml:lang="EN-US">LONG-TERM ALTERNATE POWER SUPPLY - SELF-CONTAINED </P>
 </TD>
 
 <TD>
@@ -120777,7 +120777,7 @@ for each organization, sector, or individual company based on specific operating
 <P xml:lang="EN-US">  </P>
 
 <P xml:lang="EN-US">
-<Reference xml:lang="EN-US">TABLE H-14:  SUMMARY — PLANNING FAMILY KEYWORDS</Reference>
+<Reference xml:lang="EN-US">TABLE H-14:  SUMMARY - PLANNING FAMILY KEYWORDS</Reference>
  </P>
 
 <Table>
@@ -126487,7 +126487,7 @@ for each organization, sector, or individual company based on specific operating
 <TD>
 <Artifact></Artifact>
 
-<P xml:lang="EN-US">DENY BY DEFAULT — ALLOW BY EXCEPTION </P>
+<P xml:lang="EN-US">DENY BY DEFAULT - ALLOW BY EXCEPTION </P>
 </TD>
 
 <TD>
@@ -132222,7 +132222,7 @@ for each organization, sector, or individual company based on specific operating
 
 <P xml:lang="EN-US">Organizations may leverage the control mappings provided in Tables I-1 and I-2 when dealing with external entities, including, for example, in defining security and privacy requirements in contracts and agreements. Organizations are responsible for analyzing the ISO/IEC controls and </P>
 
-<P xml:lang="EN-US">requirements for consistency with the controls in Special Publication 800-53 and resolving any gaps in coverage and protection. Additionally, because of the control selection process, controls beyond those implemented as part of the ISO/IEC 27001 and ISO/IEC 15408 standards may be selected, implemented, and assessed to ensure protection of information commensurate with risk. Ultimately, the decision to leverage ISO/IEC 27001 and ISO/IEC 15408 assessments remains with the organization’s authorizing official. In leveraging such assessments, authorizing officials determine if the work performed in accordance with the ISO/IEC 27001 and ISO/IEC 15408 standards, is acceptable. </P>
+<P xml:lang="EN-US">requirements for consistency with the controls in Special Publication 800-53 and resolving any gaps in coverage and protection. Additionally, because of the control selection process, controls beyond those implemented as part of the ISO/IEC 27001 and ISO/IEC 15408 standards may be selected, implemented, and assessed to ensure protection of information commensurate with risk. Ultimately, the decision to leverage ISO/IEC 27001 and ISO/IEC 15408 assessments remains with the organization's authorizing official. In leveraging such assessments, authorizing officials determine if the work performed in accordance with the ISO/IEC 27001 and ISO/IEC 15408 standards, is acceptable. </P>
 
 <P xml:lang="EN-US">  </P>
 

@@ -74,12 +74,12 @@ if ($qstring ne "" && $error eq "") {
       # highlight text that matches the search string, outside HTML elements
       $text =~ s#(?!<[^>]*)($qstring)(?![^<]*>)#<b>$1</b>#gi;
 
-      $results .= qq(<tr><td valign="top" nowrap>$escaped</td><td valign="top">$type</td><td><a href="search-merged.pl?find=^$linkbait:$type">Split</a></td><td valign="top">$text</td></tr>\n);
+      $results .= qq(<tr><td valign="top" nowrap>$escaped</td><td valign="top">$type</td><td valign="top"><a href="search-merged.pl?find=^$linkbait:$type:">Split</a></td><td valign="top">$text</td></tr>\n);
     }
   }
 }
 if ($found == 0) {
-  $results .= qq(<tr><td colspan="3">No results found</td></tr>\n);
+  $results .= qq(<tr><td colspan="4">No results found</td></tr>\n);
 }
 $results .= qq(</table>\n);
 
