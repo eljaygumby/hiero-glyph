@@ -112,6 +112,9 @@ print <<EOF
     Result count:  $found<br>
     $results
   </p>
+  <p>
+    <a href="/">Home</a>
+  </p>
 </body>
 </html>
 EOF
